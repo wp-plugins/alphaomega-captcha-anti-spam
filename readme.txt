@@ -15,7 +15,15 @@ Creates Visually Appealing Captcha Images and Quizzes to Enhance and Secure your
 
 The **AlphaOmega Captcha & Anti-Spam** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user Comments for inappropriate content. This can dramatically reduce the amount of spam-related Comments sent to you.
 
-There are several **Captcha Types** to choose from, including **Captcha Classica**, **Captcha Mathematica**, **Captcha Geographica**, **Captcha Scientifica**, **Captcha Cinematica**, **Captcha Historica**, and **Captcha Computica**.
+There are several **Captcha Types** to choose from, including:
+
+* **Captcha Classica**
+* **Captcha Mathematica**
+* **Captcha Geographica**
+* **Captcha Scientifica**
+* **Captcha Cinematica**
+* **Captcha Historica**
+* **Captcha Computica**.
 
 When the Anti-Spam functionality of the plugin is active, **all spam-related Comments are blocked, and not sent to you** - thus saving you time in having to deal with these annoying spam-related Comments.
 

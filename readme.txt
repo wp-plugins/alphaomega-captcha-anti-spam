@@ -26,8 +26,8 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 The AlphaOmega Captcha & Anti-Spam plugin also allows you to place captcha functionality on your WordPress Admin Log In page. This helps prevent automated Admin Log In attacks.
 
 
-Features:
----------
+**Features:**
+-----------
 
 Captcha functionality can be placed on your WordPress Comment form and WordPress Admin Log In form.
 

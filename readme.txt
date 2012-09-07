@@ -32,12 +32,11 @@ The AlphaOmega Captcha & Anti-Spam plugin also allows you to place captcha funct
 
 **Features:**
 
-Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** form.
+* Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** form.
 
-The captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing your WordPress pages.
+* Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress pages.
 
-
-A variety of captcha images and quizzes are available to enhance your WordPress posts, including:
+* A variety of captcha images and quizzes are available for your WordPress posts, including:
 
 
    *  **Captcha Classica**
@@ -75,7 +74,7 @@ An alteration of the familiar captcha that requires the user to enter the name o
 An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 
-These captcha functions not only provide your WordPress posts with enhanced security, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
+These captcha functions not only provide your WordPress posts with *enhanced security*, but have been thoughtfully designed to *increase the overall appeal of your content to those viewing your posts*.
 
 
 Requirements:
@@ -139,7 +138,7 @@ Absolutely. You are free to use this plugin at no charge. A small donation, howe
 
 You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Settings panel. To view the AlphaOmega Captcha & Anti-Spam Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Settings' item located below the WordPress 'Plugins' menu item.
 
-Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmegaCaptchaAnti-SpamPlugin)
+Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam--Plugin)
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 

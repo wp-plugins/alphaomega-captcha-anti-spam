@@ -35,31 +35,38 @@ The captcha images are clean, legible, visually appealing, and interesting.
 A variety of captcha images and quizzes are available to enhance your WordPress posts, including:
 
 
-   *  Captcha Classica
+   *  <strong>Captcha Classica</strong>
+
 A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
-   *  Captcha Mathematica
+   *  <strong>Captcha Mathematica</strong>
+
 A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
-   *  Captcha Geographica
+   *  <strong>Captcha Geographica</strong>
+
 A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
 
 
-   *  Captcha Scientifica
+   *  <strong>Captcha Scientifica</strong>
+
 A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
-   *  Captcha Cinematica
+   *  <strong>Captcha Cinematica</strong>
+
 A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
-   *  Captcha Historica
+   *  <strong>Captcha Historica</strong>
+
 An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
 
 
-   *  Captcha Computica
+   *  <strong>Captcha Computica</strong>
+
 An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 

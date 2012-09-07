@@ -37,7 +37,7 @@ A variety of captcha images and quizzes are available to enhance your WordPress 
 
    *  Captcha Classica
 
-        - A classic captcha that requires the user to enter various alphabetical and numerical characters.
+A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
    *  Captcha Mathematica

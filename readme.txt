@@ -113,7 +113,7 @@ Requirements:
 
 == Configuration / Settings ==
 
-To configure the AlphaOmega Captcha & Anti-Spam Filter plugin, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item.
+To configure the AlphaOmega Captcha & Anti-Spam Filter plugin, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item. The 'Plugins' menu item is located on the left column of the WordPress Dashboard.
 
 
 == Multilanguage Support ==

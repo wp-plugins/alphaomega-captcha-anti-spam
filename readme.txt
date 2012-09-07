@@ -74,7 +74,7 @@ An alteration of the familiar captcha that requires the user to enter the name o
 An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 
-These captcha functions not only provide your WordPress posts with *enhanced security*, but have been thoughtfully designed to *increase the overall appeal of your content to those viewing your posts*.
+These captcha functions not only provide your WordPress posts with **enhanced security**, but have been thoughtfully designed to **increase the overall appeal of your content to those viewing your posts**.
 
 
 Requirements:

@@ -3,7 +3,7 @@ Contributors: alphaomegaplugins
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=Donation for AlphaOmega Captcha and Anti-Spam Plugin
 Tags: captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, login, junk mail, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文
 Requires at least: 3.4.1
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,37 +43,30 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 
 
 **Captcha Classica**
-
 A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
 **Captcha Mathematica**
-
 A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
 **Captcha Geographica**
-
 A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
 
 
 **Captcha Scientifica**
-
 A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
 **Captcha Cinematica**
-
 A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
 **Captcha Historica**
-
 An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
 
 
 **Captcha Computica**
-
 An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 

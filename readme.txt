@@ -43,23 +43,23 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 
 
 **Captcha Classica**
-A classic captcha that requires the user to enter various alphabetical and numerical characters.
+ - A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
 **Captcha Mathematica**
-A variation of the conventional captcha that requires the user to perform a simple mathematical task.
+ - A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
 **Captcha Geographica**
-A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
+ - A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
 
 
 **Captcha Scientifica**
-A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
+ - A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
 **Captcha Cinematica**
-A variant of the customary captcha that requires the user to enter the title of a well-known film.
+ - A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
 **Captcha Historica**
@@ -67,7 +67,7 @@ An alteration of the familiar captcha that requires the user to enter the name o
 
 
 **Captcha Computica**
-An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
+ - An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 
 These captcha functions not only provide your WordPress posts with **enhanced security**, but have been thoughtfully designed to **increase the overall appeal of your content to those viewing your posts**.

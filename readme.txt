@@ -29,7 +29,6 @@ There are several **Captcha Types** from which to choose, including:
 
 When the Anti-Spam functionality of the plugin is active, **all spam-related Comments are blocked, and not sent to you** - thus saving you time in having to deal with these annoying spam-related Comments.
 
-The AlphaOmega Captcha & Anti-Spam Filter plugin also allows you to place captcha functionality on your WordPress Admin Log In page. This helps prevent automated Admin Log In attacks.
 
 
 **Features:**

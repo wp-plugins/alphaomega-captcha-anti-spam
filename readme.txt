@@ -23,7 +23,7 @@ There are several **Captcha Types** from which to choose, including:
 * **Captcha Scientifica**
 * **Captcha Cinematica**
 * **Captcha Historica**
-* **Captcha Computica**.
+* **Captcha Computica**
 
 When the Anti-Spam functionality of the plugin is active, **all spam-related Comments are blocked, and not sent to you** - thus saving you time in having to deal with these annoying spam-related Comments.
 
@@ -77,10 +77,12 @@ An instantiation of a captcha that requires the user to enter the words represen
 These captcha functions not only provide your WordPress posts with **enhanced security**, but have been thoughtfully designed to **increase the overall appeal of your content to those viewing your posts**.
 
 
-Requirements:
--------------
+
+**Requirements:**
+
 
    *  Tested with WordPress 3.4.1
+
 
    *  Tested with a variety of WordPress Themes, including:
 

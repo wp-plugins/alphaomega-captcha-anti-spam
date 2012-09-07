@@ -29,11 +29,11 @@ if ( $myoptions['comment_captcha_on'] === '1' ) {
 
 	if ( $myoptions['comment_captcha_position'] === '1' || $myoptions['comment_captcha_position'] === '2' ) {
 
-		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="7" style="width:100px;"></div>';
+		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="7" style="width:100px;"></div>';
 
 	} else { 
 
-		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="7" style="width:100px;"></div>';
+		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="7" style="width:100px;"></div>';
 
 		}
 
@@ -57,12 +57,12 @@ if ( $myoptions['admin_captcha_on'] === '1' ) {
 
 	if ( $myoptions['admin_captcha_position'] === '1' ) {
 
-		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="9" style="width:160px;"></div>';
+		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="9" style="width:160px;"></div>';
 
 	} else {
 
 		echo '<div style="padding-top:3px;padding-bottom:3px;"><label for="author">' . __( $myoptions['captcha_pretext'] ) . '</label></div>
-<div style="padding-top:3px;padding-bottom:3px;"><img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a></div><div style="padding-top:3px;padding-bottom:3px;"><input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="9" style="width:160px;"></div>';
+<div style="padding-top:3px;padding-bottom:3px;"><img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['which_captcha'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['captcha_reload'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a></div><div style="padding-top:3px;padding-bottom:3px;"><input id="security" name="security" type="text" value="' . $_SESSION['captcha_entered'] . '" size="9" style="width:160px;"></div>';
 
 	}
 

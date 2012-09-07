@@ -36,38 +36,31 @@ A variety of captcha images and quizzes are available to enhance your WordPress 
 
 
    *  Captcha Classica
-
 A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
    *  Captcha Mathematica
-
-        - A variation of the conventional captcha that requires the user to perform a simple mathematical task.
+A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
    *  Captcha Geographica
-
-        - A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
+A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
 
 
    *  Captcha Scientifica
-
-        - A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
+A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
    *  Captcha Cinematica
-
-        - A variant of the customary captcha that requires the user to enter the title of a well-known film.
+A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
    *  Captcha Historica
-
-        - An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
+An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
 
 
    *  Captcha Computica
-
-        - An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
+An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 
 These captcha functions not only provide your WordPress posts with enhanced security, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
@@ -101,7 +94,7 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically using the WordPress 'Plugins' > 'Add New' menu item. Type 'AlphaOmega Captcha & Anti-Spam' as a search. Alternatively, install manually by uploading the 'alphaomega-captcha-and-anti-spam' folder into the '/wp-content/plugins/' directory.
+1. Install automatically using the WordPress 'Plugins' > 'Add New' menu item. Type 'AlphaOmega Captcha Anti-Spam' as a search. Alternatively, install manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item, and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam' item.
 
@@ -134,7 +127,7 @@ Absolutely. You are free to use this plugin at no charge. A small donation, howe
 
 You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Settings panel. To view the AlphaOmega Captcha & Anti-Spam Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Settings' item located below the WordPress 'Plugins' menu item.
 
-Alternatively, you may wish to [donate here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=Donation for AlphaOmega Captcha and Anti-Spam Plugin)
+Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=Donation for AlphaOmega Captcha and Anti-Spam Plugin)
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 

@@ -34,9 +34,9 @@ The AlphaOmega Captcha & Anti-Spam plugin also allows you to place captcha funct
 
 * Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** form.
 
-* Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress pages.
+* Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress posts.
 
-* A variety of captcha images and quizzes are available for your WordPress posts, including:
+* A variety of captcha images and quizzes are available for use, including:
 
 
    *  **Captcha Classica**

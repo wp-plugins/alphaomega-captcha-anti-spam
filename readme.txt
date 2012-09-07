@@ -42,37 +42,37 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 * A **variety of captcha images and quizzes are available** for use, including:
 
 
-   *  **Captcha Classica**
+**Captcha Classica**
 
 A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
 
-   *  **Captcha Mathematica**
+**Captcha Mathematica**
 
 A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
-   *  **Captcha Geographica**
+**Captcha Geographica**
 
 A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
 
 
-   *  **Captcha Scientifica**
+**Captcha Scientifica**
 
 A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
-   *  **Captcha Cinematica**
+**Captcha Cinematica**
 
 A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
-   *  **Captcha Historica**
+**Captcha Historica**
 
 An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
 
 
-   *  **Captcha Computica**
+**Captcha Computica**
 
 An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 

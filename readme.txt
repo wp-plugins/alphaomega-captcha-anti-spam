@@ -78,7 +78,8 @@ These captcha functions not only provide your WordPress posts with **enhanced se
 
 
 
-**Requirements:**
+
+Requirements:
 
 
    *  Tested with WordPress 3.4.1

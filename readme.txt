@@ -94,7 +94,7 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically using the WordPress 'Plugins' > 'Add New' menu item. Type 'AlphaOmega Captcha Anti-Spam' as a search. Alternatively, install manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
+1. Install automatically using the WordPress 'Plugins' > 'Add New' menu item. Type 'AlphaOmega Captcha Anti-Spam' as a search. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item, and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam' item.
 

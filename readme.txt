@@ -104,19 +104,11 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item.
-
-The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard.
-
-Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin.
-
-Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
+1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
-3. To upgrade the plugin, click the 'Deactivate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item, and then click the 'Delete' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
-
-Finally, to install an upgrade, follow Step 1 or Step 2 above.
+3. To upgrade the plugin, click the 'Deactivate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item, and then click the 'Delete' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item. Finally, to install an upgrade, follow Step 1 or Step 2 above.
 
 
 == Configuration / Settings ==

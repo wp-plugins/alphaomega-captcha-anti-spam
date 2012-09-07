@@ -1,7 +1,7 @@
 === AlphaOmega Captcha & Anti-Spam Filter ===
 Contributors: alphaomegaplugins
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin
-Tags: captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, login, junk mail, alphaomega, alpha omega, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文
+Tags: captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, キャプチャ, login, junk mail, alphaomega, alpha omega, スパム, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文
 Requires at least: 3.4.1
 Tested up to: 3.4.2
 Stable tag: trunk

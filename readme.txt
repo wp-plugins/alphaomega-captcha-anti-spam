@@ -45,7 +45,7 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 **Captcha Classica**
  - A classic captcha that requires the user to enter various alphabetical and numerical characters.
 
-![picture alt](addenda/archaio.png "Classica") 
+![picture alt](/addenda/archaio.png "Classica") 
 
 **Captcha Mathematica**
  - A variation of the conventional captcha that requires the user to perform a simple mathematical task.

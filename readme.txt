@@ -15,7 +15,7 @@ Creates Visually Appealing Captcha Images to Enhance and Secure your WordPress C
 
 The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
 
-This plugin can also thwart automated attacks against your Wordpress **Admin Log-In** page.
+This plugin can also thwart automated attacks against your Wordpress **Admin Log In** page.
 
 Several **Captcha Types** are available from which to choose, including:
 
@@ -70,7 +70,7 @@ An alteration of the familiar captcha that requires the user to enter the name o
  - An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
 
 
-These captcha functions not only provide your WordPress posts with **enhanced security**, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
+These captcha functions not only provide your WordPress posts with enhanced security, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
 
 
 

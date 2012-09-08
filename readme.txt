@@ -17,7 +17,7 @@ The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-
 
 This plugin can also thwart automated attacks against your Wordpress **Admin Log-In** page.
 
-Several **Captcha Types** are available from which to choose, including:
+There are several **Captcha Types** from which to choose, including:
 
 * **Captcha Classica**
 * **Captcha Mathematica**
@@ -27,7 +27,7 @@ Several **Captcha Types** are available from which to choose, including:
 * **Captcha Historica**
 * **Captcha Computica**
 
-When the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked, and they not sent to you** - thus saving you time by not having to deal with these annoying spam-related Comments and E-mails.
+When the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked, and they are not sent to you** - thus saving you time by automatically deleting these annoying spam-related Comments and E-mails.
 
 
 

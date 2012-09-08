@@ -657,8 +657,6 @@ function aosetmain ( $links, $pou ) {
         
 	$edo = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin">' . __('Donate') . '</a>';
         array_unshift($links, $edo);
-        $edo = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_antispam' ) . '">' . __('Settings') . '</a>';
-        array_unshift($links, $edo);
     
 	}
 

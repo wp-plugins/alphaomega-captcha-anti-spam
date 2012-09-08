@@ -663,7 +663,7 @@ function aosetmain ( $links, $pou ) {
     return $links;
 }
 
-add_filter( 'network_admin_plugin_action_links_{$plugin_file}', 'aosetmain', 10, 2 );
+add_filter( 'plugin_action_links_{$plugin_file}', 'aosetmain', 10, 2 );
 
 function alphaomega_captcha_plugin_menu () {
 

@@ -17,7 +17,7 @@ The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-
 
 This plugin can also thwart automated attacks against your **Admin Log In** page.
 
-Several **Captcha Types** are available from which to choose, including:
+Several **Captcha Types** are available, including:
 
 * **Captcha Classica**
 * **Captcha Mathematica**

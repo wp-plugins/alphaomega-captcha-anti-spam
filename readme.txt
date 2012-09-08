@@ -39,7 +39,7 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 
 * Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress posts.
 
-* A **variety of captcha images are available** for use, including:
+* A variety of captcha images are available for use, including:
 
 
 **Captcha Classica**

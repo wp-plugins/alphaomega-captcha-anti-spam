@@ -8,16 +8,16 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Creates Visually Appealing Captcha Images and Quizzes to Enhance and Secure your WordPress Comment/Log In Forms. Also includes Anti-Spam Protection.
+Creates Visually Appealing Captcha Images to Enhance and Secure your WordPress Comment/Log-In Forms. Also includes Anti-Spam Protection.
 
 
 == Description ==
 
 The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
 
-This plugin can also thwart automated attacks against your **Admin Log In** page.
+This plugin can also thwart automated attacks against your Wordpress **Admin Log-In** page.
 
-There are several **Captcha Types** from which to choose, including:
+Several **Captcha Types** are available from which to choose, including:
 
 * **Captcha Classica**
 * **Captcha Mathematica**
@@ -27,7 +27,7 @@ There are several **Captcha Types** from which to choose, including:
 * **Captcha Historica**
 * **Captcha Computica**
 
-When the Anti-Spam functionality of the plugin is active, **all spam-related Comments are blocked, and not sent to you** - thus saving you time in having to deal with these annoying spam-related Comments.
+When the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked, and they not sent to you** - thus saving you time by not having to deal with these annoying spam-related Comments and E-mails.
 
 
 
@@ -39,7 +39,7 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 
 * Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress posts.
 
-* A **variety of captcha images and quizzes are available** for use, including:
+* A **variety of captcha images are available** for use, including:
 
 
 **Captcha Classica**
@@ -78,7 +78,7 @@ These captcha functions not only provide your WordPress posts with **enhanced se
 Requirements:
 
 
-   *  Tested with WordPress 3.4.1
+   *  Tested with WordPress 3.4.2
 
 
    *  Tested with a variety of WordPress Themes, including:
@@ -131,11 +131,11 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin at no charge. A small donation, however, would be greatly appreciated if you use the plugin, and you find it helpful in enhancing your WordPress posts and reducing spam-related Comments.
+Absolutely. You are free to use this plugin at no charge. A small donation, however, would be greatly appreciated if you use the plugin and find that it helps to enhance your WordPress posts and reduce spam-related Comments.
 
 = How can I donate? =
 
-You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item.
+You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
 
 Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 
@@ -150,15 +150,15 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. Screenshot-1.gif shows the variety of captcha types that can be displayed on your WordPress Comment and Admin Log In forms.
+1. Screenshot-1.gif shows the variety of captcha types that can be displayed on your WordPress Comment and Admin Log-In forms.
 
 2. Screenshot-2.gif shows the different captcha positions possible for display on your WordPress Comment form.
 
-3. Screenshot-3.gif shows the position of the captcha on your WordPress Admin Log In page.
+3. Screenshot-3.gif shows the position of the captcha on your WordPress Admin Log-In page.
 
-4. Screenshot-4.gif shows that region of the Settings panel where the Spam Filter can be configured. 
+4. Screenshot-4.gif shows the Spam Filter options of the Settings panel. 
 
-5. Screenshot-5.gif shows that region of the Settings panel where the message to spammers can be configured.
+5. Screenshot-5.gif shows the Settings panel options that allow you to configure a customized message to spammers.
 
 
 == Changelog ==

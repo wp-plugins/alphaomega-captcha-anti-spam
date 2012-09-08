@@ -35,9 +35,9 @@ When the Anti-Spam functionality of the plugin is active, **all spam-related Com
 
 * Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** page.
 
-* **Multiple captcha positions** are possible on your WordPress **Comment** form.
+* Multiple captcha positions are possible on your WordPress **Comment** form.
 
-* Captcha images are **clean**, **legible**, **visually appealing**, and **interesting**, thus enhancing the look of your WordPress posts.
+* Captcha images are clean, legible, visually appealing, and interesting, thus enhancing the look of your WordPress posts.
 
 * A variety of captcha images are available for use, including:
 

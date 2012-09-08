@@ -27,7 +27,7 @@ Several **Captcha Types** are available, including:
 * **Captcha Historica**
 * **Captcha Computica**
 
-When the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked, and not sent to you** - thus saving you time by automatically stopping these annoying spam-related Comments and E-mails.
+When the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked and not sent to you** - thus saving you time by automatically stopping these annoying spam-related Comments and E-mails.
 
 
 

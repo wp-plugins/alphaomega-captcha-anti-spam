@@ -1,10 +1,10 @@
 <?php
 
-$stichiatitle = 'AlphaOmega Captchas & Anti-Spam Filter Ρυθμίσεις';
-$predonate = 'Το <span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> είναι ένα αποτελεσματικό και απλό στη χρήση captcha και ανεπιθύμητα μηνύματα spam plugin που να εμποδίζει την ανεπιθύμητη αλληλογραφία και φίλτρα καταχωρηθεί χρήστη σχόλια ακατάλληλου περιεχομένου. Αυτό το plugin μπορεί επίσης να ματαιώνουν αυτοματοποιημένη επιθέσεις εναντίον σας σελίδα αρχείου καταγραφής στο διοίκησης.<div style="padding-top:10px;">Οι προεπιλεγμένες ρυθμίσεις που φαίνεται παρακάτω παρέχουν υψηλό επίπεδο προστασίας κατά των αυτόκλητων μηνυμάτων και κακόβουλου admin καταγραφής στη σελίδα επιθέσεις. Έχετε επίσης την επιλογή, εάν θέλετε η συμπεριφορά πρόσθετες προσαρμοσμένες plugin προσαρμογή για τις προεπιλεγμένες ρυθμίσεις.';
+$stichiatitle = 'AlphaOmega Captcha & Anti-Spam Filter Ρυθμίσεις';
+$predonate = 'Το <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> είναι ένα αποτελεσματικό και απλό στη χρήση captcha και ανεπιθύμητα μηνύματα spam plugin που να εμποδίζει την ανεπιθύμητη αλληλογραφία και φίλτρα καταχωρηθεί χρήστη σχόλια ακατάλληλου περιεχομένου. Αυτό το plugin μπορεί επίσης να ματαιώνουν αυτοματοποιημένη επιθέσεις εναντίον σας σελίδα αρχείου καταγραφής στο διοίκησης.<div style="padding-top:10px;">Οι προεπιλεγμένες ρυθμίσεις που φαίνεται παρακάτω παρέχουν υψηλό επίπεδο προστασίας κατά των αυτόκλητων μηνυμάτων και κακόβουλου admin καταγραφής στη σελίδα επιθέσεις. Έχετε επίσης την επιλογή, εάν θέλετε η συμπεριφορά πρόσθετες προσαρμοσμένες plugin προσαρμογή για τις προεπιλεγμένες ρυθμίσεις.';
 $donatetitle = 'Εξετάστε το ενδεχόμενο δωρίζετε';
-$donateshpeel = 'Οι δημιουργοί του <span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> εκτιμούσα πολύ αν θα εξετάζατε το παρέχει μια μικρή δωρεά για να υποστηρίξουμε τη συνεχή ανάπτυξη δωρεάν αυτό το plugin, εάν το βρείτε χρήσιμο με οποιονδήποτε τρόπο. Κάθε ποσό το οποίο δωρεά θα εκτιμήσουν ταπεινά. Ευχαριστούμε.';
-$donateinput = '<input type="hidden" name="country" value="GR" ><input type="hidden" name="item_name" value="Δωρεά για AlphaOmega Captchas & Anti-Spam Filter"><input type="hidden" name="currency_code" value="EUR">';
+$donateshpeel = 'Οι δημιουργοί του <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> εκτιμούσα πολύ αν θα εξετάζατε το παρέχει μια μικρή δωρεά για να υποστηρίξουμε τη συνεχή ανάπτυξη δωρεάν αυτό το plugin, εάν το βρείτε χρήσιμο με οποιονδήποτε τρόπο. Κάθε ποσό το οποίο δωρεά θα εκτιμήσουν ταπεινά. Ευχαριστούμε.';
+$donateinput = '<input type="hidden" name="country" value="GR" ><input type="hidden" name="item_name" value="Δωρεά για AlphaOmega Captcha & Anti-Spam Filter"><input type="hidden" name="currency_code" value="EUR">';
 $donatekubitext = 'Παρακαλώ δωρεά';
 $donateoutput = '<option value="2">&nbsp;€2 &nbsp; &nbsp;</option><option value="4">&nbsp;€4 &nbsp; &nbsp;</option><option value="6">&nbsp;€6 &nbsp;&nbsp;</option><option value="8">&nbsp;€8 &nbsp; &nbsp;</option><option value="10">&nbsp;€10 &nbsp; &nbsp;</option><option value="">&nbsp;Άλλα &nbsp;</option>';
 $donatepaypal = 'Δωρεές που υποβάλλονται σε επεξεργασία από το PayPal';
@@ -71,6 +71,6 @@ $stepsavesavekubi = 'Αποθηκεύστε τις αλλαγές';
 $stepsaverestoredefaultkubi = 'Επαναφέρετε τις προεπιλεγμένες ρυθμίσεις';
 $stepfeedback = 'Σχόλια';
 $stepfeedbackpreshpeel = 'Τα σχόλιά σας θα εκτιμούσαμε.<p>Εάν έχετε κάποιες σκέψεις σχετικά με τη χρήση των το WordPress plugin, συμπεριλαμβανομένων προτάσεων για βελτιώσεις, κάντε κλικ στο κουμπί <span style="letter-spacing:1.2px;color:#000080;">Σχόλια</span>.</p>';
-$stepfeedbackpostshpeel = 'Ευχαριστούμε που χρησιμοποιείτε το <strong>AlphaOmega Captchas & Anti-Spam Filter</strong>.';
+$stepfeedbackpostshpeel = 'Ευχαριστούμε που χρησιμοποιείτε το <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>.';
 
 ?>

@@ -1,10 +1,10 @@
 <?php
 
-$stichiatitle = 'AlphaOmega Captchas & Anti-Spam Filter 설정';
-$predonate = '<span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span>는 효과적 이며 부적절 한 콘텐츠에 대 한 사용자 의견을 게시 하는 사용 하기 간단 captcha 및 스팸 필터를 차단 하는 스팸 방지 플러그인. 이 플러그인에는 관리 로그인 페이지에 대 한 자동화 된 공격 막아 낼 수 있습니다.<div style="padding-top:10px;">기본 설정 아래의 스팸 및 악의적인 관리자 로그인 페이지에 공격에 대 한 보호의 높은 수준을 제공 합니다. 추가 사용자 지정된 플러그인 동작을 원하는 경우 기본 설정을 조정 하는 옵션도 있습니다.';
+$stichiatitle = 'AlphaOmega Captcha & Anti-Spam Filter 설정';
+$predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span>는 효과적 이며 부적절 한 콘텐츠에 대 한 사용자 의견을 게시 하는 사용 하기 간단 captcha 및 스팸 필터를 차단 하는 스팸 방지 플러그인. 이 플러그인에는 관리 로그인 페이지에 대 한 자동화 된 공격 막아 낼 수 있습니다.<div style="padding-top:10px;">기본 설정 아래의 스팸 및 악의적인 관리자 로그인 페이지에 공격에 대 한 보호의 높은 수준을 제공 합니다. 추가 사용자 지정된 플러그인 동작을 원하는 경우 기본 설정을 조정 하는 옵션도 있습니다.';
 $donatetitle = '기부 고려 하시기 바랍니다';
-$donateshpeel = '<span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span>의 창조 자 매우 많이 제공 하는 경우에 당신이 그것을 어떤 방식으로 유용 하 게 찾을이 무료 플러그인의 지속적인된 개발을 지 원하는 데 도움이 작은 기부를 고려할 것 이라고 하는 경우 그것을 이해할 것 이다. 모든 기부 금액을 겸허 하 게 인정 될 것 이다. 감사합니다.';
-$donateinput = '<input type="hidden" name="item_name" value="AlphaOmega Captchas & Anti-Spam Filter에 대 한 기부"><input type="hidden" name="currency_code" value="USD">';
+$donateshpeel = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span>의 창조 자 매우 많이 제공 하는 경우에 당신이 그것을 어떤 방식으로 유용 하 게 찾을이 무료 플러그인의 지속적인된 개발을 지 원하는 데 도움이 작은 기부를 고려할 것 이라고 하는 경우 그것을 이해할 것 이다. 모든 기부 금액을 겸허 하 게 인정 될 것 이다. 감사합니다.';
+$donateinput = '<input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filter에 대 한 기부"><input type="hidden" name="currency_code" value="USD">';
 $donatekubitext = '제발 기부';
 $donateoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp; &nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;다른 &nbsp;</option>';
 $donatepaypal = 'PayPal에서 처리 하는 기부금';
@@ -69,6 +69,6 @@ $stepsavesavekubi = '변경 내용을 저장합니다';
 $stepsaverestoredefaultkubi = '기본 설정 복원';
 $stepfeedback = '피드백';
 $stepfeedbackpreshpeel = '귀하의 의견을 크게 주시면 감사 하겠습니다.<p>개선, 제안 등이 자료 WordPress 플러그인의 사용에 관한 어떤 생각을가지고 <span style="letter-spacing:1.2px;color:#000080;">피드백</span> 단추를 클릭 하십시오.</p>';
-$stepfeedbackpostshpeel = '<strong>AlphaOmega Captchas & Anti-Spam Filter</strong>를 사용 하 여 주셔서 감사 합니다.';
+$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>를 사용 하 여 주셔서 감사 합니다.';
 
 ?>

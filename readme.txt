@@ -1,4 +1,4 @@
-=== AlphaOmega Captchas & Anti-Spam Filter ===
+=== AlphaOmega Captcha & Anti-Spam Filter ===
 Contributors: alphaomegaplugins
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin
 Tags: captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, キャプチャ, login, junk mail, alphaomega, alpha omega, スパム, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文, block, block spam
@@ -13,7 +13,7 @@ Creates Visually Appealing Captcha Images to Enhance and Secure your WordPress C
 
 == Description ==
 
-The **AlphaOmega Captchas & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
+The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
 
 This plugin can also thwart automated attacks against your **Admin Log In** page.
 
@@ -131,21 +131,21 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captchas & Anti-Spam Filter plugin. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
+1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
 
-2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captchas & Anti-Spam Filter' item.
+2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
-3. To upgrade the plugin, click the 'Deactivate' link located below the 'AlphaOmega Captchas & Anti-Spam Filter' item, and then click the 'Delete' link located below the 'AlphaOmega Captchas & Anti-Spam Filter' item. Finally, to install an upgrade, follow Step 1 or Step 2 above.
+3. To upgrade the plugin, click the 'Deactivate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item, and then click the 'Delete' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item. Finally, to install an upgrade, follow Step 1 or Step 2 above.
 
 
 == Configuration / Settings ==
 
-To configure the AlphaOmega Captchas & Anti-Spam Filter plugin, click the 'AlphaOmega Captchas & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item. The 'Plugins' menu item is located on the left column of the WordPress Dashboard.
+To configure the AlphaOmega Captcha & Anti-Spam Filter plugin, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item. The 'Plugins' menu item is located on the left column of the WordPress Dashboard.
 
 
 == Multilanguage Support ==
 
-The AlphaOmega Captchas & Anti-Spam Filter plugin provides support in a variety of languages, including:
+The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety of languages, including:
 
    *  English
    *  Japanese
@@ -162,7 +162,7 @@ Absolutely. You are free to use this plugin at no charge. A small donation, howe
 
 = How can I donate? =
 
-You can donate by visiting the donate link located at the top of the AlphaOmega Captchas & Anti-Spam Filter Settings panel. To view the AlphaOmega Captchas & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captchas & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
+You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
 
 Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 

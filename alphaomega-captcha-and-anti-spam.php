@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: AlphaOmega Captchas & Anti-Spam Filter
+Plugin Name: AlphaOmega Captcha & Anti-Spam Filter
 Plugin URI: http://alphaomegaplugins.com
 Description: Creates Visually Appealing Captcha Images and Quizzes to Enhance and Secure your WordPress Comment/Log In Forms. Also includes Anti-Spam Protection.
 Version: 1.0
@@ -778,7 +778,7 @@ include( "addenda/stichiabase.php" );
 
 function alphaomega_captcha_plugin_menu () {
 
-	add_plugins_page( 'AlphaOmega Captchas & Anti-Spam Filter Settings', 'AlphaOmega Captchas & Anti-Spam Filter Settings', 'manage_options', 'alphaomega_captcha_and_antispam', 'acpo' );
+	add_plugins_page( 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'manage_options', 'alphaomega_captcha_and_antispam', 'acpo' );
 
 }
 

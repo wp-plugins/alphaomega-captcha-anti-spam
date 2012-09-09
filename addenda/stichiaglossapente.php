@@ -1,10 +1,10 @@
 <?php
 
-$stichiatitle = 'AlphaOmega Captcha & Anti-Spam Filter 設置';
-$predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 是一個有效的和使用簡單的驗證碼和阻止垃圾郵件和篩選器的反垃圾郵件外掛程式發佈不良內容的使用者注釋。此外掛程式還可以阻礙您管理日誌中的頁面自動的攻擊。<div style="padding-top:10px;">如下所示的預設設置為提供高級別保護免受垃圾郵件和惡意管理員登錄頁面的攻擊。您還可以調整預設的設置，如果您想附加自訂的外掛程式行為的選項。';
+$stichiatitle = 'AlphaOmega Captchas & Anti-Spam Filter 設置';
+$predonate = '<span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> 是一個有效的和使用簡單的驗證碼和阻止垃圾郵件和篩選器的反垃圾郵件外掛程式發佈不良內容的使用者注釋。此外掛程式還可以阻礙您管理日誌中的頁面自動的攻擊。<div style="padding-top:10px;">如下所示的預設設置為提供高級別保護免受垃圾郵件和惡意管理員登錄頁面的攻擊。您還可以調整預設的設置，如果您想附加自訂的外掛程式行為的選項。';
 $donatetitle = '請考慮捐贈';
-$donateshpeel = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 的建立者將會非常感激如果你會考慮提供小小的捐贈，以説明支援這個免費的外掛程式的持續的發展，如果您發現它以任何方式很有用。任何捐款金額將謙遜地表示讚賞。謝謝。';
-$donateinput = '<input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filter捐贈"><input type="hidden" name="currency_code" value="USD">';
+$donateshpeel = '<span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> 的建立者將會非常感激如果你會考慮提供小小的捐贈，以説明支援這個免費的外掛程式的持續的發展，如果您發現它以任何方式很有用。任何捐款金額將謙遜地表示讚賞。謝謝。';
+$donateinput = '<input type="hidden" name="item_name" value="AlphaOmega Captchas & Anti-Spam Filter捐贈"><input type="hidden" name="currency_code" value="USD">';
 $donatekubitext = '請捐贈';
 $donateoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;其他 &nbsp;</option>';
 $donatepaypal = '捐款由 PayPal 進行處理';
@@ -69,6 +69,6 @@ $stepsavesavekubi = '保存更改';
 $stepsaverestoredefaultkubi = '還原預設設置';
 $stepfeedback = '回饋';
 $stepfeedbackpreshpeel = '您的回饋將不勝感激。<p>如果您有關于此的 WordPress 外掛程式，包括改進，建議使用的任何想法，請按一下 <span style="letter-spacing:1.2px;color:#000080;">回饋</span> 按鈕。</p>';
-$stepfeedbackpostshpeel = '感謝您使用 <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>。';
+$stepfeedbackpostshpeel = '感謝您使用 <strong>AlphaOmega Captchas & Anti-Spam Filter</strong>。';
 
 ?>

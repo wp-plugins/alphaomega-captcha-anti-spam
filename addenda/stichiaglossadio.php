@@ -1,10 +1,10 @@
 <?php
 
-$stichiatitle = 'AlphaOmega Captcha & Anti-Spam Filter 設定';
-$predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 効果的であり、ユーザー コメント不適切なコンテンツを簡単に使用できるキャプチャとスパム（迷惑メール）・ フィルターをブロックするスパム対策のプラグイン。このプラグインは、管理ログでページの自動攻撃も阻止できます。<div style="padding-top:10px;">以下に示す既定の設定は高レベルのスパムや悪意のある管理者ログイン ページの攻撃に対する保護を提供します。また、追加のカスタマイズされたプラグインの動作をする場合の既定の設定を調整するオプションがあります。';
+$stichiatitle = 'AlphaOmega Captchas & Anti-Spam Filter 設定';
+$predonate = '<span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> 効果的であり、ユーザー コメント不適切なコンテンツを簡単に使用できるキャプチャとスパム（迷惑メール）・ フィルターをブロックするスパム対策のプラグイン。このプラグインは、管理ログでページの自動攻撃も阻止できます。<div style="padding-top:10px;">以下に示す既定の設定は高レベルのスパムや悪意のある管理者ログイン ページの攻撃に対する保護を提供します。また、追加のカスタマイズされたプラグインの動作をする場合の既定の設定を調整するオプションがあります。';
 $donatetitle = '寄付をご検討下さい';
-$donateshpeel = '任意の方法で便利な場合は、この無料のプラグインの開発継続をサポートするために小額の寄付を提供することを検討する場合 <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> クリエイター非常に感謝しました。任意寄付金額を謙虚に高く評価されます。ありがとう。';
-$donateinput = '<input type="hidden" name="country" value="JP" ><input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filterの寄付"><input type="hidden" name="currency_code" value="JPY">';
+$donateshpeel = '任意の方法で便利な場合は、この無料のプラグインの開発継続をサポートするために小額の寄付を提供することを検討する場合 <span style="color:#000080;">AlphaOmega Captchas & Anti-Spam Filter</span> クリエイター非常に感謝しました。任意寄付金額を謙虚に高く評価されます。ありがとう。';
+$donateinput = '<input type="hidden" name="country" value="JP" ><input type="hidden" name="item_name" value="AlphaOmega Captchas & Anti-Spam Filterの寄付"><input type="hidden" name="currency_code" value="JPY">';
 $donatekubitext = '寄付をして下さい';
 $donateoutput = '<option value="200">&nbsp;200円 &nbsp; &nbsp;</option><option value="400">&nbsp;400円 &nbsp; &nbsp;</option><option value="600">&nbsp;600円 &nbsp; &nbsp;</option><option value="800">&nbsp;800円 &nbsp; &nbsp;</option><option value="1000">&nbsp;1000円 &nbsp; &nbsp;</option><option value="">&nbsp;他 &nbsp;</option>';
 $donatepaypal = 'PayPal によって処理の寄付';
@@ -69,6 +69,6 @@ $stepsavesavekubi = '変更を保存します';
 $stepsaverestoredefaultkubi = '既定の設定を復元します';
 $stepfeedback = 'フィードバック';
 $stepfeedbackpreshpeel = 'あなたのフィードバックを大幅にいただければ幸いです。<p>改善の提案を含むこのワードプレスのプラグインの使用に関する感想があるあれば <span style="letter-spacing:1.2px;color:#000080;">フィードバック</span> ボタンをクリックしてください。</p>';
-$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>を使用していただきありがとうございます。';
+$stepfeedbackpostshpeel = '<strong>AlphaOmega Captchas & Anti-Spam Filter</strong>を使用していただきありがとうございます。';
 
 ?>

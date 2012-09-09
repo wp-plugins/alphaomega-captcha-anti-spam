@@ -193,9 +193,6 @@ To file a bug or provide us with feedback, please use the following [link](http:
 = 1.1 =
 * Text modified.
 
-= 1.0 =
-* Initial version.
-
 
 == Upgrade Notice ==
 

@@ -95,7 +95,7 @@ An alteration of the familiar captcha that requires the user to enter the name o
 
 
 **Captcha Sportica**
- - A healthy competitor and winning captcha that requires the user to enter the name of the sport practiced by the individual shown in the captcha.
+ - A winning captcha that requires the user to enter the name of the sport practiced by the individual shown in the captcha.
 
 
 

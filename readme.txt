@@ -41,6 +41,8 @@ Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-
 
 * Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** page.
 
+* Customizable **Anti-Spam Filter** that allows you to block all spam-related messages.  
+
 * Multiple captcha positions are possible on your WordPress **Comment** form.
 
 * Captcha images are clean, legible, visually appealing, and interesting, thus enhancing the look of your WordPress posts.

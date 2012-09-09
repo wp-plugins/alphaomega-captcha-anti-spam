@@ -28,11 +28,18 @@ if ( $myoptions['language'] === '1' ) {
 }
 $captcha_classica_button = ' ';
 $captcha_mathematica_button = ' ';
-$captcha_geographica_button = ' ';
+$captcha_artistica_button = ' ';
+$captcha_cinematica_button = ' ';
+$captcha_literaca_button = ' ';
 $captcha_scientifica_button = ' ';
-$captcha_cinema_button = ' ';
 $captcha_historica_button = ' ';
 $captcha_computica_button = ' ';
+$captcha_musica_button = ' ';
+$captcha_geographica_button = ' ';
+$captcha_numerica_button = ' ';
+$captcha_sportica_button = ' ';
+
+
 if ( $myoptions['captcha_type'] === '1' ) {
 
 	$captcha_classica_button = ' checked="checked" ';
@@ -43,23 +50,43 @@ if ( $myoptions['captcha_type'] === '1' ) {
 
 } elseif ( $myoptions['captcha_type'] === '3' ) {
 
-	$captcha_geographica_button = ' checked="checked" ';
+	$captcha_artistica_button = ' checked="checked" ';
 
 } elseif ( $myoptions['captcha_type'] === '4' ) {
 
-	$captcha_scientifica_button = ' checked="checked" ';
+	$captcha_cinematica_button = ' checked="checked" ';
 
 } elseif ( $myoptions['captcha_type'] === '5' ) {
 
-	$captcha_cinema_button = ' checked="checked" ';
+	$captcha_literacha_button = ' checked="checked" ';
 
 } elseif ( $myoptions['captcha_type'] === '6' ) {
 
-	$captcha_historica_button = ' checked="checked" ';
+	$captcha_scientifica_button = ' checked="checked" ';
 
 } elseif ( $myoptions['captcha_type'] === '7' ) {
 
+	$captcha_historica_button = ' checked="checked" ';
+
+} elseif ( $myoptions['captcha_type'] === '8' ) {
+
 	$captcha_computica_button = ' checked="checked" ';
+
+} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+	$captcha_musica_button = ' checked="checked" ';
+
+} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+	$captcha_geographica_button = ' checked="checked" ';
+
+} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+	$captcha_numerica_button = ' checked="checked" ';
+
+} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+	$captcha_sportica_button = ' checked="checked" ';
 
 }
 $captcha_location_comment_checkbox = ' ';

@@ -411,28 +411,53 @@ if ( $myoptions['language'] === '1' ) {
 
 	} elseif ( $myoptions['captcha_type'] === '3' ) {
 
-		$myoptions['captcha_pretext'] = 'Which City Do You See?'; 
+		$myoptions['captcha_pretext'] = 'Name the Artist'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetria.php';
 
 	} elseif ( $myoptions['captcha_type'] === '4' ) {
 
-		$myoptions['captcha_pretext'] = 'Please Do the Science'; 
+		$myoptions['captcha_pretext'] = 'What Film Do You See?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetesera.php';
 
 	} elseif ( $myoptions['captcha_type'] === '5' ) {
 
-		$myoptions['captcha_pretext'] = 'What Film Do You See?'; 
+		$myoptions['captcha_pretext'] = 'Name the Author'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixepente.php';
 
 	} elseif ( $myoptions['captcha_type'] === '6' ) {
 
-		$myoptions['captcha_pretext'] = 'Whom Do You See?'; 
+		$myoptions['captcha_pretext'] = 'Please Do the Science'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeexi.php';
 
 	} elseif ( $myoptions['captcha_type'] === '7' ) {
 
-		$myoptions['captcha_pretext'] = 'What Does This Acronym Stand For?'; 
+		$myoptions['captcha_pretext'] = 'Whom Do You See?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeefta.php';
+
+	} elseif ( $myoptions['captcha_type'] === '8' ) {
+
+		$myoptions['captcha_pretext'] = 'What Does This Acronym Stand For?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeochto.php';
+
+	} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+		$myoptions['captcha_pretext'] = 'What Do You See?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeenea.php';
+
+	} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+		$myoptions['captcha_pretext'] = 'What City Do You See?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+		$myoptions['captcha_pretext'] = 'How Many?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeendeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+		$myoptions['captcha_pretext'] = 'Name the Sport'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedodeca.php';
 
 	}
 
@@ -461,28 +486,53 @@ if ( $myoptions['language'] === '1' ) {
 
 	} elseif ( $myoptions['captcha_type'] === '3' ) {
 
-		$myoptions['captcha_pretext'] = 'どの都市ですか。'; 
+		$myoptions['captcha_pretext'] = 'アーティストは誰ですか。'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetria.php';
 
 	} elseif ( $myoptions['captcha_type'] === '4' ) {
 
-		$myoptions['captcha_pretext'] = '答えは何ですか。'; 
+		$myoptions['captcha_pretext'] = 'どんな映画ですか。'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetesera.php';
 
 	} elseif ( $myoptions['captcha_type'] === '5' ) {
 
-		$myoptions['captcha_pretext'] = 'どんな映画ですか。'; 
+		$myoptions['captcha_pretext'] = '作者は誰ですか。'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixepente.php';
 
 	} elseif ( $myoptions['captcha_type'] === '6' ) {
 
-		$myoptions['captcha_pretext'] = '誰か。'; 
+		$myoptions['captcha_pretext'] = '答えは何ですか。'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeexi.php';
 
 	} elseif ( $myoptions['captcha_type'] === '7' ) {
 
-		$myoptions['captcha_pretext'] = 'この頭字語はどういう意味ですか。'; 
+		$myoptions['captcha_pretext'] = '誰か。'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeefta.php';
+
+	} elseif ( $myoptions['captcha_type'] === '8' ) {
+
+		$myoptions['captcha_pretext'] = 'この頭字語はどういう意味ですか。'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeochto.php';
+
+	} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+		$myoptions['captcha_pretext'] = '何を見るか。'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeenea.php';
+
+	} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+		$myoptions['captcha_pretext'] = 'どの都市ですか。'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+		$myoptions['captcha_pretext'] = 'いくつ。'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeendeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+		$myoptions['captcha_pretext'] = 'スポーツは何ですか。'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedodeca.php';
 
 	}
 
@@ -511,28 +561,53 @@ if ( $myoptions['language'] === '1' ) {
 
 	} elseif ( $myoptions['captcha_type'] === '3' ) {
 
-		$myoptions['captcha_pretext'] = 'Τι πόλη βλέπετε;'; 
+		$myoptions['captcha_pretext'] = 'Ποιος είναι ο καλλιτέχνης;'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetria.php';
 
 	} elseif ( $myoptions['captcha_type'] === '4' ) {
 
-		$myoptions['captcha_pretext'] = 'Ποια είναι η απάντηση;'; 
+		$myoptions['captcha_pretext'] = 'Τι ταινία βλέπετε;'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetesera.php';
 
 	} elseif ( $myoptions['captcha_type'] === '5' ) {
 
-		$myoptions['captcha_pretext'] = 'Τι ταινία βλέπετε;'; 
+		$myoptions['captcha_pretext'] = 'Ποιος είναι ο συντάκτης;'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixepente.php';
 
 	} elseif ( $myoptions['captcha_type'] === '6' ) {
 
-		$myoptions['captcha_pretext'] = 'Ποιος είναι;'; 
+		$myoptions['captcha_pretext'] = 'Ποια είναι η απάντηση;'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeexi.php';
 
 	} elseif ( $myoptions['captcha_type'] === '7' ) {
 
-		$myoptions['captcha_pretext'] = 'Τι σημαίνει αυτό το ακρωνύμιο;'; 
+		$myoptions['captcha_pretext'] = 'Ποιος είναι;'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeefta.php';
+
+	} elseif ( $myoptions['captcha_type'] === '8' ) {
+
+		$myoptions['captcha_pretext'] = 'Τι σημαίνει αυτό το ακρωνύμιο;'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeochto.php';
+
+	} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+		$myoptions['captcha_pretext'] = 'ό, τι βλέπετε;'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeenea.php';
+
+	} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+		$myoptions['captcha_pretext'] = 'Τι πόλη βλέπετε;'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+		$myoptions['captcha_pretext'] = 'Πόσα;'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeendeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+		$myoptions['captcha_pretext'] = 'Τι είναι το άθλημα;'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedodeca.php';
 
 	}
 
@@ -561,28 +636,53 @@ if ( $myoptions['language'] === '1' ) {
 
 	} elseif ( $myoptions['captcha_type'] === '3' ) {
 
-		$myoptions['captcha_pretext'] = '어떤 도시를 보십니까?';
+		$myoptions['captcha_pretext'] = '작가 누구 입니까?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetria.php';
 
 	} elseif ( $myoptions['captcha_type'] === '4' ) {
 
-		$myoptions['captcha_pretext'] = '대답은 무엇입니까?';
+		$myoptions['captcha_pretext'] = '당신은 어떤 영화를 봅니까?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetesera.php';
 
 	} elseif ( $myoptions['captcha_type'] === '5' ) {
 
-		$myoptions['captcha_pretext'] = '당신은 어떤 영화를 봅니까?';
+		$myoptions['captcha_pretext'] = '저자는 누구 인가.입니다?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixepente.php';
 
 	} elseif ( $myoptions['captcha_type'] === '6' ) {
 
-		$myoptions['captcha_pretext'] = '누가 볼 수 있습니까?';
+		$myoptions['captcha_pretext'] = '대답은 무엇입니까?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeexi.php';
 
 	} elseif ( $myoptions['captcha_type'] === '7' ) {
 
-		$myoptions['captcha_pretext'] = '이 약자는 무엇을 의미 합니까?'; 
+		$myoptions['captcha_pretext'] = '누가 볼 수 있습니까?'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeefta.php';
+
+	} elseif ( $myoptions['captcha_type'] === '8' ) {
+
+		$myoptions['captcha_pretext'] = '이 약자는 무엇을 의미 합니까?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeochto.php';
+
+	} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+		$myoptions['captcha_pretext'] = '당신은 무엇을 봅니까?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeenea.php';
+
+	} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+		$myoptions['captcha_pretext'] = '어떤 도시를 보십니까?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+		$myoptions['captcha_pretext'] = '몇 개나요?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeendeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+		$myoptions['captcha_pretext'] = '스포츠는 무엇 인가.입니다?'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedodeca.php';
 
 	}
 
@@ -611,28 +711,53 @@ if ( $myoptions['language'] === '1' ) {
 
 	} elseif ( $myoptions['captcha_type'] === '3' ) {
 
-		$myoptions['captcha_pretext'] = '你看見什麼城市？';
+		$myoptions['captcha_pretext'] = '這位演出者是誰？'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetria.php';
 
 	} elseif ( $myoptions['captcha_type'] === '4' ) {
 
-		$myoptions['captcha_pretext'] = '答案是什麼？';
+		$myoptions['captcha_pretext'] = '你看見什麼片子？'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixetesera.php';
 
 	} elseif ( $myoptions['captcha_type'] === '5' ) {
 
-		$myoptions['captcha_pretext'] = '你看見什麼片子？';
+		$myoptions['captcha_pretext'] = '作者是誰？'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixepente.php';
 
 	} elseif ( $myoptions['captcha_type'] === '6' ) {
 
-		$myoptions['captcha_pretext'] = '你看到了誰？'; 
+		$myoptions['captcha_pretext'] = '答案是什麼？'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeexi.php';
 
 	} elseif ( $myoptions['captcha_type'] === '7' ) {
 
-		$myoptions['captcha_pretext'] = '這首字母縮寫詞是什麼意思呢？';
+		$myoptions['captcha_pretext'] = '你看到了誰？'; 
 		$myoptions['which_captcha'] = 'addenda/asphaliadixeefta.php';
+
+	} elseif ( $myoptions['captcha_type'] === '8' ) {
+
+		$myoptions['captcha_pretext'] = '這首字母縮寫詞是什麼意思呢？'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeochto.php';
+
+	} elseif ( $myoptions['captcha_type'] === '9' ) {
+
+		$myoptions['captcha_pretext'] = '你看到了什麼？'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeenea.php';
+
+	} elseif ( $myoptions['captcha_type'] === '10' ) {
+
+		$myoptions['captcha_pretext'] = '你看見什麼城市？'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '11' ) {
+
+		$myoptions['captcha_pretext'] = '幾個？'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixeendeca.php';
+
+	} elseif ( $myoptions['captcha_type'] === '12' ) {
+
+		$myoptions['captcha_pretext'] = '這項運動是什麼？'; 
+		$myoptions['which_captcha'] = 'addenda/asphaliadixedodeca.php';
 
 	}
 
@@ -749,19 +874,43 @@ if ( trim($_POST['security']) === '' ) {
 
 	if ( $_SESSION['alphaomega_captcha_case_sensitive'] === '1' ) {
 
-		if ( trim($_POST['security']) !== $_SESSION['alphaomega_code'] ) {
+		if ( $_SESSION['alphaomega_captcha_akrivos_idio'] === '1' ) {
 
-  			wp_die( __($capresponsefail) );
+			if ( trim($_POST['security']) !== $_SESSION['alphaomega_code'] ) {
 
-  		}
+  				wp_die( __($capresponsefail) );
+
+  			}
+
+		} else {
+
+			if ( strpos($_SESSION['alphaomega_code'], trim($_POST['security'])) === FALSE ) {
+
+  				wp_die( __($capresponsefail) );
+
+  			}
+
+		}
 
 	} else {
 
-	if ( strtolower(trim($_POST['security'])) !== strtolower($_SESSION['alphaomega_code']) ) {
+		if ( $_SESSION['alphaomega_captcha_akrivos_idio'] === '1' ) {
 
-		wp_die( __($capresponsefail) );
+			if ( strtolower(trim($_POST['security'])) !== strtolower($_SESSION['alphaomega_code']) ) {
 
-	}
+				wp_die( __($capresponsefail) );
+
+			}
+		
+		} else {
+
+			if ( strpos(strtolower($_SESSION['alphaomega_code']), strtolower(trim($_POST['security']))) === FALSE ) {
+
+				wp_die( __($capresponsefail) );
+
+			}
+
+		} 
 
   }
 
@@ -838,19 +987,43 @@ if ( isset($_POST['wp-submit']) ) {
 
 			if ( $_SESSION['alphaomega_captcha_case_sensitive'] === '1' ) {
 
-				if ( trim($_POST['security']) !== $_SESSION['alphaomega_code'] ) {
+				if ( $_SESSION['alphaomega_captcha_akrivos_idio'] === '1' ) {
 
-  					array_push($tiine, $adminseccodefail);
+					if ( trim($_POST['security']) !== $_SESSION['alphaomega_code'] ) {
 
-  				}
+  						array_push($tiine, $adminseccodefail);
+
+  					}
+
+				} else {
+
+					if ( strpos($_SESSION['alphaomega_code'], trim($_POST['security'])) === FALSE ) {
+
+  						array_push($tiine, $adminseccodefail);
+
+  					}
+
+				}
 
 			} else {
 
-				if ( strtolower(trim($_POST['security'])) !== strtolower($_SESSION['alphaomega_code']) ) {
+				if ( $_SESSION['alphaomega_captcha_akrivos_idio'] === '1' ) {
 
-  					array_push($tiine, $adminseccodefail);
+					if ( strtolower(trim($_POST['security'])) !== strtolower($_SESSION['alphaomega_code']) ) {
 
-				}
+						array_push($tiine, $adminseccodefail);
+
+					}
+		
+				} else {
+
+					if ( strpos(strtolower($_SESSION['alphaomega_code']), strtolower(trim($_POST['security']))) === FALSE ) {
+
+						array_push($tiine, $adminseccodefail);
+
+					}
+
+				} 
 
 			}
 

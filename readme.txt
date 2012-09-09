@@ -21,13 +21,19 @@ Several **Captcha Types** are available, including:
 
 * **Captcha Classica**
 * **Captcha Mathematica**
-* **Captcha Geographica**
-* **Captcha Scientifica**
+* **Captcha Artistica**
 * **Captcha Cinematica**
+* **Captcha Litera-cha**
+* **Captcha Scientifica**
 * **Captcha Historica**
 * **Captcha Computica**
+* **Captcha Musica**
+* **Captcha Geographica**
+* **Captcha Numerica**
+* **Captcha Sportica**
 
-Additionally, when the Anti-Spam functionality of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you** - thus saving you time by automatically stopping these annoying spam-related Comments and E-mails.
+
+Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you** - thus saving you time by automatically stopping these annoying spam-related Comments and E-mails.
 
 
 
@@ -50,16 +56,20 @@ Additionally, when the Anti-Spam functionality of the plugin is active, **all sp
  - A variation of the conventional captcha that requires the user to perform a simple mathematical task.
 
 
-**Captcha Geographica**
- - A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
-
-
-**Captcha Scientifica**
- - A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
+**Captcha Artistica**
+ - A creative captcha that requires the user to enter the name of the artist who created the work shown in the captcha.
 
 
 **Captcha Cinematica**
  - A variant of the customary captcha that requires the user to enter the title of a well-known film.
+
+
+**Captcha Litera-cha**
+ - A variant of the traditional captcha that requires the user to enter the name of the writer who wrote the work shown in the captcha.
+
+
+**Captcha Scientifica**
+ - A mutation of the ubiquitous captcha that requires the user to enter an answer to a scientific question or quiz.
 
 
 **Captcha Historica**
@@ -68,6 +78,23 @@ An alteration of the familiar captcha that requires the user to enter the name o
 
 **Captcha Computica**
  - An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
+
+
+**Captcha Musica**
+ - A harmonious captcha that requires the user to enter the musical term or instrument shown in the captcha.
+
+
+**Captcha Geographica**
+ - A modification of the traditional captcha that requires the user to enter the name of a capital city or geographical place.
+
+
+**Captcha Numerica**
+ - A unified rendering of an abstract captcha that requires the user to enter the number or numerical idea forming the basis of the word shown in the captcha.
+
+
+**Captcha Sportica**
+ - A healthy competitor and winning captcha that requires the user to enter the name of the sport practiced by the individual shown in the captcha.
+
 
 
 These captcha functions not only provide your WordPress posts with enhanced security, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
@@ -162,6 +189,9 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 
 == Changelog ==
+
+= 1.1 =
+* Text modified.
 
 = 1.0 =
 * Initial version.

@@ -776,6 +776,23 @@ include( "addenda/stichiabase.php" );
 
 }
 
+function aokato ( $kola, $selida ) {
+
+    if( $selida == plugin_basename(__FILE__) && function_exists( "admin_url" ) ) {
+
+        $ftiaxe = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin">' . __('Please Donate') . '</a>';
+        array_unshift( $kola, $ftiaxe );
+        $ftiaxe = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_and_antispam' ) . '">' . __('Settings') . '</a>';
+        array_unshift( $kola, $ftiaxe );
+
+    }
+
+    return $kola;
+
+}
+
+add_filter( 'plugin_action_links', 'aokato', 10, 2 );
+
 function alphaomega_captcha_plugin_menu () {
 
 	add_plugins_page( 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'manage_options', 'alphaomega_captcha_and_antispam', 'acpo' );

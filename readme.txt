@@ -192,9 +192,7 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Changelog ==
 
-= 1.1 =
-* Text modified.
-
+= 1.2 =
 
 == Upgrade Notice ==
 

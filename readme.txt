@@ -176,7 +176,7 @@ The plugin has been tested with a variety of WordPress Themes, some of which are
 
 The plugin should operate flawlessly with earlier WordPress versions, however, we recommend that you upgrade to the latest WordPress version to take advantage of the latest WordPress security and operational features.
 
-= How can I file a bug, or give feedback? =
+= How can I file a bug or give feedback? =
 
 To file a bug or provide us with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
 

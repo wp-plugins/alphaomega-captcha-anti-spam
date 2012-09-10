@@ -107,7 +107,7 @@ These captcha functions not only provide your WordPress posts with enhanced secu
 Requirements:
 
 
-   *  Tested with WordPress 3.4.2
+   *  Tested with WordPress 3.4.1 ~ 3.4.2
 
 
    *  Tested with a variety of WordPress Themes, including:
@@ -170,7 +170,11 @@ Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webs
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 
-The plugin has been tested with a variety of WordPress Themes, some of which are listed above. The best way to determine compatibility is to install the plugin and try it. Note that some Themes may display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the manner in which the Theme's style or format has been coded.
+The plugin has been tested with a variety of WordPress Themes, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. The best way to determine compatibility is to install the plugin and try it. Note that some Themes may display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the manner in which the Theme's style or format has been coded.
+
+= I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
+
+The plugin should operate flawlessly with earlier WordPress versions, however, we recommend that you upgrade to the latest WordPress version to take advantage of the latest WordPress security and operational features.
 
 = How can I file a bug, or give feedback? =
 

@@ -461,7 +461,7 @@ if ( $myoptions['language'] === '1' ) {
 
 	}
 
-	$myoptions['captcha_reload'] = ' Reload Captcha ';
+	$myoptions['captcha_reload'] = ' Reload AlphaOmega Captcha ';
 
 } elseif ( $myoptions['language'] === '2' ) {
 
@@ -536,7 +536,7 @@ if ( $myoptions['language'] === '1' ) {
 
 	}
 
-	$myoptions['captcha_reload'] = ' キャプチャの再読み込み ';
+	$myoptions['captcha_reload'] = ' AlphaOmega キャプチャの再読み込み ';
 
 } elseif ( $myoptions['language'] === '3' ) {
 
@@ -611,7 +611,7 @@ if ( $myoptions['language'] === '1' ) {
 
 	}
 
-	$myoptions['captcha_reload'] = ' Νέα φόρτωση Captcha ';
+	$myoptions['captcha_reload'] = ' Νέα φόρτωση AlphaOmega Captcha ';
 
 } elseif ( $myoptions['language'] === '4' ) {
 
@@ -686,7 +686,7 @@ if ( $myoptions['language'] === '1' ) {
 
 	}
 
-	$myoptions['captcha_reload'] = ' Captcha를 다시 로드  ';
+	$myoptions['captcha_reload'] = ' AlphaOmega Captcha를 다시 로드  ';
 
 } elseif ( $myoptions['language'] === '5' ) {
 
@@ -761,7 +761,7 @@ if ( $myoptions['language'] === '1' ) {
 
 	}
 
-	$myoptions['captcha_reload'] = ' 重新載入驗證碼 ';
+	$myoptions['captcha_reload'] = ' AlphaOmega 重新載入驗證碼 ';
 
 }
 

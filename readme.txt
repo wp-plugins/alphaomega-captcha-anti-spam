@@ -194,6 +194,8 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 = 1.2 =
 
+Text Modifications
+
 == Upgrade Notice ==
 
 Future upgrades will become available when completed. Thank you.

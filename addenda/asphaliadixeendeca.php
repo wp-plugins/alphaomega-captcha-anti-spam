@@ -10,7 +10,10 @@
 	$prasino = mt_rand(67,$megalitero);
 	$pmle = mt_rand(67,$megalitero);
  	$lexihroma = imagecolorallocate($edoicona,$megalitero-$kokino,$megalitero-$prasino,$megalitero-$pmle);
+	$select_entry_array = array ('####', '');
+	while ( strpos($select_entry_array[0], '####') !== FALSE ) {
 	$select_entry_array = explode('####', trim(base64_decode(convert_uudecode(urldecode(stripslashes(trim($daarray[mt_rand(0, count($daarray) - 1)])))))));
+	}
 	for ( $steuclidewy = 0; $steuclidewy < strlen($select_entry_array[0]); $steuclidewy++ ) {
 
 		$fatrand = mt_rand(0, 1);

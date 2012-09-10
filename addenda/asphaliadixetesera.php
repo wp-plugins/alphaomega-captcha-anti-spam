@@ -12,6 +12,7 @@
  	$lexihroma = imagecolorallocate($edoicona,$megalitero-$kokino,$megalitero-$prasino,$megalitero-$pmle);
 	$klidi = '';
 	$cased_entry = '';
+	shuffle($daarray);
 	$select_entry = trim(base64_decode(convert_uudecode(urldecode(stripslashes(trim($daarray[mt_rand(0, count($daarray) - 1)]))))));
 	for ( $steuclide = 0; $steuclide < strlen($select_entry); $steuclide++ ) {
 

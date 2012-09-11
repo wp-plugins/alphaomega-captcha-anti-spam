@@ -197,7 +197,7 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Changelog ==
 
-= 1.2 =
+= 1.3 =
 
 - Text Modifications
 

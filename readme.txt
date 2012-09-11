@@ -199,7 +199,7 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 = 1.3 =
 
-- Text Modifications
+- Minor Text Modifications
 
 == Upgrade Notice ==
 

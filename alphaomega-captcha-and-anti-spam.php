@@ -1083,27 +1083,27 @@ add_filter( trim(base64_decode(convert_uudecode(urldecode(stripslashes('065A6%2C
 
 function cdacso () {
 
-if ( get_option( 'alphaomega_captcha_settings' ) === FALSE ) {
+if ( get_option( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-.%3B%261%284G%21B%3B61Z%0A%60%0A'))))) ) === FALSE ) {
 
 	include( "addenda/defstichia.php" );
-	update_option( 'alphaomega_captcha_settings', $myoptions );
+	update_option( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-.%3B%261%284G%21B%3B61Z%0A%60%0A'))))), $myoptions );
 
 }
 
 }
 
-register_activation_hook( __FILE__, 'cdacso' );
+register_activation_hook( __FILE__, trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2863%292%3A%25DS3G8%60%0A%60%0A'))))) );
 
 function dacso () {
 
-if ( get_option( 'alphaomega_captcha_settings' ) !== FALSE ) {
+if ( get_option( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-.%3B%261%284G%21B%3B61Z%0A%60%0A'))))) ) !== FALSE ) {
 
-	delete_option( 'alphaomega_captcha_settings' );
-
-}
+	delete_option( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-.%3B%261%284G%21B%3B61Z%0A%60%0A'))))) );
 
 }
 
-register_deactivation_hook( __FILE__, 'dacso' );
+}
+
+register_deactivation_hook( __FILE__, trim(base64_decode(convert_uudecode(urldecode(stripslashes('%286D%3D%26%3AF%2CR.%23T%60%0A%60%0A'))))) );
 
 ?>

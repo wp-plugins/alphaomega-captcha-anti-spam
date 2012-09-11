@@ -80,15 +80,15 @@ if ( $myoptions['comment_captcha_on'] === '1' ) {
 
 	if ( $myoptions['comment_captcha_position'] === '1' ) {
 
-		add_action( 'comment_form_before_fields', 'asphaliacommdixe' );
+		add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D63%28Y%3D%26%2975G5D1CEM8C-%2A%3D%25%40R2FQ%3A%3B3EY6E8Y%3B6%2575G-%3A2%24T%5D%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('865A.%3DV%25%271G-A5T9J8C%28Q%3D%25I%27%3B%231%3A43T%5D%0A%60%0A'))))) );
 
 	} elseif ( $myoptions['comment_captcha_position'] === '2' ) {
 
-		add_action( 'comment_form_after_fields', 'asphaliacommdixe' );
+		add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D63%28Y%3D%26%2975G5D1CEM8C-%2A%3D%25%40R1FUD1U9Y6%23%29%3A%3C%25I7%3E%26MC%3DST%5D%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('865A.%3DV%25%271G-A5T9J8C%28Q%3D%25I%27%3B%231%3A43T%5D%0A%60%0A'))))) );
 
 	} else {
 
-		add_action( 'comment_form_field_comment', 'asphaliacommdixe' );
+		add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('D63%28Y%3D%26%2975G5D1CEM8C-%2A%3D%25%40R6G%21%3A5WAK6%23%29.%3DF%297%2C6QB%3BE%24%5D%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('865A.%3DV%25%271G-A5T9J8C%28Q%3D%25I%27%3B%231%3A43T%5D%0A%60%0A'))))) );
 
 	}
 
@@ -96,7 +96,8 @@ if ( $myoptions['comment_captcha_on'] === '1' ) {
 
 }
 
-add_action( 'wp_head', 'mythemeformcommdefaults' );
+add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2C9%23-%229F%25%275FA%3A03T%5D%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%408EAL%2C%26%25%275G1%3A5UIV8VTQ%3AF%28R%2C71%3A1U9M65A6%3CV1%2833T%60%0A%60%0A
+'))))) );
 
 function mythemeformadmindefaults() {
 
@@ -108,11 +109,11 @@ if ( $myoptions['admin_captcha_on'] === '1' ) {
 
 	if ( $myoptions['admin_captcha_position'] === '1' ) {
 
-		add_action( 'login_message', 'asphaliaadmindixe' );
+		add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('48D%3CY%3BF%257-69B5U9Z8S%29%26%3BEI1%2F3T%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('865A.%3DV%25%271G-A5T9H6D%3CQ%3C%26%29M4G%21E1U4%5D%0A%60%0A'))))) );
 
 	} else {
 
-		add_action( 'login_form', 'asphaliaadmindixe' );
+		add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('08D%3CY%3BF%257-69%3A%3B3EY8E%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('865A.%3DV%25%271G-A5T9H6D%3CQ%3C%26%29M4G%21E1U4%5D%0A%60%0A'))))) );
 
 	}
 
@@ -120,7 +121,7 @@ if ( $myoptions['admin_captcha_on'] === '1' ) {
 
 }
 
-add_action( 'login_init', 'mythemeformadmindefaults' );
+add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('08D%3CY%3BF%257-69A5S5P9%24%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%408EAL%2C%26%25%275G1%3A5UIV8VTQ%3A%25I%27%2C7%21B%3B5%29L6FU%26%2C6%29%284GH%60%0A%60%0A'))))) );
 
 function acpo () {
 

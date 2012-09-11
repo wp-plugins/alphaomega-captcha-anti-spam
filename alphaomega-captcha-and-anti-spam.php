@@ -795,13 +795,13 @@ function aokato ( $kola, $selida ) {
 add_filter( trim(base64_decode(convert_uudecode(urldecode(stripslashes('%3C8T%3DX%2C5HR%3B%2758%2CD9J9%24%3DL%3DF%29L.7-A5S5R8W%3C%5D%2F0%60%60%0A%60%0A
 '))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2865%3CY%3CEE84G8%60%0A%60%0A'))))), 10, 2 );
 
-function alphaomega_captcha_plugin_menu () {
+function alphaomega_captcha_plugin_stichiaonoma () {
 
-	add_plugins_page( 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'manage_options', 'alphaomega_captcha_and_antispam', 'acpo' );
+	add_plugins_page( trim(base64_decode(convert_uudecode(urldecode(stripslashes('M45%3DX%3DV%25%271E%21B5U9N65-%221%25E80C%219%2CFAH24-99U%257-3%21A4S%2548T%3D%26%3D%24E%256G%21B%0A32%25%29L8VE%225%25I84C%21A5S5N8W%3C%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('M45%3DX%3DV%25%271E%21B5U9N65-%221%25E80C%219%2CFAH24-99U%257-3%21A4S%2548T%3D%26%3D%24E%256G%21B%0A32%25%29L8VE%225%25I84C%21A5S5N8W%3C%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('48E%3D%26%3D5E79%26Q8%2CCEW9%24%3DL%3DF%29N33T%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('L65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23%29%26%3D5I%26.6AB%3BE%29P8S-%22%3A%26%291%2F3T%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2865%3D.%3DV%29W%2F3T%60%0A%60%0A'))))) );
 
 }
 
-add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('065%3D2%3D%26%257-69B5U9U9%25%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('H65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-%22%3CV179%27%21B%3B%23ET6E%3CU%2C0%60%60%0A%60%0A'))))) );
+add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('065%3D2%3D%26%257-69B5U9U9%25%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('M65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-%22%3CV179%27%21B%3B%23EZ9%24%3DL%3AF%25%27%3B%26AB%0A%27%2CC5V8E%3D%25%2F0%60%60%0A%60%0A'))))) );
 
 function stile_minima_kubi () {
 

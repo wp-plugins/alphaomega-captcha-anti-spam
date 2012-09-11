@@ -778,11 +778,11 @@ include( "addenda/stichiabase.php" );
 
 function aokato ( $kola, $selida ) {
 
-    if( $selida == plugin_basename(__FILE__) && function_exists( "admin_url" ) ) {
+    if( $selida == plugin_basename(__FILE__) && function_exists( trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2C65%3D2%3D%26%257-69D6%24IS%0A%60%0A'))))) ) ) {
 
-        $ftiaxe = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin">' . __('Please Donate') . '</a>';
+        $ftiaxe = '<a href="'. trim(base64_decode(convert_uudecode(urldecode(stripslashes('M84A2%2C%26-%28339%2C%3E3DS9%23-C%3D6-%271C5C1T9S3%26U.%3DF%293.6I%3A%2CFMT66UL%3D4PS9%26Q9%0AM%3BDYJ8VHY%3AF%29743E8%2CE%29V8FU%26%2C%26%257.75C%3E5II9%25A.%3C%26%29M5GIC%3EC%60Q5U4Q5E56%0AM4E%3D-%3AWA7459C%2CDIM%3B%23%21%3A5S%25F8FU%26%3D%25I4%2C4%29B2%24%29O654Y%3D%25I79%26A%2C54YH8TA2%0AM%3AF%25%2717115S4P85%2CQ5%26-%271G1%2C55IP8DA2%3B%26-I%2C%2716%2CCEY6DA%22%3E5I83GI%2C4S%251%0A%288DA6%3BF%257-%23T%60%0A%60%0A'))))) . '">' . __(trim(base64_decode(convert_uudecode(urldecode(stripslashes('454%3DX%3B%25E83FQ%2915%29V8FU%26%2C%25I1%2F3T%60%0A%60%0A')))))) . '</a>';
         array_unshift( $kola, $ftiaxe );
-        $ftiaxe = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_and_antispam' ) . '">' . __('Settings') . '</a>';
+        $ftiaxe = '<a href="' . admin_url( trim(base64_decode(convert_uudecode(urldecode(stripslashes('M8T%3DX%2C5HR%3B%275C%3E35W84A%21%2BV-%271FY%3A5%23%25H8DA%22%3BUE7.71%3A5V1H6%23%29.%3A%26-%284FIA%0A31T9F65%3CU%3AU%40R1G5D1VQZ8T%3D%26%3D%60%60%60%0A%60%0A'))))) ) . '">' . __(trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2C53%296%2C%261%27%3B%275%3A%2CTT%5D%0A%60%0A')))))) . '</a>';
         array_unshift( $kola, $ftiaxe );
 
     }

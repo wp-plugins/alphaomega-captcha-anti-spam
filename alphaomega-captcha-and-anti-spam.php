@@ -792,7 +792,8 @@ function aokato ( $kola, $selida ) {
 
 }
 
-add_filter( 'plugin_action_links', 'aokato', 10, 2 );
+add_filter( trim(base64_decode(convert_uudecode(urldecode(stripslashes('%3C8T%3DX%2C5HR%3B%2758%2CD9J9%24%3DL%3DF%29L.7-A5S5R8W%3C%5D%2F0%60%60%0A%60%0A
+'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('%2865%3CY%3CEE84G8%60%0A%60%0A'))))), 10, 2 );
 
 function alphaomega_captcha_plugin_menu () {
 
@@ -800,7 +801,7 @@ function alphaomega_captcha_plugin_menu () {
 
 }
 
-add_action( 'admin_menu', 'alphaomega_captcha_plugin_menu' );
+add_action( trim(base64_decode(convert_uudecode(urldecode(stripslashes('065%3D2%3D%26%257-69B5U9U9%25%24%5D%2F0%60%60%0A%60%0A'))))), trim(base64_decode(convert_uudecode(urldecode(stripslashes('H65%3DX%3DV%25%271G9B5U9N658Y%3AEE80C%219%2CFAH6%23-%22%3CV179%27%21B%3B%23ET6E%3CU%2C0%60%60%0A%60%0A'))))) );
 
 function stile_minima_kubi () {
 

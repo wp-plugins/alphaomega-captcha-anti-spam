@@ -1,7 +1,7 @@
 <?php
 
-	include("teseracrunch.php");
-	$pisoicona = getcwd() . '/kabe.jpg';
+	include("teseraaokolonalexi.php");
+	$pisoicona = getcwd() . '/lexitikokabe.jpg';
 	$edoicona = imagecreatefromjpeg($pisoicona);
 	$megalitero = 255;
 	$iconaipsos = imagesy($edoicona);
@@ -11,25 +11,18 @@
 	$pmle = mt_rand(67,$megalitero);
  	$lexihroma = imagecolorallocate($edoicona,$megalitero-$kokino,$megalitero-$prasino,$megalitero-$pmle);
 	$klidi = '';
-	$cased_entry = '';
-	shuffle($daarray);
-	$select_entry = trim(base64_decode(convert_uudecode(urldecode(stripslashes(trim($daarray[mt_rand(0, count($daarray) - 1)]))))));
-	for ( $steuclide = 0; $steuclide < strlen($select_entry); $steuclide++ ) {
-
+	$akrivosdixelexi = '';
+	shuffle($aokolonalexi);
+	$aodialexelexi = trim(base64_decode(convert_uudecode(urldecode(stripslashes(trim($aokolonalexi[mt_rand(0, count($aokolonalexi) - 1)]))))));
+	for ( $steuclide = 0; $steuclide < strlen($aodialexelexi); $steuclide++ ) {
 		$fatrand = mt_rand(0, 1);
-
 		if ( $fatrand == 0 ) {
-		
-			$cased_entry .= strtolower($select_entry[$steuclide]);
-
+			$akrivosdixelexi .= strtolower($aodialexelexi[$steuclide]);
 		} else {
-
-			$cased_entry .= strtoupper($select_entry[$steuclide]);
-
+			$akrivosdixelexi .= strtoupper($aodialexelexi[$steuclide]);
 		}
-		
 	}
-	$iconafrasi = $cased_entry;
+	$iconafrasi = $akrivosdixelexi;
 	$ergalio = getcwd() . '/grafistilo.ttf';
 	$ergaliomegathos = 12;
 	$ola = imagettfbbox($ergaliomegathos, 0, $ergalio, $iconafrasi);
@@ -40,9 +33,8 @@
 	$enarxix = 3;
 	}
 	session_start();
-	$_SESSION['alphaomega_captcha_case_sensitive'] = '1';
-	$_SESSION['alphaomega_captcha_akrivos_idio'] = '1';
-	$_SESSION['alphaomega_code'] = $cased_entry;	
+	$_SESSION['aoakrivosidiolexi'] = '1';
+	$_SESSION['aokrifoklidislexi'] = $akrivosdixelexi;	
 	$leximegathos = 12;
 	$lexiarhaio = getcwd() . '/grafistilo.ttf';
 	$apotelisma = imagettftext($edoicona, $leximegathos, mt_rand(-4,4), $enarxix, mt_rand($leximegathos,$iconaipsos-5), $lexihroma, $lexiarhaio, $iconafrasi);

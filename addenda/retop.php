@@ -1,8 +1,8 @@
 <?php
 
-if ( get_option( 'alphaomega_captcha_settings' ) !== FALSE ) {
+if ( get_option( 'aostichia' ) !== FALSE ) {
 
-	$myoptions = get_option( 'alphaomega_captcha_settings' );
+	$myoptions = get_option( 'aostichia' );
 
 } 
 

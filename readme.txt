@@ -1,21 +1,21 @@
 === AlphaOmega Captcha & Anti-Spam Filter ===
 Contributors: alphaomegaplugins
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--Wordpress--Plugin
-Tags: captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, キャプチャ, login, junk mail, alphaomega, alpha omega, スパム, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文, block, block spam
+Tags: akismet, captcha, spam, anti-spam, filter, security, attacks, comments, admin, log in, キャプチャ, login, junk mail, alphaomega, alpha omega, スパム, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文, block, block spam, 迷惑メール
 Requires at least: 3.4.1
 Tested up to: 3.4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Creates Visually Appealing Captcha Images to Enhance and Secure your WordPress Comment/Log-In Forms. Also includes Anti-Spam Protection.
+Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Log-In page. Fortified with Anti-Spam Filter Protection.
 
 
 == Description ==
 
 The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
 
-This plugin can also thwart automated attacks against your **Admin Log In** page.
+This plugin can also thwart automated attacks against your **Admin Log In** page. The plugin can be employed flawlessly with Akismet to provide enhanced security features.
 
 Several **Captcha Types** are available, including:
 
@@ -23,17 +23,21 @@ Several **Captcha Types** are available, including:
 * **Captcha Mathematica**
 * **Captcha Artistica**
 * **Captcha Cinematica**
-* **Captcha Litera-cha**
+* **Captcha Literacha**
 * **Captcha Scientifica**
 * **Captcha Historica**
-* **Captcha Computica**
+* **Captcha Acronymica**
 * **Captcha Musica**
 * **Captcha Geographica**
 * **Captcha Numerica**
 * **Captcha Sportica**
+* **Captcha Directa**
+* **Captcha Fashionica**
+* **Captcha Economica**
+* **Captcha Gastronomica**
 
 
-Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you** - thus saving you time by automatically stopping these annoying spam-related Comments and E-mails.
+Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam-related Comments and E-mails from cluttering your Wordpress installation.
 
 
 
@@ -66,8 +70,8 @@ Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-
  - A variant of the customary captcha that requires the user to enter the title of a well-known film.
 
 
-**Captcha Litera-cha**
- - A variant of the traditional captcha that requires the user to enter the name of the writer who wrote the work shown in the captcha.
+**Captcha Literacha**
+ - A prosaic form of the traditional captcha that requires the user to enter the name of the writer responsible for the work shown in the captcha.
 
 
 **Captcha Scientifica**
@@ -78,8 +82,8 @@ Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-
 An alteration of the familiar captcha that requires the user to enter the name of a famous historical figure.
 
 
-**Captcha Computica**
- - An instantiation of a captcha that requires the user to enter the words represented by a common computer acronym.
+**Captcha Acronymica**
+ - An instantiation of a captcha that requires the user to enter the words represented by a common acronym.
 
 
 **Captcha Musica**
@@ -96,6 +100,22 @@ An alteration of the familiar captcha that requires the user to enter the name o
 
 **Captcha Sportica**
  - A winning captcha that requires the user to enter the name of the sport practiced by the individual shown in the captcha.
+
+
+**Captcha Directa**
+ - The debut of a unique captcha genre that requires the user to enter the name of the film director responsible for the film shown in the captcha.
+
+
+**Captcha Fashionica**
+ - A stylish captcha that requires the user to enter the name of the fashion term or item depicted in the captcha.
+
+
+**Captcha Economica**
+ - A foreign exchange captcha that requires the user to name the country associated with the currency shown in the captcha.
+
+
+**Captcha Gastronomica**
+ - A delectable captcha that requires the user to name the country of origin of the food item shown in the captcha.
 
 
 
@@ -177,6 +197,10 @@ The plugin has been tested with a variety of WordPress Themes, some of which are
 
 The plugin should operate flawlessly with most earlier WordPress versions, however, we recommend that you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
 
+= Can I use the plugin with Akismet? =
+
+Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-screening of user-posted comments by employing a combination of customizable captchas and Spam Filter protection. You also have the option of either employing the captcha functionality alone or the Spam Filter alone. Regardless of your choice, the plugin can be employed with Akismet to give you added security.
+
 = How can I file a bug or give feedback? =
 
 To file a bug or provide us with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
@@ -184,22 +208,25 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. Screenshot-1.gif shows the variety of captcha types that can be displayed on your WordPress Comment and Admin Log-In forms.
+1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress Comment Form and Admin Log-In page. Fpr a description concerning how these different captchas types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
 
-2. Screenshot-2.gif shows the different captcha positions possible for display on your WordPress Comment form.
+2. The above screenshot shows the different captcha positions possible for display on your WordPress Comment form.
 
-3. Screenshot-3.gif shows the position of the captcha on your WordPress Admin Log-In page.
+3. The above screenshot shows the position of the captcha on your WordPress Admin Log-In page.
 
-4. Screenshot-4.gif shows the Spam Filter options of the Settings panel. 
+4. The above screenshot shows the Spam Filter options of the Settings panel. 
 
-5. Screenshot-5.gif shows the Settings panel options that allow you to configure a customized message to spammers.
+5. The above screenshot shows the Settings panel options that allow you to configure a customized message to spammers.
 
 
 == Changelog ==
 
-= 1.4 =
+= 1.5 =
 
-- Minor Text Modifications Enacted
+- captcha types incremented
+- anomalous captcha display (where detected) rectified
+- included broader acceptable user captcha input responses where appropriate
+- various screenshots modified
 
 == Upgrade Notice ==
 

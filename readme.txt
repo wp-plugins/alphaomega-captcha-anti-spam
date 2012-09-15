@@ -199,7 +199,7 @@ The plugin should operate flawlessly with most earlier WordPress versions, howev
 
 = Can I use the plugin with Akismet? =
 
-Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-screening of user-posted comments by employing a combination of customizable captchas and Spam Filter protection. You also have the option of either employing the captcha functionality alone or the Spam Filter alone. Regardless of your choice, the plugin can be employed with Akismet to give you added security.
+Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-screening of user-posted comments by employing a combination of customizable captchas and Spam Filter protection. You also have the option of employing either the captcha functionality alone or the Spam Filter alone. Regardless of your choice, the AlphaOmega Captcha & Anti-Spam Filter plugin can be used with Akismet to give you added security.
 
 = How can I file a bug or give feedback? =
 

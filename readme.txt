@@ -49,7 +49,7 @@ Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-
 
 * Multiple captcha positions are possible on your WordPress **Comment** form.
 
-* Captcha images are clean, legible, visually appealing, and interesting, thus enhancing the look of your WordPress posts.
+* Captcha images are clean, legible, visually appealing and interesting, thus enhancing the look of your WordPress posts.
 
 * A variety of captcha images are available for use, including:
 

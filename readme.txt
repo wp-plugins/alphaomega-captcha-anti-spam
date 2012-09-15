@@ -208,7 +208,7 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress Comment Form and Admin Log-In page. Fpr a description concerning how these different captchas types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
+1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress Comment Form and Admin Log-In page. Fpr a description concerning how these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
 
 2. The above screenshot shows the different captcha positions possible for display on your WordPress Comment form.
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: AlphaOmega Captcha & Anti-Spam Filter
 Plugin URI: http://alphaomegaplugins.com
-Description: Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Log-In page. Fortified with Anti-Spam Filter Protection.
+Description: Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Admin Log-In. Fortified with Anti-Spam Filter Protection.
 Version: 1.5
 Author: AlphaOmega Plugins
 Author URI: http://alphaomegaplugins.com

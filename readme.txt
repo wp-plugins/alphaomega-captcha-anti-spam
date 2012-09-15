@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Log-In page. Fortified with Anti-Spam Filter Protection.
+Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Admin Log-In. Fortified with Anti-Spam Filter Protection.
 
 
 == Description ==

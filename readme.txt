@@ -37,9 +37,9 @@ Several **Captcha Types** are available, including:
 * **Captcha Gastronomica**
 
 
-Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam-related Comments and E-mails from cluttering your Wordpress installation.
+Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam Comments and E-mails from cluttering your Wordpress installation.
 
-You can create your own **Custom Anti-Spam Filter List** to block all spam-related Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
+You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. You have the option of filtering any of the Comment Form elements for spam, including Name, E-mail, URL, and Comment/Message.
 
 
 
@@ -209,15 +209,15 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress Comment Form and Admin Log In area. For a description concerning the nature by which these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
+1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress **Comment** Form and Admin Log In area. For a description concerning the nature by which these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
 
-2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress Comment Form. Top (T), Middle (M) or Bottom (B) positions can be selected.
+2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress **Comment** Form. Top (T), Middle (M) or Bottom (B) positions can be selected.
 
-3. The above screenshot shows an example of the captcha position on your WordPress Admin Log In area. Placing a captcha here can significantly block automated log in attempts.
+3. The above screenshot shows an example of the captcha position on your WordPress **Admin Log In** area. Placing a captcha here can significantly block automated log in attempts.
 
-4. The above screenshot shows the Anti-Spam Filter options of the Settings panel. You can create your own Custom Anti-Spam Filter List to block all spam-related Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
+4. The above screenshot shows the **Anti-Spam Filter** options of the AlphaOmega Captcha & Anti-Spam Filter WordPress Settings panel. You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
 
-5. The above screenshot shows the Anti-Spam Filter options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
+5. The above screenshot shows the **Anti-Spam Filter** options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
 
 
 == Changelog ==

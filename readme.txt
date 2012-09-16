@@ -182,7 +182,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin at no charge. If, however, you find that this plugin helps to block your Comment Form spam and enhance the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
+Absolutely. You are free to use this plugin at no charge. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
 
 = How can I donate? =
 

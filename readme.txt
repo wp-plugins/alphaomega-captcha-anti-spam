@@ -186,9 +186,11 @@ Absolutely. You are free to use this plugin at no charge. If, however, you find 
 
 = How can I donate? =
 
-You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard. Thank you for your kind support.
+You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
 
 Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
+
+Thank you for your kind support.
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 

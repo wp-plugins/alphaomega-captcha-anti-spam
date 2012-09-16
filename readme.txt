@@ -182,11 +182,11 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin at no charge. A small donation, however, would be greatly appreciated if you use the plugin and find that it helps to enhance your WordPress posts and reduce spam-related Comments.
+Absolutely. You are free to use this plugin at no charge. If, however, you find that the AlphaOmega Captcha & Anti-Spam Filter plugin helps to block spam from being sent to you from your web site, and that the captcha functionality enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with even more great features.
 
 = How can I donate? =
 
-You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
+You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard. Thank you for your kind support.
 
 Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 

@@ -209,9 +209,9 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress **Comment** Form and Admin Log In area. For a description concerning the nature by which these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
+1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress **Comment Form** and **Admin Log In** area. For a description concerning the nature by which these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
 
-2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress **Comment** Form. Top (T), Middle (M) or Bottom (B) positions can be selected.
+2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress **Comment Form**. Top (T), Middle (M) or Bottom (B) positions can be selected.
 
 3. The above screenshot shows an example of the captcha position on your WordPress **Admin Log In** area. Placing a captcha here can significantly block automated log in attempts.
 

@@ -182,7 +182,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin at no charge. If, however, you find that the AlphaOmega Captcha & Anti-Spam Filter plugin helps to block spam from being sent to you from your web site, and that the captcha functionality enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with even more great features.
+Absolutely. You are free to use this plugin at no charge. If, however, you find that this plugin helps to block your Comment Form spam and enhance the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
 
 = How can I donate? =
 
@@ -211,7 +211,7 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Screenshots ==
 
-1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress **Comment Form** and **Admin Log In** area. For a description concerning the nature by which these different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
+1. The above screenshot shows the variety of captcha types that can be displayed on your WordPress **Comment Form** and **Admin Log In** area. For a description concerning the manner by which the different captcha types operate, please see the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
 
 2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress **Comment Form**. Top (T), Middle (M) or Bottom (B) positions can be selected.
 

@@ -212,11 +212,11 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 2. The above screenshot shows examples of the different captcha positions possible for display on your WordPress Comment Form. Top (T), Middle (M) or Bottom (B) positions can be selected.
 
-3. The above screenshot shows an example of the position of the captcha on your WordPress Admin Log In area. Placing a captcha here can significantly block automated log in attempts.
+3. The above screenshot shows an example of the captcha position on your WordPress Admin Log In area. Placing a captcha here can significantly block automated log in attempts.
 
-4. The above screenshot shows the Anti-Spam Filter options of the Settings panel. You can create your own Custom Anti-Spam Filter List to block all spam-related Comments from being sent to you.
+4. The above screenshot shows the Anti-Spam Filter options of the Settings panel. You can create your own Custom Anti-Spam Filter List to block all spam-related Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
 
-5. The above screenshot shows the Anti-Spam options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
+5. The above screenshot shows the Anti-Spam Filter options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
 
 
 == Changelog ==

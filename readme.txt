@@ -39,15 +39,17 @@ Several **Captcha Types** are available, including:
 
 Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam-related Comments and E-mails from cluttering your Wordpress installation.
 
+You can create your own **Custom Anti-Spam Filter List** to block all spam-related Comments from being sent to you. You can enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
+
 
 
 **Features:**
 
-* Captcha functionality can be placed on your WordPress **Comment** form and WordPress **Admin Log In** page.
+* Captcha functionality can be placed on your WordPress **Comment** Form and WordPress **Admin Log In** page.
 
-* Customizable **Anti-Spam Filter** allows you to block spam-related Comments.  
+* Customizable **Anti-Spam Filter** allows you to completely block spam-related Comments.  
 
-* Multiple captcha positions are possible on your WordPress **Comment** form.
+* Multiple captcha positions are possible on your WordPress **Comment** Form.
 
 * Captcha images are clean, legible, visually appealing and interesting, thus enhancing the look of your WordPress posts.
 
@@ -148,8 +150,7 @@ Requirements:
       - Twenty Eleven
       - Twenty Ten
       - zBench
-
-	and many more ...
+      - and many more ...
 
 
 == Installation ==

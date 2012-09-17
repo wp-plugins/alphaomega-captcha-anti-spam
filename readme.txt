@@ -182,7 +182,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Yes. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
+Yes. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features.
 
 = How can I donate? =
 
@@ -198,7 +198,7 @@ The plugin has been tested with a variety of WordPress Themes, some of which are
 
 = I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
 
-The plugin should operate flawlessly with most earlier WordPress versions, although we recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
+The plugin should operate flawlessly with most earlier WordPress versions, although I recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
 
 = Can I use the plugin with Akismet? =
 
@@ -206,7 +206,7 @@ Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-scre
 
 = How can I file a bug or give feedback? =
 
-Your feedback is greatly appreciated and encourages us to continue with our efforts to provide a plugin with improved utilitarian value. To file a bug or provide us with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
+Your feedback is greatly appreciated and encourages me to continue with my efforts to provide a plugin with improved utilitarian value. To file a bug or provide me with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
 
 
 == Screenshots ==

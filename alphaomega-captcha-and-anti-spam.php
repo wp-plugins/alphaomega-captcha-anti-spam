@@ -34,13 +34,13 @@ if ( $myoptions['dixeminimaticho'] === '1' ) {
 
 	}
 
-	if ( $myoptions['minimatichotopos'] === '3' ) {
+	if ( $myoptions['minimatichotopos'] === '1' || $myoptions['minimatichotopos'] === '2' ) {
 
-		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
+		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
 
 	} else { 
 
-		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
+		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
 
 		}
 

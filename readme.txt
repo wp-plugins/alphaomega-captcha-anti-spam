@@ -155,7 +155,7 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from WordPress, unpack the zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
+1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, download the 'alphaomega-captcha-anti-spam.zip' file from [WordPress](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) - the download link is the red button located at approximately one o'clock on the WordPress AlphaOmega Captcha & Anti-Spam Filter plugin site, with the text 'Download Version x.y' printed on the button, where x.y refers to the latest plugin version number. Unpack the downloaded zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into the '/wp-content/plugins/' directory.
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
@@ -182,7 +182,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin at no charge. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
+Yes. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then we would greatly appreciate a small donation to help us further develop the plugin and provide you with additional features.
 
 = How can I donate? =
 

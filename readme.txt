@@ -198,7 +198,7 @@ The plugin has been tested with a variety of WordPress Themes, some of which are
 
 = I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
 
-The plugin should operate flawlessly with most earlier WordPress versions, however, we recommend that you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
+The plugin should operate flawlessly with most earlier WordPress versions, although we recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
 
 = Can I use the plugin with Akismet? =
 

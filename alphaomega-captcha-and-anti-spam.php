@@ -11,6 +11,13 @@ License: GPL2
 
 session_start();
 
+if ( get_option( 'aostichia' ) === FALSE ) {
+
+	include( "addenda/defstichia.php" );
+	update_option( 'aostichia', $myoptions );
+
+}
+
 function asphaliaminimadixe () {
 
 session_start();

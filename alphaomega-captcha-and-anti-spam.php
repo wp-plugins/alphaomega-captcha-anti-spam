@@ -124,6 +124,13 @@ add_action( 'login_init', 'asphaliastichiatoposepanomesikato' );
 
 function acpo () {
 
+if ( get_option( 'aostichia' ) === FALSE ) {
+
+	include( "addenda/defstichia.php" );
+	update_option( 'aostichia', $myoptions );
+
+}
+
 include_once "addenda/retop.php";
 
 $stichiakubiapantisme = '';

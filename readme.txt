@@ -224,12 +224,9 @@ To file a bug or provide us with feedback, please use the following [link](http:
 
 == Changelog ==
 
-= 1.5 =
+= 1.6 =
 
-- captcha types incremented
-- anomalous captcha display (where detected) rectified
-- included broader acceptable user captcha input responses where appropriate
-- various screenshots modified
+- text modifications
 
 == Upgrade Notice ==
 

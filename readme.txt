@@ -15,7 +15,7 @@ Provides Visually Appealing Captchas to Enhance and Secure your WordPress Commen
 
 The **AlphaOmega Captcha & Anti-Spam Filter** plugin is an effective and simple-to-use WordPress plugin that blocks spam and filters posted user **Comments** for inappropriate content.
 
-This plugin can also thwart automated attacks against your **Admin Log In** page. Furthermore, the plugin can be employed flawlessly with Akismet to provide enhanced security features.
+This plugin can also thwart automated attacks against your **Admin Log In** area. Furthermore, the plugin can be employed flawlessly with Akismet to provide enhanced security features.
 
 Several **Captcha Types** are available, including:
 
@@ -45,7 +45,7 @@ You can create your own **Custom Anti-Spam Filter List** to block all spam Comme
 
 **Features:**
 
-* Captcha functionality can be placed on your WordPress **Comment** Form and WordPress **Admin Log In** page.
+* Captcha functionality can be placed on your WordPress **Comment** Form and WordPress **Admin Log In** area.
 
 * Customizable **Anti-Spam Filter** allows you to completely block spam-related Comments.  
 
@@ -186,9 +186,9 @@ Absolutely. You are free to use this plugin at no charge. If, however, you find 
 
 = How can I donate? =
 
-You can donate by visiting the donate link located at the top of the AlphaOmega Captcha & Anti-Spam Filter Settings panel. To view the AlphaOmega Captcha & Anti-Spam Filter Settings panel, click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' item located below the WordPress 'Plugins' menu item located on the left-most column of your Wordpress Dashboard.
+Once you have installed the AlphaOmega Captcha & Anti-Spam Filter plugin, you can donate by visiting the donate link located at the top of the plugin Settings panel. To view the plugin Settings panel, click the 'Settings' link located beneath the 'AlphaOmega Captcha & Anti-Spam Filter' item in the list of currently installed plugins, or click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' link located below the WordPress 'Plugins' menu item on the left column of your Wordpress Dashboard.
 
-Alternatively, you may wish to donate [here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
+Alternatively, you may wish to [donate here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 
 Thank you for your kind support.
 

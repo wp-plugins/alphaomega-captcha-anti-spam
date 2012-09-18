@@ -45,11 +45,11 @@ You can create your own **Custom Anti-Spam Filter List** to block all spam Comme
 
 **Features:**
 
-* Captcha functionality can be placed on your WordPress **Comment** Form and WordPress **Admin Log In** area.
+* Captcha functionality can be placed on your WordPress **Comment Form** and WordPress **Admin Log In** area.
 
 * Customizable **Anti-Spam Filter** allows you to completely block spam-related Comments.  
 
-* Multiple captcha positions are possible on your WordPress **Comment** Form.
+* Multiple captcha positions are possible on your WordPress **Comment Form**.
 
 * Captcha images are clean, legible, visually appealing and interesting, thus enhancing the look of your WordPress posts.
 
@@ -159,7 +159,7 @@ Requirements:
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
-3. Installing Upgrades: To upgrade from versions 1.0 ~ 1.4, you must first 'Deactivate' and 'Delete' your current plugin prior to installing the latest version as described above in Step 1. For other versions, when you receive automatic notification by WordPress of an upgrade, select to install the upgrade when prompted.
+3. Installing Upgrades: To upgrade from versions 1.0 ~ 1.4, you must first 'Deactivate' and then 'Delete' your current plugin prior to installing the latest version as described above in Step 1. For other versions, when you receive automatic notification by WordPress of an upgrade, select to install the upgrade when prompted.
 
 
 == Configuration / Settings ==
@@ -217,7 +217,7 @@ Your feedback is greatly appreciated and encourages me to continue with my effor
 
 3. The above screenshot shows an example of the captcha position on your WordPress **Admin Log In** area. Placing a captcha here can significantly block automated log in attempts.
 
-4. The above screenshot shows the **Anti-Spam Filter** options of the AlphaOmega Captcha & Anti-Spam Filter WordPress Settings panel. You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked.
+4. The above screenshot shows the **Anti-Spam Filter** options of the AlphaOmega Captcha & Anti-Spam Filter WordPress Settings panel. You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. Comment Form **Name**, **E-mail**, **URL** and **Comment**/**Message** elements can be filtered for inappropriate content.
 
 5. The above screenshot shows the **Anti-Spam Filter** options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
 

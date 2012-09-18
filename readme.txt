@@ -182,7 +182,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Yes. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features.
+Absolutely. You are free to use this plugin on your personal WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. Any small change you can spare would be of tremendous help. Thank you.
 
 = How can I donate? =
 
@@ -217,7 +217,7 @@ Your feedback is greatly appreciated and encourages me to continue with my effor
 
 3. The above screenshot shows an example of the captcha position on your WordPress **Admin Log In** area. Placing a captcha here can significantly block automated log in attempts.
 
-4. The above screenshot shows the **Anti-Spam Filter** options of the AlphaOmega Captcha & Anti-Spam Filter WordPress Settings panel. You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. Comment Form **Name**, **E-mail**, **URL** and **Comment**/**Message** elements can be filtered for inappropriate content.
+4. The above screenshot shows the **Anti-Spam Filter** options of the AlphaOmega Captcha & Anti-Spam Filter WordPress Settings panel. You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. All Comment Form elements including **Name**, **E-mail**, **URL** and **Comment**/**Message** can be filtered for inappropriate content.
 
 5. The above screenshot shows the **Anti-Spam Filter** options that allow you to configure a customized message shown to spammers when their spam-related Comment is blocked from being sent to you. A polite message is advisable.
 

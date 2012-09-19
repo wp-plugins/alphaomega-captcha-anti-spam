@@ -1,6 +1,5 @@
 <?php
 
-$stichiaarithmo = ' &ndash; Version 1.6';
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter 設定';
 $predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 効果的であり、ユーザー コメント不適切なコンテンツを簡単に使用できるキャプチャとスパム（迷惑メール）・ フィルターをブロックするスパム対策のプラグイン。このプラグインは、管理ログでページの自動攻撃も阻止できます。<div style="padding-top:10px;">以下に示す既定の設定は高レベルのスパムや悪意のある管理者ログイン ページの攻撃に対する保護を提供します。また、追加のカスタマイズされたプラグインの動作をする場合の既定の設定を調整するオプションがあります。';
 $donatetitle = '寄付をご検討下さい';

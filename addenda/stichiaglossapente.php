@@ -1,6 +1,5 @@
 <?php
 
-$stichiaarithmo = ' &ndash; Version 1.6';
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter 設置';
 $predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 是一個有效的和使用簡單的驗證碼和阻止垃圾郵件和篩選器的反垃圾郵件外掛程式發佈不良內容的使用者注釋。此外掛程式還可以阻礙您管理日誌中的頁面自動的攻擊。<div style="padding-top:10px;">如下所示的預設設置為提供高級別保護免受垃圾郵件和惡意管理員登錄頁面的攻擊。您還可以調整預設的設置，如果您想附加自訂的外掛程式行為的選項。';
 $donatetitle = '請考慮捐贈';

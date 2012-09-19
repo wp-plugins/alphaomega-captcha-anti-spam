@@ -1,6 +1,5 @@
 <?php
 
-$stichiaarithmo = ' &ndash; Version 1.6';
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter Settings';
 $predonate = 'The <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin is an effective and simple-to-use captcha and anti-spam plugin that blocks spam and filters posted user comments for inappropriate content. This plugin can also thwart automated attacks against your Admin Log In area.<div style="padding-top:10px;">The default settings shown below provide a high level of protection against spam and malicious Admin Log In page attacks. You also have the option of adjusting the default settings if you want additional customized plugin behavior.';
 $donatetitle = 'Please Consider Donating';

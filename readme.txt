@@ -135,18 +135,24 @@ Requirements:
    *  Tested with a variety of WordPress Themes, including:
 
       - Annotum Base
+      - Asokay
       - Black with Orange
       - Buttercream
       - Easel
       - Esquire
       - Hatch
       - Hero
+      - Lagom
+      - Montezuma
       - my depressive
       - News
       - PageLines
+      - Pinboard
       - Responsive
+      - Skylark
       - Sliding Door
       - Suffusion
+      - Toolbox
       - Twenty Eleven
       - Twenty Ten
       - zBench
@@ -182,7 +188,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin on your personal WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. Any small change you can spare would be of tremendous help. Thank you.
+Absolutely. You are free to use this plugin on your personal WordPress site or blog. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a [small donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin) to help me further develop the plugin and provide you with additional features. Any small change you can spare would be of tremendous help. Thank you. Felicity
 
 = How can I donate? =
 
@@ -190,11 +196,11 @@ Once you have installed the AlphaOmega Captcha & Anti-Spam Filter plugin, you ca
 
 Alternatively, you may wish to [donate here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 
-Thank you for your kind support.
+I thank you for your kind support. Felicity
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 
-The plugin has been tested with a variety of WordPress Themes, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. The best way to determine compatibility is to install the plugin and try it. Note that some Themes may display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the manner in which the Theme's style or format has been coded.
+The plugin has been tested with a variety of Themes available from the WordPress Themes repository, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the layout of the Theme being used.
 
 = I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
 

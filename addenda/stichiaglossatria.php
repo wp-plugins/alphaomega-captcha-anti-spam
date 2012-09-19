@@ -76,6 +76,6 @@ $stepsavesavekubi = 'Αποθηκεύστε τις αλλαγές';
 $stepsaverestoredefaultkubi = 'Επαναφέρετε τις προεπιλεγμένες ρυθμίσεις';
 $stepfeedback = 'Σχόλια';
 $stepfeedbackpreshpeel = 'Τα σχόλιά σας θα εκτιμούσαμε.<p>Εάν έχετε κάποιες σκέψεις σχετικά με τη χρήση των το WordPress plugin, συμπεριλαμβανομένων προτάσεων για βελτιώσεις, κάντε κλικ στο κουμπί <span style="letter-spacing:1.2px;color:#000080;">Σχόλια</span>.</p>';
-$stepfeedbackpostshpeel = 'Ευχαριστούμε που χρησιμοποιείτε το <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>. Felicity';
+$stepfeedbackpostshpeel = 'Ευχαριστούμε που χρησιμοποιείτε το <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>.';
 
 ?>

@@ -4,7 +4,7 @@ $stichiaarithmo = ' &ndash; Version 1.6';
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter Settings';
 $predonate = 'The <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin is an effective and simple-to-use captcha and anti-spam plugin that blocks spam and filters posted user comments for inappropriate content. This plugin can also thwart automated attacks against your Admin Log In area.<div style="padding-top:10px;">The default settings shown below provide a high level of protection against spam and malicious Admin Log In page attacks. You also have the option of adjusting the default settings if you want additional customized plugin behavior.';
 $donatetitle = 'Please Consider Donating';
-$donateshpeel = 'You are free to use the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin on your personal WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. Any small change you can spare would be of tremendous help. Thank you for your kind support. Felicity';
+$donateshpeel = 'You are free to use the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin on your personal WordPress site or blog. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. I thank you for your kind support.';
 $donateinput = '<input type="hidden" name="country" value="US" ><input type="hidden" name="item_name" value="Donation for AlphaOmega Captcha & Anti-Spam Filter Plugin"><input type="hidden" name="currency_code" value="USD">';
 $donatekubitext = 'Please Donate';
 $donateoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;Other &nbsp;</option>';
@@ -76,6 +76,6 @@ $stepsavesavekubi = 'Save Changes';
 $stepsaverestoredefaultkubi = 'Restore Default Settings';
 $stepfeedback = 'Feedback';
 $stepfeedbackpreshpeel = 'Your feedback would be greatly appreciated.<p>If you have any thoughts concerning the use of this WordPress plugin, including suggestions on improvements, please click the <span style="letter-spacing:1.2px;color:#000080;">Feedback</span> button below.</p>';
-$stepfeedbackpostshpeel = 'Thank you for using the <strong>AlphaOmega Captcha & Anti-Spam Filter</strong> plugin. Felicity';
+$stepfeedbackpostshpeel = 'Thank you for using the <strong>AlphaOmega Captcha & Anti-Spam Filter</strong> plugin.';
 
 ?>

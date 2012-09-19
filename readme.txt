@@ -188,7 +188,7 @@ The AlphaOmega Captcha & Anti-Spam Filter plugin provides support in a variety o
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin on your personal WordPress site or blog. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. Thank you.
+Absolutely. You are free to use this plugin on your WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would greatly appreciate a small donation to help me further develop the plugin and provide you with additional features. Thank you.
 
 = How can I donate? =
 
@@ -196,7 +196,7 @@ Once you have installed the AlphaOmega Captcha & Anti-Spam Filter plugin, you ca
 
 Alternatively, you may wish to [donate here](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin)
 
-I thank you for your kind support.
+Thank you for your kind support.
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 

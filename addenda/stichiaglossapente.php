@@ -74,6 +74,6 @@ $stepsavesavekubi = '保存更改';
 $stepsaverestoredefaultkubi = '還原預設設置';
 $stepfeedback = '回饋';
 $stepfeedbackpreshpeel = '您的回饋將不勝感激。<p>如果您有關于此的 WordPress 外掛程式，包括改進，建議使用的任何想法，請按一下 <span style="letter-spacing:1.2px;color:#000080;">回饋</span> 按鈕。</p>';
-$stepfeedbackpostshpeel = '感謝您使用 <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>。';
+$stepfeedbackpostshpeel = '感謝您使用 <strong>AlphaOmega Captcha & Anti-Spam Filter</strong>。 Felicity';
 
 ?>

@@ -74,6 +74,6 @@ $stepsavesavekubi = '変更を保存します';
 $stepsaverestoredefaultkubi = '既定の設定を復元します';
 $stepfeedback = 'フィードバック';
 $stepfeedbackpreshpeel = 'あなたのフィードバックを大幅にいただければ幸いです。<p>改善の提案を含むこのワードプレスのプラグインの使用に関する感想があるあれば <span style="letter-spacing:1.2px;color:#000080;">フィードバック</span> ボタンをクリックしてください。</p>';
-$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>を使用していただきありがとうございます。';
+$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>を使用していただきありがとうございます。 Felicity';
 
 ?>

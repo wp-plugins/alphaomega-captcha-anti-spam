@@ -74,6 +74,6 @@ $stepsavesavekubi = '변경 내용을 저장합니다';
 $stepsaverestoredefaultkubi = '기본 설정 복원';
 $stepfeedback = '피드백';
 $stepfeedbackpreshpeel = '귀하의 의견을 크게 주시면 감사 하겠습니다.<p>개선, 제안 등이 자료 WordPress 플러그인의 사용에 관한 어떤 생각을가지고 <span style="letter-spacing:1.2px;color:#000080;">피드백</span> 단추를 클릭 하십시오.</p>';
-$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>를 사용 하 여 주셔서 감사 합니다.';
+$stepfeedbackpostshpeel = '<strong>AlphaOmega Captcha & Anti-Spam Filter</strong>를 사용 하 여 주셔서 감사 합니다. Felicity';
 
 ?>

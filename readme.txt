@@ -206,7 +206,7 @@ Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-scre
 
 = How can I file a bug or give feedback? =
 
-Your feedback is greatly appreciated and encourages me to continue with my efforts to provide a plugin with improved utilitarian value. To file a bug or provide me with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
+To file a bug or provide me with feedback, please use the following [link](http://alphaomegaplugins.com/contact)  
 
 
 == Screenshots ==

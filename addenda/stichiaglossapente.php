@@ -1,13 +1,13 @@
 <?php
 
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter 設置';
-$predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 是一個有效的和使用簡單的驗證碼和阻止垃圾郵件和篩選器的反垃圾郵件外掛程式發佈不良內容的使用者注釋。此外掛程式還可以阻礙您管理日誌中的頁面自動的攻擊。<div style="padding-top:10px;">如下所示的預設設置為提供高級別保護免受垃圾郵件和惡意管理員登錄頁面的攻擊。您還可以調整預設的設置，如果您想附加自訂的外掛程式行為的選項。';
-$donatetitle = '請考慮捐贈';
-$donateshpeel = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 的建立者將會非常感激如果你會考慮提供小小的捐贈，以説明支援這個免費的外掛程式的持續的發展，如果您發現它以任何方式很有用。任何捐款金額將謙遜地表示讚賞。謝謝。';
-$donateinput = '<input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filter捐贈"><input type="hidden" name="currency_code" value="USD">';
-$donatekubitext = '請捐贈';
-$donateoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;其他 &nbsp;</option>';
-$donatepaypal = '捐款由 PayPal 進行處理';
+$prindose = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 是一個有效的和使用簡單的驗證碼和阻止垃圾郵件和篩選器的反垃圾郵件外掛程式發佈不良內容的使用者注釋。此外掛程式還可以阻礙您管理日誌中的頁面自動的攻擊。<div style="padding-top:10px;">如下所示的預設設置為提供高級別保護免受垃圾郵件和惡意管理員登錄頁面的攻擊。您還可以調整預設的設置，如果您想附加自訂的外掛程式行為的選項。';
+$dosetitlo = '請考慮捐贈';
+$doseshpeel = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 的建立者將會非常感激如果你會考慮提供小小的捐贈，以説明支援這個免費的外掛程式的持續的發展，如果您發現它以任何方式很有用。任何捐款金額將謙遜地表示讚賞。謝謝。';
+$doseinput = '<input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filter捐贈"><input type="hidden" name="currency_code" value="USD">';
+$dosekubitext = '請捐贈';
+$doseoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;其他 &nbsp;</option>';
+$dosepp = '捐款由 PayPal 進行處理';
 $stepglossa = '語言';
 $stepglossaena = '英語';
 $stepglossaenashpeel = '在英語中將此設置面板中的所有文本和驗證碼圖像旁邊的文本。';
@@ -36,6 +36,9 @@ $stepcaptypedecatria = '要求使用者輸入的電影導演導演的電影所�
 $stepcaptypedecatesera = '要求使用者輸入的時尚一詞的名稱或專案所示。';
 $stepcaptypedecapente = '要求使用者關聯的貨幣顯示這個國家的名字。';
 $stepcaptypedecaexi = '要求使用者名稱專案所示食品的來源國。';
+$stepcaptypedecaefta = '要求使用者輸入的醫學名稱或一詞所示。';
+$stepcaptypedecaochto = '要求使用者輸入生態一詞所示。';
+$stepcaptypedecaenea = '要求使用者輸入的眾所周知的電視節目名稱。';
 $stepcaptopos = '驗證碼頁的位置';
 $stepcaptoposcomm = '評論表單';
 $stepcaptoposcommshpeel = '對驗證碼將顯示在表單中的注釋。此驗證碼需要完成的使用者想要訪問你的博客之一後留言。';
@@ -51,22 +54,22 @@ $stepcapepanomesikatotablecommkato = 'B';
 $stepcapepanomesikatotablecommkubi = '發送注釋';
 $stepcapepanomesikatotableadminkato = 'B';
 $stepcapepanomesikatotableadminkubi = '登錄';
-$stepfilter = '反垃圾郵件篩選器';
-$stepfilterpreshpeel = '該標準的 Wordpress 評論表單包含幾個表單元素 （如名稱、 電子郵件、 URL 和評論或消息。<p>如果任何這些表單元素存在於您的注釋形式，此外掛程式設置允許您選擇您想要檢查或可能的垃圾郵件篩選其內容的元素。 注釋將被阻塞，並且不會發送到您提交包含垃圾郵件相關的關鍵字或短語 （在 <span style="letter-spacing:1.2px;color:#000080;">垃圾郵件篩選器清單</span> 以下配置）。</p><p>這可以是非常有效的方式阻撓無情的自動和手動垃圾郵件的攻擊，並因此將你的 Wordpress 管理保稅區從被淹沒的有害和令人討厭的垃圾郵件相關評論。</p>';
-$stepfilterelementtitle = '選擇要過濾垃圾郵件的評論表單元素';
-$stepfilterelementname = '名稱';
-$stepfilterelementemail = '電子郵件';
-$stepfilterelementurl = 'URL';
-$stepfilterelementcomm = '評論 / 消息';
-$stepfilterpostshpeel = '配置垃圾郵件篩選器清單:</span><div style="padding-top:8px;">您可以使用 <span style="letter-spacing:1.2px;color:#000080;">預設的垃圾郵件篩選器清單</span> 或使你自己的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span> 來檢查評論提交為垃圾郵件相關的內容。<p>若要創建您自己的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span>，按一下 <span style="letter-spacing:1.2px;color:#000080;">關閉垃圾郵件篩選</span> 按鈕，然後清單-下面的框中鍵入您與垃圾郵件有關的關鍵字或短語。每個關鍵字或短語必須在單獨的行上。</p><p><strong>反垃圾郵件篩選器</strong> 自動照顧所有大寫和小寫變異的關鍵字片語清單中存在。因此，在兩個單獨的行中添加 <span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span> 和 <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> 是多餘和不必要。您只需添加，例如，<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> 單獨的一行上。</p><p>最後，應避免使用關鍵字/短語的複數形式---使用 <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span>，而不是 <span style="letter-spacing:1.2px;color:#000080;">yellow hats</span>。</p><p>一旦你讓你的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span>，請按一下 <span style="letter-spacing:1.2px;color:#000080;">保存更改</span> 按鈕 （步驟 6），以保存您的自訂清單。關鍵字/短語可以追加到，或在任何時間，從您的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span> 中刪除，然後可通過按一下 <span style="letter-spacing:1.2px;color:#000080;">保存更改</span> 按鈕 （步驟 6） 中保存您修改過的清單。</p><div style="color:#a80000;padding-top:7px;padding-bottom:10px;">如果您不想過濾您的垃圾郵件的評論，只是取消選中上面所示的所有注釋的表單元素，或按一下 <span style="letter-spacing:1.2px;color:#000080;">關閉垃圾郵件篩選</span> 按鈕。';
-$stepfilterremovelistkubi = '        關閉垃圾郵件篩選         ';
-$stepfilterlistwidth = '225px';
-$stepfilterdefaultlistkubi = '  使用預設的垃圾郵件篩選器清單  ';
-$stepfiltercustomlistkubi = '    使用自訂垃圾郵件篩選器清單   ';
-$stepfiltermessagepreshpeel = '自訂垃圾郵件製造者所顯示的警告訊息:</span><div style="padding-top:8px;">您有自訂如果他們試圖發送您張貼通過您的 web 網站的評論垃圾郵件為濫發垃圾郵件者所顯示的消息的選項。</div></div></td></tr><tr><td height="15px;"></td></tr><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td>
+$stepstragise = '反垃圾郵件篩選器';
+$stepstragisepreshpeel = '該標準的 Wordpress 評論表單包含幾個表單元素 （如名稱、 電子郵件、 URL 和評論或消息。<p>如果任何這些表單元素存在於您的注釋形式，此外掛程式設置允許您選擇您想要檢查或可能的垃圾郵件篩選其內容的元素。 注釋將被阻塞，並且不會發送到您提交包含垃圾郵件相關的關鍵字或短語 （在 <span style="letter-spacing:1.2px;color:#000080;">垃圾郵件篩選器清單</span> 以下配置）。</p><p>這可以是非常有效的方式阻撓無情的自動和手動垃圾郵件的攻擊，並因此將你的 Wordpress 管理保稅區從被淹沒的有害和令人討厭的垃圾郵件相關評論。</p>';
+$stepstragisetitlo = '選擇要過濾垃圾郵件的評論表單元素';
+$stepstragiseonoma = '名稱';
+$stepstragisediefthinsi = '電子郵件';
+$stepstragisehitaftafpi = 'URL';
+$stepstragiseminima = '評論 / 消息';
+$stepstragisepostshpeel = '配置垃圾郵件篩選器清單:</span><div style="padding-top:8px;">您可以使用 <span style="letter-spacing:1.2px;color:#000080;">預設的垃圾郵件篩選器清單</span> 或使你自己的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span> 來檢查評論提交為垃圾郵件相關的內容。<p>若要創建您自己的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span>，按一下 <span style="letter-spacing:1.2px;color:#000080;">關閉垃圾郵件篩選</span> 按鈕，然後清單-下面的框中鍵入您與垃圾郵件有關的關鍵字或短語。每個關鍵字或短語必須在單獨的行上。</p><p><strong>反垃圾郵件篩選器</strong> 自動照顧所有大寫和小寫變異的關鍵字片語清單中存在。因此，在兩個單獨的行中添加 <span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span> 和 <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> 是多餘和不必要。您只需添加，例如，<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> 單獨的一行上。</p><p>最後，應避免使用關鍵字/短語的複數形式---使用 <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span>，而不是 <span style="letter-spacing:1.2px;color:#000080;">yellow hats</span>。</p><p>一旦你讓你的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span>，請按一下 <span style="letter-spacing:1.2px;color:#000080;">保存更改</span> 按鈕 （步驟 6），以保存您的自訂清單。關鍵字/短語可以追加到，或在任何時間，從您的 <span style="letter-spacing:1.2px;color:#000080;">自訂垃圾郵件篩選器清單</span> 中刪除，然後可通過按一下 <span style="letter-spacing:1.2px;color:#000080;">保存更改</span> 按鈕 （步驟 6） 中保存您修改過的清單。</p><div style="color:#a80000;padding-top:7px;padding-bottom:10px;">如果您不想過濾您的垃圾郵件的評論，只是取消選中上面所示的所有注釋的表單元素，或按一下 <span style="letter-spacing:1.2px;color:#000080;">關閉垃圾郵件篩選</span> 按鈕。';
+$stepstragiseremovelistkubi = '        關閉垃圾郵件篩選         ';
+$stragismakoutivathos = '225';
+$stepstragisedefaultlistkubi = '  使用預設的垃圾郵件篩選器清單  ';
+$stepstragisecustomlistkubi = '    使用自訂垃圾郵件篩選器清單   ';
+$stepstragisemessagepreshpeel = '自訂垃圾郵件製造者所顯示的警告訊息:</span><div style="padding-top:8px;">您有自訂如果他們試圖發送您張貼通過您的 web 網站的評論垃圾郵件為濫發垃圾郵件者所顯示的消息的選項。</div></div></td></tr><tr><td height="15px;"></td></tr><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td>
 <div style="padding-left:15px;padding-right:15px;padding-top:10px;letter-spacing:1.2px;">&nbsp;垃圾郵件製造者所顯示的當前警告訊息:';
-$stepfiltermessagepostshpeel = '為垃圾郵件製造者設置新的警告訊息:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;"><span style="font-weight:bold;padding-left:5px;">消息標題： （將以粗體顯示）</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="spammessagetitle" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;"><span style="font-weight:bold;padding-left:5px;">消息內容';
-$stepfilterusedefaultkubi = '使用預設的垃圾郵件消息';
+$stepstragisemessagepostshpeel = '為垃圾郵件製造者設置新的警告訊息:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;"><span style="font-weight:bold;padding-left:5px;">消息標題： （將以粗體顯示）</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="kakofanititlo" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;"><span style="font-weight:bold;padding-left:5px;">消息內容';
+$stepstragiseusedefaultkubi = '使用預設的垃圾郵件消息';
 $stepsave = '保存更改';
 $stepsaveshpeel = '請記住，如果您更改了您的外掛程式設置，請按一下 <span style="letter-spacing:1.2px;color:#000080;">保存更改</span> 按鈕。';
 $stepsavesavekubi = '保存更改';

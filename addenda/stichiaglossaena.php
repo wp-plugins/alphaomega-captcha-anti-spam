@@ -1,13 +1,13 @@
 <?php
 
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter Settings';
-$predonate = 'The <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin is an effective and simple-to-use captcha and anti-spam plugin that blocks spam and filters posted user comments for inappropriate content. This plugin can also thwart automated attacks against your Admin Log In area.<div style="padding-top:10px;">The default settings shown below provide a high level of protection against spam and malicious Admin Log In page attacks. You also have the option of adjusting the default settings if you want additional customized plugin behavior.';
-$donatetitle = 'Please Consider Donating';
-$donateshpeel = 'If you have installed the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam</span> plugin and find that it helps to block Comment Form spam and enhances the look and appeal of your WordPress posts, then I would appreciate it very much if you would consider providing a small donation to help support the continued development of this plugin. Any donation amount will be humbly appreciated. Thank you for your kind support.';
-$donateinput = '<input type="hidden" name="country" value="US" ><input type="hidden" name="item_name" value="Donation for AlphaOmega Captcha & Anti-Spam Filter Plugin"><input type="hidden" name="currency_code" value="USD">';
-$donatekubitext = 'Please Donate';
-$donateoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;Other &nbsp;</option>';
-$donatepaypal = 'Donations processed by PayPal';
+$prindose = 'The <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> plugin is an effective and simple-to-use captcha and anti-spam plugin that blocks spam and filters posted user comments for inappropriate content. This plugin can also thwart automated attacks against your Admin Log In area.<div style="padding-top:10px;">The default settings shown below provide a high level of protection against spam and malicious Admin Log In page attacks. You also have the option of adjusting the default settings if you want additional customized plugin behavior.';
+$dosetitlo = 'Please Consider Donating';
+$doseshpeel = 'If you have installed the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam</span> plugin and find that it helps to block Comment Form spam and enhances the look and appeal of your WordPress posts, then I would appreciate it very much if you would consider providing a small donation to help support the continued development of this plugin. Any donation amount will be humbly appreciated. Thank you for your kind support.';
+$doseinput = '<input type="hidden" name="country" value="US" ><input type="hidden" name="item_name" value="Donation for AlphaOmega Captcha & Anti-Spam Filter Plugin"><input type="hidden" name="currency_code" value="USD">';
+$dosekubitext = 'Please Donate';
+$doseoutput = '<option value="2">&nbsp;$2 &nbsp; &nbsp;</option><option value="4">&nbsp;$4 &nbsp; &nbsp;</option><option value="6">&nbsp;$6 &nbsp;&nbsp;</option><option value="8">&nbsp;$8 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="">&nbsp;Other &nbsp;</option>';
+$dosepp = 'Donations processed by PayPal';
 $stepglossa = 'Language';
 $stepglossaena = 'English';
 $stepglossaenashpeel = 'All text in this Settings panel and text adjacent to captcha images will be in the English language.';
@@ -36,6 +36,9 @@ $stepcaptypedecatria = 'The debut of a unique captcha genre that requires the us
 $stepcaptypedecatesera = 'A stylish captcha that requires the user to enter the name of the fashion term or item depicted by the captcha.';
 $stepcaptypedecapente = 'A foreign exchange captcha that requires the user to name the country associated with the currency shown by the captcha.';
 $stepcaptypedecaexi = 'A delectable captcha that requires the user to name the country of origin of the food item shown in the captcha.';
+$stepcaptypedecaefta = 'A healthy and informative captcha that requires the user to enter the medical word or term shown in the captcha.';
+$stepcaptypedecaochto = 'A geo-friendly and sustainable captcha that requires the user to enter the ecological word or term shown in the captcha.';
+$stepcaptypedecaenea = 'A captcha for couch potatoes that requires the user to enter the name of the well-known TV program shown in the captcha.';
 $stepcaptopos = 'Captcha Page Location';
 $stepcaptoposcomm = 'Comment Form';
 $stepcaptoposcommshpeel = 'The captcha will appear on your comment form. This captcha needs to be completed by a user who wishes to post a comment after visiting one of your blog posts.';
@@ -51,24 +54,24 @@ $stepcapepanomesikatotablecommkato = 'B';
 $stepcapepanomesikatotablecommkubi = 'Submit Comment';
 $stepcapepanomesikatotableadminkato = 'B';
 $stepcapepanomesikatotableadminkubi = 'Log In';
-$stepfilter = 'Spam Filter';
-$stepfilterpreshpeel = 'The standard Wordpress Comment Form contains several form elements such as Name, E-mail, URL, and Comment or Message.<p>If any of these form elements are present in your comment form, this plugin setting allows you to select the elements whose content you wish to check or filter for possible spam. Comment submissions containing spam-related keywords or phrases (configured below in the <span style="letter-spacing:1.2px;color:#000080;">Spam Filter List</span>) will be blocked, and not sent to you.</p><p>This can be a very effective way to stop relentless automated and manual spam attacks, and therefore free your Wordpress Admin area from being inundated with unwanted and annoying spam-related comments.</p>';
-$stepfilterelementtitle = 'Select the Comment Form Elements to Filter for Spam';
-$stepfilterelementname = 'Name';
-$stepfilterelementemail = 'E-mail';
-$stepfilterelementurl = 'URL';
-$stepfilterelementcomm = 'Comment / Message';
-$stepfilterpostshpeel = 'Configuring the Spam Filter List:</span><div style="padding-top:8px;">You can employ the <span style="letter-spacing:1.2px;color:#000080;">Default Spam Filter List</span> or create your own <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span> to check comment submissions for spam-related content.<p>To create your own <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span>, click the <span style="letter-spacing:1.2px;color:#000080;">Inactivate Spam Filter</span> button below, and then type your spam-related keywords and/or phrases in the list-box below. Each keyword or phrase must be on a separate line.</p><p>The <strong>Spam Filter</strong> automatically takes care of all uppercase and lowercase variations of keywords/phrases present in the list. Hence, adding <span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span> and <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> on two separate lines is redundant and unnecessary. You only need to add, for example, <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> on a single line.</p><p>
+$stepstragise = 'Spam Filter';
+$stepstragisepreshpeel = 'The standard Wordpress Comment Form contains several form elements such as Name, E-mail, URL, and Comment or Message.<p>If any of these form elements are present in your comment form, this plugin setting allows you to select the elements whose content you wish to check or filter for possible spam. Comment submissions containing spam-related keywords or phrases (configured below in the <span style="letter-spacing:1.2px;color:#000080;">Spam Filter List</span>) will be blocked, and not sent to you.</p><p>This can be a very effective way to stop relentless automated and manual spam attacks, and therefore free your Wordpress Admin area from being inundated with unwanted and annoying spam-related comments.</p>';
+$stepstragisetitlo = 'Select the Comment Form Elements to Filter for Spam';
+$stepstragiseonoma = 'Name';
+$stepstragisediefthinsi = 'E-mail';
+$stepstragisehitaftafpi = 'URL';
+$stepstragiseminima = 'Comment / Message';
+$stepstragisepostshpeel = 'Configuring the Spam Filter List:</span><div style="padding-top:8px;">You can employ the <span style="letter-spacing:1.2px;color:#000080;">Default Spam Filter List</span> or create your own <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span> to check comment submissions for spam-related content.<p>To create your own <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span>, click the <span style="letter-spacing:1.2px;color:#000080;">Inactivate Spam Filter</span> button below, and then type your spam-related keywords and/or phrases in the list-box below. Each keyword or phrase must be on a separate line.</p><p>The <strong>Spam Filter</strong> automatically takes care of all uppercase and lowercase variations of keywords/phrases present in the list. Hence, adding <span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span> and <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> on two separate lines is redundant and unnecessary. You only need to add, for example, <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> on a single line.</p><p>
 Finally, avoid using the plural forms of keywords/phrases &ndash; use <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> <i>in lieu</i> of <span style="letter-spacing:1.2px;color:#000080;">yellow hats</span>.</p><p>Once you have completed your <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span>, click the <span style="letter-spacing:1.2px;color:#000080;">Save Changes</span> button below (Step 6) to save your custom list. Keywords/phrases can be appended to or deleted from your <span style="letter-spacing:1.2px;color:#000080;">Custom Spam Filter List</span> at any time, and your modified list can then be saved by clicking the <span style="letter-spacing:1.2px;color:#000080;">Save Changes</span> button below (Step 6).</p><div style="color:#a80000;padding-top:7px;padding-bottom:10px;">If you do not want to filter your comments for spam, simply uncheck all comment form elements shown above or click the <span style="letter-spacing:1.2px;color:#000080;">Inactivate Spam Filter</span> button below.';
-$stepfilterremovelistkubi = '  Inactivate Spam Filter  ';
-$stepfilterlistwidth = '225px';
-$stepfilterdefaultlistkubi = 'Use Default Spam Filter List';
-$stepfiltercustomlistkubi = 'Use Custom Spam Filter List';
-$stepfiltermessagepreshpeel = 'Customize the Warning Message Shown to Spammers:</span><div style="padding-top:8px;">You have the option of customizing the message shown to a spammer if they attempt to send you spam by posting a Comment through your web site.</div></div></td></tr><tr><td height="15px;"></td>
+$stepstragiseremovelistkubi = '  Inactivate Spam Filter  ';
+$stragismakoutivathos = '225';
+$stepstragisedefaultlistkubi = 'Use Default Spam Filter List';
+$stepstragisecustomlistkubi = 'Use Custom Spam Filter List';
+$stepstragisemessagepreshpeel = 'Customize the Warning Message Shown to Spammers:</span><div style="padding-top:8px;">You have the option of customizing the message shown to a spammer if they attempt to send you spam by posting a Comment through your web site.</div></div></td></tr><tr><td height="15px;"></td>
 </tr><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><div style="padding-left:15px;padding-right:15px;padding-top:10px;letter-spacing:1.2px;">&nbsp;Current Warning Message Shown to Spammers:';
-$stepfiltermessagepostshpeel = 'Set a New Warning Message for Spammers:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;">
-<span style="font-weight:bold;padding-left:5px;">Message Title: (will be shown in bold)</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="spammessagetitle" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;"><span style="font-weight:bold;padding-left:5px;">Message Content';
-$stepfilterusedefaultkubi = 'Use Default Spam Message';
+$stepstragisemessagepostshpeel = 'Set a New Warning Message for Spammers:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;">
+<span style="font-weight:bold;padding-left:5px;">Message Title: (will be shown in bold)</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="kakofanititlo" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;"><span style="font-weight:bold;padding-left:5px;">Message Content';
+$stepstragiseusedefaultkubi = 'Use Default Spam Message';
 $stepsave = 'Save Changes';
 $stepsaveshpeel = 'Please remember to click the <span style="letter-spacing:1.2px;color:#000080;">Save Changes</span> button if you have changed your plugin settings.';
 $stepsavesavekubi = 'Save Changes';

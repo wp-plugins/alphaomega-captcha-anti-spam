@@ -3,7 +3,7 @@
 Plugin Name: AlphaOmega Captcha & Anti-Spam Filter
 Plugin URI: http://alphaomegaplugins.com
 Description: Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Admin Log-In. Fortified with Anti-Spam Filter Protection.
-Version: 1.6
+Version: 1.7
 Author: AlphaOmega Plugins
 Author URI: http://alphaomegaplugins.com
 License: GPL2
@@ -142,7 +142,7 @@ include_once "addenda/retop.php";
 
 $stichiakubiapantisme = '';
 
-if ( isset($_POST['info_restore']) ) {
+if ( isset($_POST['protastichia']) ) {
 
 	if ( $myoptions['titichonadixis'] === '1' && $myoptions['dixeminimaticho'] === '1' && $myoptions['dixestichioticho'] === '0' && $myoptions['minimatichotopos'] === '3' && $myoptions['stichiotichotopos'] === '2' && $myoptions['tichomichaniselida'] === 'addenda/asphaliadixeena.php' && $myoptions['stragiseonoma'] === '0' && $myoptions['stragisediefthinsi'] === '0' && $myoptions['stragisehataftafpi'] === '0' && $myoptions['stragiseminima'] === '1' && $myoptions['stragisekabosaminima'] === '1' && $myoptions['stragisemedikomas'] === '1' && $myoptions['nadixisdikomaskakofaniminimaapantisi'] === '1' && $myoptions['dikosustragiseklisto'] === '0' && $myoptions['stragisemedikosu'] === '0' ) {
 
@@ -235,12 +235,12 @@ if ( isset($_POST['info_restore']) ) {
 
 }
 
-if ( isset($_POST['info_update']) ) {
+if ( isset($_POST['kenuriastichia']) ) {
 
 $myoptions['glossa'] = $_POST['glossa'];
 $myoptions['titichonadixis'] = $_POST['titichonadixis'];
 
-if ( isset($_POST['captchalocationcommentform']) ) {
+if ( isset($_POST['tominimatichotopos']) ) {
 
 	$myoptions['dixeminimaticho'] = '1';
 
@@ -250,7 +250,7 @@ if ( isset($_POST['captchalocationcommentform']) ) {
 
 }
 
-if ( isset($_POST['captchalocationadminlogin']) ) {
+if ( isset($_POST['tostichiotichotopos']) ) {
 
 	$myoptions['dixestichioticho'] = '1';
 
@@ -260,10 +260,10 @@ if ( isset($_POST['captchalocationadminlogin']) ) {
 
 }
 
-$myoptions['minimatichotopos'] = $_POST['captchapositioncommentform'];
-$myoptions['stichiotichotopos'] = $_POST['captchapositionadminloginform'];
+$myoptions['minimatichotopos'] = $_POST['toalominimatichotopos'];
+$myoptions['stichiotichotopos'] = $_POST['toalostichiotichotopos'];
 
-if ( isset($_POST['filterelementname']) ) {
+if ( isset($_POST['stragiseonoma']) ) {
 
 	$myoptions['stragiseonoma'] = '1';
 
@@ -273,7 +273,7 @@ if ( isset($_POST['filterelementname']) ) {
 
 }
 
-if ( isset($_POST['filterelementemail']) ) {
+if ( isset($_POST['stragisediefthinsi']) ) {
 
 	$myoptions['stragisediefthinsi'] = '1';
 
@@ -283,7 +283,7 @@ if ( isset($_POST['filterelementemail']) ) {
 
 }
 
-if ( isset($_POST['filterelementurl']) ) {
+if ( isset($_POST['stragisehataftafpi']) ) {
 
 	$myoptions['stragisehataftafpi'] = '1';
 
@@ -293,7 +293,7 @@ if ( isset($_POST['filterelementurl']) ) {
 
 }
 
-if ( isset($_POST['filterelementcomment']) ) {
+if ( isset($_POST['stragiseminima']) ) {
 
 	$myoptions['stragiseminima'] = '1';
 
@@ -303,7 +303,7 @@ if ( isset($_POST['filterelementcomment']) ) {
 
 }
 
-if ( !isset($_POST['filterelementname']) && !isset($_POST['filterelementemail']) && !isset($_POST['filterelementurl']) && !isset($_POST['filterelementcomment']) || trim($_POST['spamtextfilterlist']) === '' || trim($_POST['spamtextfilterlist']) === $myoptions['stragiseklisto'] ) {
+if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $myoptions['stragiseklisto'] ) {
 
 	$myoptions['stragisekabosaminima'] = '0';
 
@@ -367,11 +367,11 @@ if ( !isset($_POST['filterelementname']) && !isset($_POST['filterelementemail'])
 
 }
 
-if ( trim($_POST['spamtextfilterlist']) !== '' ) {
+if ( trim($_POST['stragismakolona']) !== '' ) {
 
-	$delimited_listbox_filter = preg_replace('~\r\n?~', '####', trim($_POST['spamtextfilterlist']));
+	$ftiaxestragismakolonastichio = preg_replace('~\r\n?~', '####', trim($_POST['stragismakolona']));
 
-	if ( $delimited_listbox_filter === $myoptions['dikomasstragisekolona'] || $delimited_listbox_filter === $myoptions['dikosustragisekolonadenechitipotaminima'] ) {
+	if ( $ftiaxestragismakolonastichio === $myoptions['dikomasstragisekolona'] || $ftiaxestragismakolonastichio === $myoptions['dikosustragisekolonadenechitipotaminima'] ) {
 
 		$myoptions['stragisemedikomas'] = '1';
 		$myoptions['dikosustragiseklisto'] = '0';
@@ -381,9 +381,9 @@ if ( trim($_POST['spamtextfilterlist']) !== '' ) {
 		$myoptions['stragisemedikomas'] = '0';
 		$myoptions['dikosustragiseklisto'] = '1';
 
-		if ( $delimited_listbox_filter !== $myoptions['stragiseklisto'] ) {
+		if ( $ftiaxestragismakolonastichio !== $myoptions['stragiseklisto'] ) {
 
-			$myoptions['dikosustragisekolona'] = $delimited_listbox_filter;
+			$myoptions['dikosustragisekolona'] = $ftiaxestragismakolonastichio;
 
 		}
 
@@ -391,12 +391,12 @@ if ( trim($_POST['spamtextfilterlist']) !== '' ) {
 
 }
 
-if ( trim($_POST['spammessagetitle']) !== '' && trim($_POST['spammessagecontent']) !== '' ) {
+if ( trim($_POST['kakofanititlo']) !== '' && trim($_POST['kakofaniminima']) !== '' ) {
 
-	if ( trim($_POST['spammessagetitle']) !== $myoptions['kakofaniminimaapantasititlo'] ||  trim($_POST['spammessagecontent']) !== $myoptions['kakofaniminimaapantasiminima'] ) {
+	if ( trim($_POST['kakofanititlo']) !== $myoptions['kakofaniminimaapantasititlo'] ||  trim($_POST['kakofaniminima']) !== $myoptions['kakofaniminimaapantasiminima'] ) {
 
-		$myoptions['dikosukakofaniminimaapantasititlo'] = trim($_POST['spammessagetitle']);
-		$myoptions['dikosukakofaniminimaapantasiminima'] = trim($_POST['spammessagecontent']);
+		$myoptions['dikosukakofaniminimaapantasititlo'] = trim($_POST['kakofanititlo']);
+		$myoptions['dikosukakofaniminimaapantasiminima'] = trim($_POST['kakofaniminima']);
 
 		$myoptions['stragisemedikosu'] = '1';
 		$myoptions['nadixisdikomaskakofaniminimaapantisi'] = '0';
@@ -501,6 +501,21 @@ if ( $myoptions['glossa'] === '1' ) {
 		$myoptions['tichoaristera'] = 'Country of Origin?'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
+	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+
+		$myoptions['tichoaristera'] = 'What Do You See?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+
+		$myoptions['tichoaristera'] = 'What Do You See?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+
+		$myoptions['tichoaristera'] = 'What Do You See?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+
 	}
 
 	$myoptions['tichoxanadixte'] = ' Reload AlphaOmega Captcha ';
@@ -596,6 +611,21 @@ if ( $myoptions['glossa'] === '1' ) {
 		$myoptions['tichoaristera'] = 'どの国の起源この食品ですか。'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
+	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+
+		$myoptions['tichoaristera'] = '何を見るか。'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+
+		$myoptions['tichoaristera'] = '何を見るか。'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+
+		$myoptions['tichoaristera'] = '何を見るか。'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+
 	}
 
 	$myoptions['tichoxanadixte'] = ' AlphaOmega キャプチャの再読み込み ';
@@ -653,7 +683,7 @@ if ( $myoptions['glossa'] === '1' ) {
 
 	} elseif ( $myoptions['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = 'ό, τι βλέπετε;'; 
+		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
 	} elseif ( $myoptions['titichonadixis'] === '10' ) {
@@ -678,7 +708,7 @@ if ( $myoptions['glossa'] === '1' ) {
 
 	} elseif ( $myoptions['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = 'ό, τι βλέπετε;'; 
+		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
 	} elseif ( $myoptions['titichonadixis'] === '15' ) {
@@ -690,6 +720,21 @@ if ( $myoptions['glossa'] === '1' ) {
 
 		$myoptions['tichoaristera'] = 'Ποια χώρα προέρχεται αυτή τροφίμων;'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+
+		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+
+		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+
+		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
@@ -786,6 +831,21 @@ if ( $myoptions['glossa'] === '1' ) {
 		$myoptions['tichoaristera'] = '어떤 나라의 유래이 음식?'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
+	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+
+		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+
+		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+
+		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+
 	}
 
 	$myoptions['tichoxanadixte'] = ' AlphaOmega Captcha를 다시 로드  ';
@@ -881,6 +941,21 @@ if ( $myoptions['glossa'] === '1' ) {
 		$myoptions['tichoaristera'] = '哪些國家起源這種食物呢？'; 
 		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
+	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+
+		$myoptions['tichoaristera'] = '你看到了什麼？'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+
+		$myoptions['tichoaristera'] = '你看到了什麼？'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+
+	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+
+		$myoptions['tichoaristera'] = '你看到了什麼？'; 
+		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+
 	}
 
 	$myoptions['tichoxanadixte'] = ' AlphaOmega 重新載入驗證碼 ';
@@ -915,13 +990,13 @@ function aokato ( $kola, $selida ) {
 
 add_filter( 'plugin_action_links', 'aokato', 10, 2 );
 
-function alphaomega_captcha_plugin_stichiaonoma () {
+function aodexia () {
 
 	add_plugins_page( 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'AlphaOmega Captcha & Anti-Spam Filter Settings', 'manage_options', 'alphaomega_captcha_and_antispam', 'acpo' );
 
 }
 
-add_action( 'admin_menu', 'alphaomega_captcha_plugin_stichiaonoma' );
+add_action( 'admin_menu', 'aodexia' );
 
 function stile_minima_kubi () {
 
@@ -944,21 +1019,21 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 	if ( $myoptions['stragisemedikomas'] === '1' ) {
 
-		$filter_array = explode("####", strtolower($myoptions['dikomasstragisekolona']));
+		$ftiaxedikomasstragismakolona = explode("####", strtolower($myoptions['dikomasstragisekolona']));
 
 	} else {
 
-		$filter_array = explode("####", strtolower($myoptions['dikosustragisekolona']));
+		$ftiaxedikomasstragismakolona = explode("####", strtolower($myoptions['dikosustragisekolona']));
 
 	}
 
-	include( "addenda/delimit.php" );
+	include( "addenda/oakolaao.php" );
 
 	if ( $myoptions['stragiseonoma'] === '1' ) {
 
 		if ( !empty($_POST['author']) ) 
 
-			$user_commentform_entry .= strtolower(trim($_POST['author'])) . $_delimiter_;
+			$tiegrapseopelatis .= strtolower(trim($_POST['author'])) . $aokolaoa;
 
 	}
 
@@ -966,7 +1041,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 		if ( !empty($_POST['email']) )
 
-			$user_commentform_entry .= strtolower(trim($_POST['email'])) . $_delimiter_;
+			$tiegrapseopelatis .= strtolower(trim($_POST['email'])) . $aokolaoa;
 
 	}
 
@@ -974,7 +1049,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 		if ( !empty($_POST['url']) )
 
-			$user_commentform_entry .= strtolower(trim($_POST['url'])) . $_delimiter_;
+			$tiegrapseopelatis .= strtolower(trim($_POST['url'])) . $aokolaoa;
 
 	}
 
@@ -982,13 +1057,13 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 		if ( !empty($_POST['comment']) )
 
-			$user_commentform_entry .= strtolower(trim($_POST['comment']));
+			$tiegrapseopelatis .= strtolower(trim($_POST['comment']));
 
 	}
 
-	for ( $ispam = 0; $ispam < count($filter_array); $ispam++ ) {
+	for ( $ikakofani = 0; $ikakofani < count($ftiaxedikomasstragismakolona); $ikakofani++ ) {
 
-		if ( strpos($user_commentform_entry, $filter_array[$ispam]) !== FALSE ) {
+		if ( strpos($tiegrapseopelatis, $ftiaxedikomasstragismakolona[$ikakofani]) !== FALSE ) {
 
 			if ( $myoptions['nadixisdikomaskakofaniminimaapantisi'] === '1' ) {
 
@@ -1007,7 +1082,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 if ( trim($_POST['asphaliakrifo']) === '' ) {
 
-	wp_die( __($capresponseempty) );
+	wp_die( __($opelatesdenapantise) );
 
 } else {
 
@@ -1015,7 +1090,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 		if ( trim($_POST['asphaliakrifo']) !== $_SESSION['aokrifoklidislexi'] ) {
 
-  			wp_die( __($capresponsefail) );
+  			wp_die( __($opelatesapantiselathos) );
 
  		}
 
@@ -1025,7 +1100,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 			if ( strtolower(trim($_POST['asphaliakrifo'])) !== strtolower($_SESSION['aokrifoklidislexi']) ) {
 
-				wp_die( __($capresponsefail) );
+				wp_die( __($opelatesapantiselathos) );
 
 			}
 		
@@ -1045,7 +1120,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 			if ( $toutiocolona == 0 ) {
 
-				wp_die( __($capresponsefail) );
+				wp_die( __($opelatesapantiselathos) );
 
 			}
 
@@ -1065,7 +1140,7 @@ if ( !empty($_POST['author']) && strpos($_POST['email'], '@') !== FALSE && strpo
 
 add_action('pre_comment_on_post', 'stile_minima_kubi');   
  
-function minlogin ($url, $username, $password) {
+function stichiaembros ($url, $username, $password) {
 
 session_start();
 
@@ -1084,7 +1159,7 @@ if ( isset($_POST['wp-submit']) ) {
 
 	if ( empty($username) ) {
 
-		array_push($tiine, $adminusername);
+		array_push($tiine, $stichioonoma);
 
 	} else {
 
@@ -1092,7 +1167,7 @@ if ( isset($_POST['wp-submit']) ) {
 
 		if ( !$userdata ) {
 
-			array_push($tiine, $adminusernamefail);
+			array_push($tiine, $stichioonomalathos);
 
 		}
 
@@ -1100,7 +1175,7 @@ if ( isset($_POST['wp-submit']) ) {
 
 	if ( empty($password) ) {
 
-		array_push($tiine, $adminpassword);
+		array_push($tiine, $stichioklidi);
 
 	} else {
 
@@ -1108,7 +1183,7 @@ if ( isset($_POST['wp-submit']) ) {
 
 		if ( !wp_check_password($password, $userdata->user_pass, $userdata->ID) ) {
 
-			array_push($tiine, $adminpasswordfail);
+			array_push($tiine, $stichioklidilathos);
 
 		}
 
@@ -1120,7 +1195,7 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 	if ( trim($_POST['asphaliakrifo']) === '' ) {
 
-		array_push($tiine, $adminseccode);
+		array_push($tiine, $stichiokliditichograpse);
 
 	} else {
 
@@ -1130,7 +1205,7 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 			if ( trim($_POST['asphaliakrifo']) !== $_SESSION['aokrifoklidislexi'] ) {
 
-				array_push($tiine, $adminseccodefail);
+				array_push($tiine, $stichiokliditicholathos);
 
 			}
 
@@ -1140,7 +1215,7 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 				if ( strtolower(trim($_POST['asphaliakrifo'])) !== strtolower($_SESSION['aokrifoklidislexi']) ) {
 
-					array_push($tiine, $adminseccodefail);
+					array_push($tiine, $stichiokliditicholathos);
 
 				}
 		
@@ -1160,7 +1235,7 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 				if ( $toutiocolona == 0 ) {
 
-					array_push($tiine, $adminseccodefail);
+					array_push($tiine, $stichiokliditicholathos);
 
 				}
 
@@ -1180,17 +1255,17 @@ if ( $thecount > 0 ) {
 
 		case 1:
 
-		wp_die( __($adminpretextmessage .  ' &nbsp;&nbsp;' . $tiine[0]) );
+		wp_die( __($stichioegrapsedeninearketo .  ' &nbsp;&nbsp;' . $tiine[0]) );
 		break;
 
 		case 2:
 
-		wp_die( __($adminpretextmessage .  ' &nbsp;&nbsp;' . $tiine[0] . ', &nbsp;&nbsp;' . $tiine[1]) );
+		wp_die( __($stichioegrapsedeninearketo .  ' &nbsp;&nbsp;' . $tiine[0] . ', &nbsp;&nbsp;' . $tiine[1]) );
 		break;
 
 		case 3:
 
-		wp_die( __($adminpretextmessage .  ' &nbsp;&nbsp;' . $tiine[0] . ', &nbsp;&nbsp;' . $tiine[1] . ', &nbsp;&nbsp;' . $tiine[2]) );
+		wp_die( __($stichioegrapsedeninearketo .  ' &nbsp;&nbsp;' . $tiine[0] . ', &nbsp;&nbsp;' . $tiine[1] . ', &nbsp;&nbsp;' . $tiine[2]) );
 		break;
 	}
 
@@ -1202,7 +1277,7 @@ return $url;
 
 }
 
-add_filter( 'authenticate', 'minlogin', 10, 3 );
+add_filter( 'authenticate', 'stichiaembros', 10, 3 );
 
 function cdacso () {
 

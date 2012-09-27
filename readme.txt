@@ -35,6 +35,10 @@ Several **Captcha Types** are available, including:
 * **Captcha Fashionica**
 * **Captcha Economica**
 * **Captcha Gastronomica**
+* **Captcha Medica**
+* **Captcha Ecologica**
+* **Captcha Televisica**
+
 
 
 Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam Comments and E-mails from cluttering your Wordpress installation.
@@ -120,6 +124,19 @@ An alteration of the familiar captcha that requires the user to enter the name o
  - A delectable captcha that requires the user to name the country of origin of the food item shown in the captcha.
 
 
+**Captcha Medica**
+ - A healthy and informative captcha that requires the user to enter the medical word or term shown in the captcha.
+
+
+**Captcha Ecologica**
+ - A geo-friendly and sustainable captcha that requires the user to enter the ecological word or term shown in the captcha.
+
+
+**Captcha Televisica**
+ - A captcha for couch potatoes that requires the user to enter the name of the well-known TV program shown in the captcha.
+
+
+
 
 These captcha functions not only provide your WordPress posts with enhanced security, but have been thoughtfully designed to increase the overall appeal of your content to those viewing your posts.
 
@@ -200,7 +217,7 @@ Thank you for your kind support.
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 
-The plugin has been tested with a variety of Themes available from the WordPress Themes repository, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the layout of the Theme being used.
+The plugin has been tested with a variety of standard Themes available from the WordPress Themes repository, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. Themes that have been modified in any way or that differ from the standard Theme provided by WordPress may not necessarily be compatible. Hence, the use of standard unmodified WordPress Themes is recommended. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the particular Theme being used.
 
 = I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
 
@@ -230,9 +247,11 @@ To file a bug or provide me with feedback, please use the Feedback link located 
 
 == Changelog ==
 
-= 1.6 =
+= 1.7 =
 
-- text modifications
+- captcha types incremented
+- captcha responses broadened
+
 
 == Upgrade Notice ==
 

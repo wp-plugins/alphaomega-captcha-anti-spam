@@ -1,13 +1,13 @@
 <?php
 
 $stichiatitlo = 'AlphaOmega Captcha & Anti-Spam Filter 設定';
-$predonate = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 効果的であり、ユーザー コメント不適切なコンテンツを簡単に使用できるキャプチャとスパム（迷惑メール）・ フィルターをブロックするスパム対策のプラグイン。このプラグインは、管理ログでページの自動攻撃も阻止できます。<div style="padding-top:10px;">以下に示す既定の設定は高レベルのスパムや悪意のある管理者ログイン ページの攻撃に対する保護を提供します。また、追加のカスタマイズされたプラグインの動作をする場合の既定の設定を調整するオプションがあります。';
-$donatetitle = '寄付をご検討下さい';
-$donateshpeel = '任意の方法で便利な場合は、この無料のプラグインの開発継続をサポートするために小額の寄付を提供することを検討する場合 <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> クリエイター非常に感謝しました。任意寄付金額を謙虚に高く評価されます。ありがとう。';
-$donateinput = '<input type="hidden" name="country" value="JP" ><input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filterの寄付"><input type="hidden" name="currency_code" value="JPY">';
-$donatekubitext = '寄付をして下さい';
-$donateoutput = '<option value="200">&nbsp;200円 &nbsp; &nbsp;</option><option value="400">&nbsp;400円 &nbsp; &nbsp;</option><option value="600">&nbsp;600円 &nbsp; &nbsp;</option><option value="800">&nbsp;800円 &nbsp; &nbsp;</option><option value="1000">&nbsp;1000円 &nbsp; &nbsp;</option><option value="">&nbsp;他 &nbsp;</option>';
-$donatepaypal = 'PayPal によって処理の寄付';
+$prindose = '<span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> 効果的であり、ユーザー コメント不適切なコンテンツを簡単に使用できるキャプチャとスパム（迷惑メール）・ フィルターをブロックするスパム対策のプラグイン。このプラグインは、管理ログでページの自動攻撃も阻止できます。<div style="padding-top:10px;">以下に示す既定の設定は高レベルのスパムや悪意のある管理者ログイン ページの攻撃に対する保護を提供します。また、追加のカスタマイズされたプラグインの動作をする場合の既定の設定を調整するオプションがあります。';
+$dosetitlo = '寄付をご検討下さい';
+$doseshpeel = '任意の方法で便利な場合は、この無料のプラグインの開発継続をサポートするために小額の寄付を提供することを検討する場合 <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter</span> クリエイター非常に感謝しました。任意寄付金額を謙虚に高く評価されます。ありがとう。';
+$doseinput = '<input type="hidden" name="country" value="JP" ><input type="hidden" name="item_name" value="AlphaOmega Captcha & Anti-Spam Filterの寄付"><input type="hidden" name="currency_code" value="JPY">';
+$dosekubitext = '寄付をして下さい';
+$doseoutput = '<option value="200">&nbsp;200円 &nbsp; &nbsp;</option><option value="400">&nbsp;400円 &nbsp; &nbsp;</option><option value="600">&nbsp;600円 &nbsp; &nbsp;</option><option value="800">&nbsp;800円 &nbsp; &nbsp;</option><option value="1000">&nbsp;1000円 &nbsp; &nbsp;</option><option value="">&nbsp;他 &nbsp;</option>';
+$dosepp = 'PayPal によって処理の寄付';
 $stepglossa = '言語';
 $stepglossaena = '英語';
 $stepglossaenashpeel = 'この設定パネル内のすべてのテキストとするキャプチャ画像の横のテキストは英語でされます。';
@@ -36,6 +36,9 @@ $stepcaptypedecatria = '示す映画監督、映画監督の名前を入力す�
 $stepcaptypedecatesera = 'または項目に示すファッション用語の名前を入力する必要があります。';
 $stepcaptypedecapente = '表示通貨に関連する国の名前をユーザーが必要です。';
 $stepcaptypedecaexi = '項目に示すような食品の起源の国の名前をユーザーが必要です。';
+$stepcaptypedecaefta = 'ユーザーは、医療の名前や表示用語を入力する必要です。';
+$stepcaptypedecaochto = '示す生態学的用語を入力するユーザーが必要です。';
+$stepcaptypedecaenea = 'ユーザーのよく知られているテレビ番組の名前を入力する必要があります。';
 $stepcaptopos = 'キャプチャのページの場所';
 $stepcaptoposcomm = 'コメント フォーム';
 $stepcaptoposcommshpeel = 'キャプチャは、あなたのコメント フォームに表示されます。このキャプチャは、あなたのブログの記事の 1 つを訪問した後、コメントを投稿することを希望するユーザーによって完了される必要があります。';
@@ -51,22 +54,22 @@ $stepcapepanomesikatotablecommkato = '下';
 $stepcapepanomesikatotablecommkubi = 'コメントをおくる';
 $stepcapepanomesikatotableadminkato = '下';
 $stepcapepanomesikatotableadminkubi = 'ログイン';
-$stepfilter = 'スパムフィルター';
-$stepfilterpreshpeel = '標準のワードプレスのコメント フォームには名、メール、URL、およびコメントやメッセージなどのいくつかのフォーム要素が含まれています。<p>これらのフォーム要素はあなたのコメント フォームに存在する場合、このプラグインの設定内容をチェックまたは可能なスパムをフィルターする要素を選択することができます。コメント投稿のスパム関連のキーワードまたは語句 (以下で <span style="letter-spacing:1.2px;color:#000080;">スパムフィルターのリスト</span> 構成) を含むブロック、されが送信されません。</p><p>これは自動と手動のスパムを執拗な攻撃を阻止する、したがって不要で迷惑なスパム関連のコメントを殺到されてからあなたのワードプレスの管理領域を解放する非常に効果的な方法をすることができます。</p>';
-$stepfilterelementtitle = 'スパムをフィルターするには、コメント フォーム要素を選択します';
-$stepfilterelementname = '名前';
-$stepfilterelementemail = 'メール';
-$stepfilterelementurl = 'URL';
-$stepfilterelementcomm = 'コメント / メッセージ';
-$stepfilterpostshpeel = 'スパム フィルター リストを構成します:</span><div style="padding-top:8px;"><span style="letter-spacing:1.2px;color:#000080;">既定のスパム フィルター リスト</span>を使用またはコメント提出スパムに関連するコンテンツを確認するには、<span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> を作成することができます。<p><span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span>をするのには、<span style="letter-spacing:1.2px;color:#000080;">スパムフィルターを無効にします</span>ボタンをクリックし、スパムのキーワードやフレーズのリスト ボックスを入力します。各キーワードまたはフレーズを別々 の行がある必要があります。</p><p><strong>スパムフィルター</strong>は、自動的にすべての大文字と小文字の変化のリストで現在のキーワード/フレーズの世話をします。したがって、<span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span>、<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> に 2 つの別々 の行に追加するには冗長かつ不必要です。のみ、たとえば、<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> を 1 行追加する必要があります。</p><p>最後に、複数のフォームのキーワード/フレーズを使用しないでください - <span style="letter-spacing:1.2px;color:#000080;">yellow hats</span> ではなく <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> を使用します。</p><p><span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> を完了すると、<span style="letter-spacing:1.2px;color:#000080;">変更を保存します</span> ボタン をクリックします (手順 6)。キーワード/フレーズを追加または <span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> からいつでも削除することができます、あなたの変更のリスト <span style="letter-spacing:1.2px;color:#000080;">変更を保存します</span> (手順 6) をクリックして保存できます。</p><div style="color:#a80000;padding-top:7px;padding-bottom:10px;">あなたのコメントのスパムをフィルタ リングしない場合は、単に上記のすべてのコメントのフォーム要素をオフまたは <span style="letter-spacing:1.2px;color:#000080;">スパムフィルターを無効にします</span> ボタンをクリックします。';
-$stepfilterremovelistkubi = '       スパムフィルターを無効にします        ';
-$stepfilterlistwidth = '310px';
-$stepfilterdefaultlistkubi = '  既定のスパムフィルター リストを使用します  ';
-$stepfiltercustomlistkubi = ' カスタムスパムフィルター リストを使用します';
-$stepfiltermessagepreshpeel = 'スパマーに表示される警告メッセージをカスタマイズします:</span><div style="padding-top:8px;">あなたは、彼らがあなたの ウェブサイトを通じてコメントを投稿してスパムを送信しようとするとがスパム送信者に表示されるメッセージをカスタマイズするオプションがあります。</div></div></td></tr><tr><td height="15px;"></td></tr><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><div style="padding-left:15px;padding-right:15px;padding-top:10px;letter-spacing:1.2px;">&nbsp;スパマーに示す現在の警告メッセージ:';
-$stepfiltermessagepostshpeel = 'スパマーのための新しい警告メッセージを設定します:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;"><span style="font-weight:bold;padding-left:5px;">メッセージのタイトル: (太字で表示されます)</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="spammessagetitle" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;">
+$stepstragise = 'スパムフィルター';
+$stepstragisepreshpeel = '標準のワードプレスのコメント フォームには名、メール、URL、およびコメントやメッセージなどのいくつかのフォーム要素が含まれています。<p>これらのフォーム要素はあなたのコメント フォームに存在する場合、このプラグインの設定内容をチェックまたは可能なスパムをフィルターする要素を選択することができます。コメント投稿のスパム関連のキーワードまたは語句 (以下で <span style="letter-spacing:1.2px;color:#000080;">スパムフィルターのリスト</span> 構成) を含むブロック、されが送信されません。</p><p>これは自動と手動のスパムを執拗な攻撃を阻止する、したがって不要で迷惑なスパム関連のコメントを殺到されてからあなたのワードプレスの管理領域を解放する非常に効果的な方法をすることができます。</p>';
+$stepstragisetitlo = 'スパムをフィルターするには、コメント フォーム要素を選択します';
+$stepstragiseonoma = '名前';
+$stepstragisediefthinsi = 'メール';
+$stepstragisehitaftafpi = 'URL';
+$stepstragiseminima = 'コメント / メッセージ';
+$stepstragisepostshpeel = 'スパム フィルター リストを構成します:</span><div style="padding-top:8px;"><span style="letter-spacing:1.2px;color:#000080;">既定のスパム フィルター リスト</span>を使用またはコメント提出スパムに関連するコンテンツを確認するには、<span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> を作成することができます。<p><span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span>をするのには、<span style="letter-spacing:1.2px;color:#000080;">スパムフィルターを無効にします</span>ボタンをクリックし、スパムのキーワードやフレーズのリスト ボックスを入力します。各キーワードまたはフレーズを別々 の行がある必要があります。</p><p><strong>スパムフィルター</strong>は、自動的にすべての大文字と小文字の変化のリストで現在のキーワード/フレーズの世話をします。したがって、<span style="letter-spacing:1.2px;color:#000080;">Yellow Hat</span>、<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> に 2 つの別々 の行に追加するには冗長かつ不必要です。のみ、たとえば、<span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> を 1 行追加する必要があります。</p><p>最後に、複数のフォームのキーワード/フレーズを使用しないでください - <span style="letter-spacing:1.2px;color:#000080;">yellow hats</span> ではなく <span style="letter-spacing:1.2px;color:#000080;">yellow hat</span> を使用します。</p><p><span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> を完了すると、<span style="letter-spacing:1.2px;color:#000080;">変更を保存します</span> ボタン をクリックします (手順 6)。キーワード/フレーズを追加または <span style="letter-spacing:1.2px;color:#000080;">カスタム スパム フィルター リスト</span> からいつでも削除することができます、あなたの変更のリスト <span style="letter-spacing:1.2px;color:#000080;">変更を保存します</span> (手順 6) をクリックして保存できます。</p><div style="color:#a80000;padding-top:7px;padding-bottom:10px;">あなたのコメントのスパムをフィルタ リングしない場合は、単に上記のすべてのコメントのフォーム要素をオフまたは <span style="letter-spacing:1.2px;color:#000080;">スパムフィルターを無効にします</span> ボタンをクリックします。';
+$stepstragiseremovelistkubi = '       スパムフィルターを無効にします        ';
+$stragismakoutivathos = '310';
+$stepstragisedefaultlistkubi = '  既定のスパムフィルター リストを使用します  ';
+$stepstragisecustomlistkubi = ' カスタムスパムフィルター リストを使用します';
+$stepstragisemessagepreshpeel = 'スパマーに表示される警告メッセージをカスタマイズします:</span><div style="padding-top:8px;">あなたは、彼らがあなたの ウェブサイトを通じてコメントを投稿してスパムを送信しようとするとがスパム送信者に表示されるメッセージをカスタマイズするオプションがあります。</div></div></td></tr><tr><td height="15px;"></td></tr><tr><td valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><div style="padding-left:15px;padding-right:15px;padding-top:10px;letter-spacing:1.2px;">&nbsp;スパマーに示す現在の警告メッセージ:';
+$stepstragisemessagepostshpeel = 'スパマーのための新しい警告メッセージを設定します:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;"><span style="font-weight:bold;padding-left:5px;">メッセージのタイトル: (太字で表示されます)</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="kakofanititlo" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;">
 <span style="font-weight:bold;padding-left:5px;">メッセージの内容';
-$stepfilterusedefaultkubi = '既定のスパム メッセージを使用します';
+$stepstragiseusedefaultkubi = '既定のスパム メッセージを使用します';
 $stepsave = '変更を保存します';
 $stepsaveshpeel = 'あなたのプラグインの設定を変更した場合は、<span style="letter-spacing:1.2px;color:#000080;">変更を保存します</span> ボタンをクリックして下さい。';
 $stepsavesavekubi = '変更を保存します';

@@ -9,7 +9,14 @@ Author URI: http://alphaomegaplugins.com
 License: GPL2
 */
 
-session_start();
+
+$echomemelomakarinaena = session_id();
+if ( empty($echomemelomakarinaena) ) {
+	
+	session_start();
+
+}
+
 
 if ( get_option( 'aostichia' ) === FALSE ) {
 
@@ -20,7 +27,12 @@ if ( get_option( 'aostichia' ) === FALSE ) {
 
 function asphaliaminimadixe () {
 
-session_start();
+$echomemelomakarinadio = session_id();
+if ( empty($echomemelomakarinadio) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" ); 
 
@@ -56,7 +68,12 @@ if ( isset($_SESSION['minimakubipatise']) ) {
 
 function asphaliastichiadixe () {
 
-session_start();
+$echomemelomakarinatria = session_id();
+if ( empty($echomemelomakarinatria) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" );
 
@@ -79,7 +96,12 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 function asphaliaminimatoposepanomesikato () {
 
-session_start();
+$echomemelomakarinatesera = session_id();
+if ( empty($echomemelomakarinatesera) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" );
 
@@ -107,7 +129,12 @@ add_action( 'wp_head', 'asphaliaminimatoposepanomesikato' );
 
 function asphaliastichiatoposepanomesikato () {
 
-session_start();
+$echomemelomakarinapente = session_id();
+if ( empty($echomemelomakarinapente) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" );
 
@@ -1000,7 +1027,12 @@ add_action( 'admin_menu', 'aodexia' );
 
 function stile_minima_kubi () {
 
-session_start();
+$echomemelomakarinaexi = session_id();
+if ( empty($echomemelomakarinaexi) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" );
 include( $myoptions['tichoglossa'] );
@@ -1142,7 +1174,12 @@ add_action('pre_comment_on_post', 'stile_minima_kubi');
  
 function stichiaembros ($url, $username, $password) {
 
-session_start();
+$echomemelomakarinaefta = session_id();
+if ( empty($echomemelomakarinaefta) ) {
+	
+	session_start();
+
+}
 
 include( "addenda/retop.php" );
 include( $myoptions['tichoglossa'] );

@@ -10,12 +10,8 @@ License: GPL2
 */
 
 
-$echomemelomakarinaena = session_id();
-if ( empty($echomemelomakarinaena) ) {
-	
-	session_start();
+session_start();
 
-}
 
 
 if ( get_option( 'aostichia' ) === FALSE ) {
@@ -27,12 +23,7 @@ if ( get_option( 'aostichia' ) === FALSE ) {
 
 function asphaliaminimadixe () {
 
-$echomemelomakarinadio = session_id();
-if ( empty($echomemelomakarinadio) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" ); 
 
@@ -68,12 +59,7 @@ if ( isset($_SESSION['minimakubipatise']) ) {
 
 function asphaliastichiadixe () {
 
-$echomemelomakarinatria = session_id();
-if ( empty($echomemelomakarinatria) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" );
 
@@ -96,12 +82,7 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 function asphaliaminimatoposepanomesikato () {
 
-$echomemelomakarinatesera = session_id();
-if ( empty($echomemelomakarinatesera) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" );
 
@@ -129,12 +110,7 @@ add_action( 'wp_head', 'asphaliaminimatoposepanomesikato' );
 
 function asphaliastichiatoposepanomesikato () {
 
-$echomemelomakarinapente = session_id();
-if ( empty($echomemelomakarinapente) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" );
 
@@ -1027,12 +1003,7 @@ add_action( 'admin_menu', 'aodexia' );
 
 function stile_minima_kubi () {
 
-$echomemelomakarinaexi = session_id();
-if ( empty($echomemelomakarinaexi) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" );
 include( $myoptions['tichoglossa'] );
@@ -1174,12 +1145,7 @@ add_action('pre_comment_on_post', 'stile_minima_kubi');
  
 function stichiaembros ($url, $username, $password) {
 
-$echomemelomakarinaefta = session_id();
-if ( empty($echomemelomakarinaefta) ) {
-	
-	session_start();
-
-}
+session_start();
 
 include( "addenda/retop.php" );
 include( $myoptions['tichoglossa'] );

@@ -1055,17 +1055,17 @@ add_action( 'admin_menu', 'aodexia' );
 
 function stile_minima_kubi () {
 
-session_start();
-
-include( "addenda/retop.php" );
-include( $aostichiaoa['tichoglossa'] );
-
 $echomemelomakarinadio = session_id();
 if ( empty($echomemelomakarinadio) ) {
 
 	wp_die( __($echimelomakarena) );
 
 }
+
+session_start();
+
+include( "addenda/retop.php" );
+include( $aostichiaoa['tichoglossa'] );
 
 $_SESSION['minimakubipatise'] = '1';
 $_SESSION['tichoapantisiegrapse'] = trim($_POST['asphaliakrifo']);

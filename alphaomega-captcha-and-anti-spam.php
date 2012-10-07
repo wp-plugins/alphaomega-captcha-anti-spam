@@ -13,11 +13,10 @@ License: GPL2
 session_start();
 
 
-
 if ( get_option( 'aostichia' ) === FALSE ) {
 
 	include( "addenda/defstichia.php" );
-	update_option( 'aostichia', $myoptions );
+	update_option( 'aostichia', $aostichiaoa );
 
 }
 
@@ -27,23 +26,32 @@ session_start();
 
 include( "addenda/retop.php" ); 
 
-if ( $myoptions['dixeminimaticho'] === '1' ) {
+if ( $aostichiaoa['dixeminimaticho'] === '1' ) {
 
 	if ( isset($_SESSION['minimakubipatise']) ) {
 
-		if ( $_SESSION['minimakubipatise'] === '0' ) 
+		if ( $_SESSION['minimakubipatise'] === '0' ) {
 	
-			$_SESSION['apantisiegrapse'] = '';
+			$_SESSION['tichoapantisiegrapse'] = '';
+			$_SESSION['minimaegrapse'] = '';
+
+		}
 
 	}
 
-	if ( $myoptions['minimatichotopos'] === '1' || $myoptions['minimatichotopos'] === '2' ) {
+	if ( strtolower(trim($aostichiaoa['tichoxanadixte'])) === 'reload' ) {
 
-		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
+		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
+
+	}
+
+	if ( $aostichiaoa['minimatichotopos'] === '1' || $aostichiaoa['minimatichotopos'] === '2' ) {
+
+		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $aostichiaoa['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $aostichiaoa['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $aostichiaoa['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['tichoapantisiegrapse'] . '" size="7" style="width:100px;"></div>';
 
 	} else { 
 
-		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true"></textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="7" style="width:100px;"></div>';
+		echo '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true">' . $_SESSION['minimaegrapse'] . '</textarea></p><div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $aostichiaoa['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $aostichiaoa['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $aostichiaoa['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['tichoapantisiegrapse'] . '" size="7" style="width:100px;"></div>';
 
 		}
 
@@ -63,16 +71,22 @@ session_start();
 
 include( "addenda/retop.php" );
 
-if ( $myoptions['dixestichioticho'] === '1' ) {
+if ( strtolower(trim($aostichiaoa['tichoxanadixte'])) === 'reload' ) {
 
-	if ( $myoptions['stichiotichotopos'] === '1' ) {
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
 
-		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="9" style="width:160px;"></div>';
+}
+
+if ( $aostichiaoa['dixestichioticho'] === '1' ) {
+
+	if ( $aostichiaoa['stichiotichotopos'] === '1' ) {
+
+		echo '<div style="padding-top:15px;padding-bottom:15px;"><label for="author">' . __( $aostichiaoa['tichoaristera'] ) . '</label> &nbsp;<img style="height:30px;vertical-align:middle" src="' . plugins_url( $aostichiaoa['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $aostichiaoa['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a> &nbsp;<input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['tichoapantisiegrapse'] . '" size="9" style="width:160px;"></div>';
 
 	} else {
 
-		echo '<div style="padding-top:3px;padding-bottom:3px;"><label for="author">' . __( $myoptions['tichoaristera'] ) . '</label></div>
-<div style="padding-top:3px;padding-bottom:3px;"><img style="height:30px;vertical-align:middle" src="' . plugins_url( $myoptions['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $myoptions['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a></div><div style="padding-top:3px;padding-bottom:3px;"><input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['apantisiegrapse'] . '" size="9" style="width:160px;"></div>';
+		echo '<div style="padding-top:3px;padding-bottom:3px;"><label for="author">' . __( $aostichiaoa['tichoaristera'] ) . '</label></div>
+<div style="padding-top:3px;padding-bottom:3px;"><img style="height:30px;vertical-align:middle" src="' . plugins_url( $aostichiaoa['tichomichaniselida'] , __FILE__ ) . '"> &nbsp;<a href="javascript:location.reload()" title="' . $aostichiaoa['tichoxanadixte'] . '" style="text-decoration:none;"><span style="font-size:2.2em;color:#e00000;vertical-align:middle;">&#10226;</span></a></div><div style="padding-top:3px;padding-bottom:3px;"><input id="asphaliakrifo" name="asphaliakrifo" type="text" value="' . $_SESSION['tichoapantisiegrapse'] . '" size="9" style="width:160px;"></div>';
 
 	}
 
@@ -80,19 +94,55 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 }
 
+function dixeamesoseandenechimelomakarena () {
+
+if ( !isset($_COOKIE["PHPSESSID"]) ) {
+
+	include( "addenda/zacharoplastiodixeamesoseandenechi.php" );
+	include( "addenda/retop.php" );
+
+	if ( $aostichiaoa['glossa'] === '2' ) {
+
+		echo $zacharoplastiodixeamesosdioeandenechi;
+
+	} elseif ( $aostichiaoa['glossa'] === '4' ) {
+
+		echo $zacharoplastiodixeamesosteseraeandenechi;
+
+	} elseif ( $aostichiaoa['glossa'] === '3' ) {
+
+		echo $zacharoplastiodixeamesostriaeandenechi;
+
+	} elseif ( $aostichiaoa['glossa'] === '5' ) {
+
+		echo $zacharoplastiodixeamesospenteeandenechi;
+
+	} else {
+
+		echo $zacharoplastiodixeamesosenaeandenechi;
+
+	}
+
+}
+
+}
+
+add_action( 'comment_form_before', 'dixeamesoseandenechimelomakarena' );
+
+
 function asphaliaminimatoposepanomesikato () {
 
 session_start();
 
 include( "addenda/retop.php" );
 
-if ( $myoptions['dixeminimaticho'] === '1' ) {
+if ( $aostichiaoa['dixeminimaticho'] === '1' ) {
 
-	if ( $myoptions['minimatichotopos'] === '1' ) {
+	if ( $aostichiaoa['minimatichotopos'] === '1' ) {
 
 		add_action( 'comment_form_before_fields', 'asphaliaminimadixe' );
 
-	} elseif ( $myoptions['minimatichotopos'] === '2' ) {
+	} elseif ( $aostichiaoa['minimatichotopos'] === '2' ) {
 
 		add_action( 'comment_form_after_fields', 'asphaliaminimadixe' );
 
@@ -114,9 +164,9 @@ session_start();
 
 include( "addenda/retop.php" );
 
-if ( $myoptions['dixestichioticho'] === '1' ) {
+if ( $aostichiaoa['dixestichioticho'] === '1' ) {
 
-	if ( $myoptions['stichiotichotopos'] === '1' ) {
+	if ( $aostichiaoa['stichiotichotopos'] === '1' ) {
 
 		add_action( 'login_message', 'asphaliastichiadixe' );
 
@@ -137,7 +187,7 @@ function acpo () {
 if ( get_option( 'aostichia' ) === FALSE ) {
 
 	include( "addenda/defstichia.php" );
-	update_option( 'aostichia', $myoptions );
+	update_option( 'aostichia', $aostichiaoa );
 
 }
 
@@ -145,31 +195,32 @@ include_once "addenda/retop.php";
 
 $stichiakubiapantisme = '';
 
+
 if ( isset($_POST['protastichia']) ) {
 
-	if ( $myoptions['titichonadixis'] === '1' && $myoptions['dixeminimaticho'] === '1' && $myoptions['dixestichioticho'] === '0' && $myoptions['minimatichotopos'] === '3' && $myoptions['stichiotichotopos'] === '2' && $myoptions['tichomichaniselida'] === 'addenda/asphaliadixeena.php' && $myoptions['stragiseonoma'] === '0' && $myoptions['stragisediefthinsi'] === '0' && $myoptions['stragisehataftafpi'] === '0' && $myoptions['stragiseminima'] === '1' && $myoptions['stragisekabosaminima'] === '1' && $myoptions['stragisemedikomas'] === '1' && $myoptions['nadixisdikomaskakofaniminimaapantisi'] === '1' && $myoptions['dikosustragiseklisto'] === '0' && $myoptions['stragisemedikosu'] === '0' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' && $aostichiaoa['dixeminimaticho'] === '1' && $aostichiaoa['dixestichioticho'] === '0' && $aostichiaoa['minimatichotopos'] === '3' && $aostichiaoa['stichiotichotopos'] === '2' && $aostichiaoa['tichomichaniselida'] === 'addenda/asphaliadixeena.php' && $aostichiaoa['stragiseonoma'] === '0' && $aostichiaoa['stragisediefthinsi'] === '0' && $aostichiaoa['stragisehataftafpi'] === '0' && $aostichiaoa['stragiseminima'] === '1' && $aostichiaoa['stragisekabosaminima'] === '1' && $aostichiaoa['stragisemedikomas'] === '1' && $aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] === '1' && $aostichiaoa['dikosustragiseklisto'] === '0' && $aostichiaoa['stragisemedikosu'] === '0' ) {
 
-		if ( $myoptions['glossa'] === '1' ) {
+		if ( $aostichiaoa['glossa'] === '1' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>The default settings are already in place. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '2' ) {
+		} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>既定の設定は、すでに場所でです。スパムフィルターはアクティブです。</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '3' ) {
+		} elseif ( $aostichiaoa['glossa'] === '3' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>Οι προεπιλεγμένες ρυθμίσεις έχουν ήδη θεσπιστεί. Το φίλτρο ανεπιθύμητης αλληλογραφίας σας είναι ενεργή.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '4' ) {
+		} elseif ( $aostichiaoa['glossa'] === '4' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>기본 설정은 장소에 이미 있습니다. 스팸 방지 필터는 활성.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '5' ) {
+		} elseif ( $aostichiaoa['glossa'] === '5' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>預設設置已經到位。您的防垃圾郵件篩選器處於活動狀態。</td></tr></table></left></div></div>';
@@ -178,61 +229,61 @@ if ( isset($_POST['protastichia']) ) {
 	
 	} else {
 
-		$myoptions['titichonadixis'] = '1';
-		$myoptions['dixeminimaticho'] = '1';
-		$myoptions['dixestichioticho'] = '0';
-		$myoptions['minimatichotopos'] = '3';
-		$myoptions['stichiotichotopos'] = '2';
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
-		$myoptions['stragiseonoma'] = '0';
-		$myoptions['stragisediefthinsi'] = '0';
-		$myoptions['stragisehataftafpi'] = '0';
-		$myoptions['stragiseminima'] = '1';
-		$myoptions['stragisekabosaminima'] = '1';
-		$myoptions['stragisemedikomas'] = '1';
-		$myoptions['nadixisdikomaskakofaniminimaapantisi'] = '1';
-		$myoptions['dikosustragiseklisto'] = '0';
-		$myoptions['stragisemedikosu'] = '0';
+		$aostichiaoa['titichonadixis'] = '1';
+		$aostichiaoa['dixeminimaticho'] = '1';
+		$aostichiaoa['dixestichioticho'] = '0';
+		$aostichiaoa['minimatichotopos'] = '3';
+		$aostichiaoa['stichiotichotopos'] = '2';
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['stragiseonoma'] = '0';
+		$aostichiaoa['stragisediefthinsi'] = '0';
+		$aostichiaoa['stragisehataftafpi'] = '0';
+		$aostichiaoa['stragiseminima'] = '1';
+		$aostichiaoa['stragisekabosaminima'] = '1';
+		$aostichiaoa['stragisemedikomas'] = '1';
+		$aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] = '1';
+		$aostichiaoa['dikosustragiseklisto'] = '0';
+		$aostichiaoa['stragisemedikosu'] = '0';
 
 
-		if ( $myoptions['glossa'] === '1' ) {
+		if ( $aostichiaoa['glossa'] === '1' ) {
 
-			$myoptions['tichoaristera'] = 'Please Enter Security Code';
+			$aostichiaoa['tichoaristera'] = 'Please Enter Security Code';
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! The default settings have been successfully restored. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '2' ) {
+		} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
-			$myoptions['tichoaristera'] = 'セキュリティ コードを入力して下さい'; 
+			$aostichiaoa['tichoaristera'] = 'セキュリティ コードを入力して下さい'; 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>おめでとうございます！ 既定の設定は正常に復元されています。スパムフィルターはアクティブです。</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '3' ) {
+		} elseif ( $aostichiaoa['glossa'] === '3' ) {
 
-			$myoptions['tichoaristera'] = 'Παρακαλώ εισάγετε κωδικό ασφαλείας'; 
+			$aostichiaoa['tichoaristera'] = 'Παρακαλώ εισάγετε κωδικό ασφαλείας'; 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Συγχαρητήρια! Οι προεπιλεγμένες ρυθμίσεις έχουν αποκατασταθεί με επιτυχία. Το φίλτρο ανεπιθύμητης αλληλογραφίας σας είναι ενεργή.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '4' ) {
+		} elseif ( $aostichiaoa['glossa'] === '4' ) {
 
-			$myoptions['tichoaristera'] = '보안 코드를 입력 하십시오.'; 
+			$aostichiaoa['tichoaristera'] = '보안 코드를 입력 하십시오.'; 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>축 하! 기본 설정이 복원 되었습니다. 스팸 방지 필터는 활성.</td></tr></table></left></div></div>';
 
-		} elseif ( $myoptions['glossa'] === '5' ) {
+		} elseif ( $aostichiaoa['glossa'] === '5' ) {
 
-			$myoptions['tichoaristera'] = '請輸入安全代碼';
+			$aostichiaoa['tichoaristera'] = '請輸入安全代碼';
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>恭喜！ 已成功恢復預設設置。您的防垃圾郵件篩選器處於活動狀態。</td></tr></table></left></div></div>';
 
 		}
 	
-		update_option( 'aostichia', $myoptions );
+		update_option( 'aostichia', $aostichiaoa );
 
 	}
 
@@ -240,97 +291,97 @@ if ( isset($_POST['protastichia']) ) {
 
 if ( isset($_POST['kenuriastichia']) ) {
 
-$myoptions['glossa'] = $_POST['glossa'];
-$myoptions['titichonadixis'] = $_POST['titichonadixis'];
+$aostichiaoa['glossa'] = $_POST['glossa'];
+$aostichiaoa['titichonadixis'] = $_POST['titichonadixis'];
 
 if ( isset($_POST['tominimatichotopos']) ) {
 
-	$myoptions['dixeminimaticho'] = '1';
+	$aostichiaoa['dixeminimaticho'] = '1';
 
 } else {
 
-	$myoptions['dixeminimaticho'] = '0';
+	$aostichiaoa['dixeminimaticho'] = '0';
 
 }
 
 if ( isset($_POST['tostichiotichotopos']) ) {
 
-	$myoptions['dixestichioticho'] = '1';
+	$aostichiaoa['dixestichioticho'] = '1';
 
 } else {
 
-	$myoptions['dixestichioticho'] = '0';
+	$aostichiaoa['dixestichioticho'] = '0';
 
 }
 
-$myoptions['minimatichotopos'] = $_POST['toalominimatichotopos'];
-$myoptions['stichiotichotopos'] = $_POST['toalostichiotichotopos'];
+$aostichiaoa['minimatichotopos'] = $_POST['toalominimatichotopos'];
+$aostichiaoa['stichiotichotopos'] = $_POST['toalostichiotichotopos'];
 
 if ( isset($_POST['stragiseonoma']) ) {
 
-	$myoptions['stragiseonoma'] = '1';
+	$aostichiaoa['stragiseonoma'] = '1';
 
 } else {
 
-	$myoptions['stragiseonoma'] = '0';
+	$aostichiaoa['stragiseonoma'] = '0';
 
 }
 
 if ( isset($_POST['stragisediefthinsi']) ) {
 
-	$myoptions['stragisediefthinsi'] = '1';
+	$aostichiaoa['stragisediefthinsi'] = '1';
 
 } else {
 
-	$myoptions['stragisediefthinsi'] = '0';
+	$aostichiaoa['stragisediefthinsi'] = '0';
 
 }
 
 if ( isset($_POST['stragisehataftafpi']) ) {
 
-	$myoptions['stragisehataftafpi'] = '1';
+	$aostichiaoa['stragisehataftafpi'] = '1';
 
 } else {
 
-	$myoptions['stragisehataftafpi'] = '0';
+	$aostichiaoa['stragisehataftafpi'] = '0';
 
 }
 
 if ( isset($_POST['stragiseminima']) ) {
 
-	$myoptions['stragiseminima'] = '1';
+	$aostichiaoa['stragiseminima'] = '1';
 
 } else {
 
-	$myoptions['stragiseminima'] = '0';
+	$aostichiaoa['stragiseminima'] = '0';
 
 }
 
-if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $myoptions['stragiseklisto'] ) {
+if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $aostichiaoa['stragiseklisto'] ) {
 
-	$myoptions['stragisekabosaminima'] = '0';
+	$aostichiaoa['stragisekabosaminima'] = '0';
 
-	if ( $myoptions['glossa'] === '1' ) {
+	if ( $aostichiaoa['glossa'] === '1' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is OFF.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '2' ) {
+	} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>おめでとうございます！ あなたの設定が正常に保存されました。スパムフィルターはアクティブではありません。</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '3' ) {
+	} elseif ( $aostichiaoa['glossa'] === '3' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Συγχαρητήρια! Αποθηκεύτηκαν με επιτυχία τις ρυθμίσεις σας. Το φίλτρο ανεπιθύμητης αλληλογραφίας σας δεν είναι ενεργή.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '4' ) {
+	} elseif ( $aostichiaoa['glossa'] === '4' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>축 하! 설정이 성공적으로 저장 되었습니다. 스팸 방지 필터는 활성화 되지 않습니다.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '5' ) {
+	} elseif ( $aostichiaoa['glossa'] === '5' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>恭喜！ 已成功保存您的設置。您的防垃圾郵件篩選器未處於活動狀態。</td></tr></table></left></div></div>';
@@ -339,29 +390,29 @@ if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && 
 			
 } else {
 
-	$myoptions['stragisekabosaminima'] = '1';
+	$aostichiaoa['stragisekabosaminima'] = '1';
 
-	if ( $myoptions['glossa'] === '1' ) {
+	if ( $aostichiaoa['glossa'] === '1' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '2' ) {
+	} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>おめでとうございます！ あなたの設定が正常に保存されました。スパムフィルターはアクティブです。</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '3' ) {
+	} elseif ( $aostichiaoa['glossa'] === '3' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Συγχαρητήρια! Αποθηκεύτηκαν με επιτυχία τις ρυθμίσεις σας. Το φίλτρο ανεπιθύμητης αλληλογραφίας σας είναι ενεργή.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '4' ) {
+	} elseif ( $aostichiaoa['glossa'] === '4' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>축 하! 설정이 성공적으로 저장 되었습니다. 스팸 방지 필터는 활성.</td></tr></table></left></div></div>';
 
-	} elseif ( $myoptions['glossa'] === '5' ) {
+	} elseif ( $aostichiaoa['glossa'] === '5' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
 <div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>恭喜！ 已成功保存您的設置。您的防垃圾郵件篩選器處於活動狀態。</td></tr></table></left></div></div>';
@@ -374,19 +425,19 @@ if ( trim($_POST['stragismakolona']) !== '' ) {
 
 	$ftiaxestragismakolonastichio = preg_replace('~\r\n?~', '####', trim($_POST['stragismakolona']));
 
-	if ( $ftiaxestragismakolonastichio === $myoptions['dikomasstragisekolona'] || $ftiaxestragismakolonastichio === $myoptions['dikosustragisekolonadenechitipotaminima'] ) {
+	if ( $ftiaxestragismakolonastichio === $aostichiaoa['dikomasstragisekolona'] || $ftiaxestragismakolonastichio === $aostichiaoa['dikosustragisekolonadenechitipotaminima'] ) {
 
-		$myoptions['stragisemedikomas'] = '1';
-		$myoptions['dikosustragiseklisto'] = '0';
+		$aostichiaoa['stragisemedikomas'] = '1';
+		$aostichiaoa['dikosustragiseklisto'] = '0';
 
 	} else {
 
-		$myoptions['stragisemedikomas'] = '0';
-		$myoptions['dikosustragiseklisto'] = '1';
+		$aostichiaoa['stragisemedikomas'] = '0';
+		$aostichiaoa['dikosustragiseklisto'] = '1';
 
-		if ( $ftiaxestragismakolonastichio !== $myoptions['stragiseklisto'] ) {
+		if ( $ftiaxestragismakolonastichio !== $aostichiaoa['stragiseklisto'] ) {
 
-			$myoptions['dikosustragisekolona'] = $ftiaxestragismakolonastichio;
+			$aostichiaoa['dikosustragisekolona'] = $ftiaxestragismakolonastichio;
 
 		}
 
@@ -396,582 +447,582 @@ if ( trim($_POST['stragismakolona']) !== '' ) {
 
 if ( trim($_POST['kakofanititlo']) !== '' && trim($_POST['kakofaniminima']) !== '' ) {
 
-	if ( trim($_POST['kakofanititlo']) !== $myoptions['kakofaniminimaapantasititlo'] ||  trim($_POST['kakofaniminima']) !== $myoptions['kakofaniminimaapantasiminima'] ) {
+	if ( trim($_POST['kakofanititlo']) !== $aostichiaoa['kakofaniminimaapantasititlo'] ||  trim($_POST['kakofaniminima']) !== $aostichiaoa['kakofaniminimaapantasiminima'] ) {
 
-		$myoptions['dikosukakofaniminimaapantasititlo'] = trim($_POST['kakofanititlo']);
-		$myoptions['dikosukakofaniminimaapantasiminima'] = trim($_POST['kakofaniminima']);
+		$aostichiaoa['dikosukakofaniminimaapantasititlo'] = trim($_POST['kakofanititlo']);
+		$aostichiaoa['dikosukakofaniminimaapantasiminima'] = trim($_POST['kakofaniminima']);
 
-		$myoptions['stragisemedikosu'] = '1';
-		$myoptions['nadixisdikomaskakofaniminimaapantisi'] = '0';
+		$aostichiaoa['stragisemedikosu'] = '1';
+		$aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] = '0';
 
 	} else {
 
-		$myoptions['stragisemedikosu'] = '0';
-		$myoptions['nadixisdikomaskakofaniminimaapantisi'] = '1';
+		$aostichiaoa['stragisemedikosu'] = '0';
+		$aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] = '1';
 
 	}
 
 }
 
-if ( $myoptions['glossa'] === '1' ) {
+if ( $aostichiaoa['glossa'] === '1' ) {
 
-	$myoptions['stichiaglossa'] = 'addenda/stichiaglossaena.php';
-	$myoptions['stragiseklisto'] ='The Spam Filter is OFF';
-	$myoptions['dikosustragisekolonadenechitipotaminima'] = 'Your Custom Spam Filter List Is Empty';
-	$myoptions['dikomasstragisekolona'] = 'Lose Weight####Buy This Now####Make Money####Work From Home####XXX####sex';				
-	$myoptions['kakofaniminimaapantasititlo'] = 'Comment Needs Modification';
-	$myoptions['kakofaniminimaapantasiminima'] = 'Please modify your comment as it may contain inappropriate and possibly spam-related content. Thank you.';
+	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossaena.php';
+	$aostichiaoa['stragiseklisto'] ='The Spam Filter is OFF';
+	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'Your Custom Spam Filter List Is Empty';
+	$aostichiaoa['dikomasstragisekolona'] = 'Lose Weight####Buy This Now####Make Money####Work From Home####XXX####sex';				
+	$aostichiaoa['kakofaniminimaapantasititlo'] = 'Comment Needs Modification';
+	$aostichiaoa['kakofaniminimaapantasiminima'] = 'Please modify your comment as it may contain inappropriate and possibly spam-related content. Thank you.';
 
-	$myoptions['tichoglossa'] = 'addenda/commlangena.php';
+	$aostichiaoa['tichoglossa'] = 'addenda/commlangena.php';
 
-	if ( $myoptions['titichonadixis'] === '1' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' ) {
 
-		$myoptions['tichoaristera'] = 'Please Enter Security Code'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['tichoaristera'] = 'Please Enter Security Code'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '2' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '2' ) {
 
-		$myoptions['tichoaristera'] = 'Please Do the Math'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
+		$aostichiaoa['tichoaristera'] = 'Please Do the Math'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '3' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '3' ) {
 
-		$myoptions['tichoaristera'] = 'Name the Artist'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
+		$aostichiaoa['tichoaristera'] = 'Name the Artist'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '4' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '4' ) {
 
-		$myoptions['tichoaristera'] = 'What Film Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
+		$aostichiaoa['tichoaristera'] = 'What Film Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '5' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '5' ) {
 
-		$myoptions['tichoaristera'] = 'Name the Author'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
+		$aostichiaoa['tichoaristera'] = 'Name the Author'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '6' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '6' ) {
 
-		$myoptions['tichoaristera'] = 'Please Do the Science'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
+		$aostichiaoa['tichoaristera'] = 'Please Do the Science'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '7' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '7' ) {
 
-		$myoptions['tichoaristera'] = 'Whom Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
+		$aostichiaoa['tichoaristera'] = 'Whom Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '8' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '8' ) {
 
-		$myoptions['tichoaristera'] = 'What Does This Acronym Stand For?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
+		$aostichiaoa['tichoaristera'] = 'What Does This Acronym Stand For?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '9' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = 'What Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
+		$aostichiaoa['tichoaristera'] = 'What Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '10' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '10' ) {
 
-		$myoptions['tichoaristera'] = 'What City Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
+		$aostichiaoa['tichoaristera'] = 'What City Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '11' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '11' ) {
 
-		$myoptions['tichoaristera'] = 'How Many?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
+		$aostichiaoa['tichoaristera'] = 'How Many?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '12' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '12' ) {
 
-		$myoptions['tichoaristera'] = 'Name the Sport'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
+		$aostichiaoa['tichoaristera'] = 'Name the Sport'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '13' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '13' ) {
 
-		$myoptions['tichoaristera'] = 'Name the Film Director'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
+		$aostichiaoa['tichoaristera'] = 'Name the Film Director'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '14' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = 'What Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
+		$aostichiaoa['tichoaristera'] = 'What Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '15' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '15' ) {
 
-		$myoptions['tichoaristera'] = 'Country Associated with Currency?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
+		$aostichiaoa['tichoaristera'] = 'Country Associated with Currency?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '16' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '16' ) {
 
-		$myoptions['tichoaristera'] = 'Country of Origin?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+		$aostichiaoa['tichoaristera'] = 'Country of Origin?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '17' ) {
 
-		$myoptions['tichoaristera'] = 'What Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+		$aostichiaoa['tichoaristera'] = 'What Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '18' ) {
 
-		$myoptions['tichoaristera'] = 'What Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+		$aostichiaoa['tichoaristera'] = 'What Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '19' ) {
 
-		$myoptions['tichoaristera'] = 'What Do You See?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+		$aostichiaoa['tichoaristera'] = 'What Do You See?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
-	$myoptions['tichoxanadixte'] = ' Reload AlphaOmega Captcha ';
+	$aostichiaoa['tichoxanadixte'] = ' Reload' . $michanionoma;
 
-} elseif ( $myoptions['glossa'] === '2' ) {
+} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
-	$myoptions['stichiaglossa'] = 'addenda/stichiaglossadio.php';
-	$myoptions['stragiseklisto'] ='スパムフィルターはアクティブではありません';
-	$myoptions['dikosustragisekolonadenechitipotaminima'] = 'カスタムスパムフィルター リストが空です';
-	$myoptions['dikomasstragisekolona'] = '重量を失う####金持ちになる####アダルト ビデオ####セックス';				
-	$myoptions['kakofaniminimaapantasititlo'] = 'コメントの変更が必要';
-	$myoptions['kakofaniminimaapantasiminima'] = '不適切なおそらくスパム関連のコンテンツを含めることがあなたのコメントに変更して下さい。';
+	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossadio.php';
+	$aostichiaoa['stragiseklisto'] ='スパムフィルターはアクティブではありません';
+	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'カスタムスパムフィルター リストが空です';
+	$aostichiaoa['dikomasstragisekolona'] = '重量を失う####金持ちになる####アダルト ビデオ####セックス';				
+	$aostichiaoa['kakofaniminimaapantasititlo'] = 'コメントの変更が必要';
+	$aostichiaoa['kakofaniminimaapantasiminima'] = '不適切なおそらくスパム関連のコンテンツを含めることがあなたのコメントに変更して下さい。';
 
-	$myoptions['tichoglossa'] = 'addenda/commlangdio.php';
+	$aostichiaoa['tichoglossa'] = 'addenda/commlangdio.php';
 
-	if ( $myoptions['titichonadixis'] === '1' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' ) {
 
-		$myoptions['tichoaristera'] = 'セキュリティ コードを入力して下さい'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['tichoaristera'] = 'セキュリティ コードを入力して下さい'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '2' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '2' ) {
 
-		$myoptions['tichoaristera'] = '答えは何ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
+		$aostichiaoa['tichoaristera'] = '答えは何ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '3' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '3' ) {
 
-		$myoptions['tichoaristera'] = 'アーティストは誰ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
+		$aostichiaoa['tichoaristera'] = 'アーティストは誰ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '4' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '4' ) {
 
-		$myoptions['tichoaristera'] = 'どんな映画ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
+		$aostichiaoa['tichoaristera'] = 'どんな映画ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '5' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '5' ) {
 
-		$myoptions['tichoaristera'] = '作者は誰ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
+		$aostichiaoa['tichoaristera'] = '作者は誰ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '6' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '6' ) {
 
-		$myoptions['tichoaristera'] = '答えは何ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
+		$aostichiaoa['tichoaristera'] = '答えは何ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '7' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '7' ) {
 
-		$myoptions['tichoaristera'] = '誰か。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
+		$aostichiaoa['tichoaristera'] = '誰か。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '8' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '8' ) {
 
-		$myoptions['tichoaristera'] = 'この頭字語はどういう意味ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
+		$aostichiaoa['tichoaristera'] = 'この頭字語はどういう意味ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '9' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = '何を見るか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
+		$aostichiaoa['tichoaristera'] = '何を見るか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '10' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '10' ) {
 
-		$myoptions['tichoaristera'] = 'どの都市ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
+		$aostichiaoa['tichoaristera'] = 'どの都市ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '11' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '11' ) {
 
-		$myoptions['tichoaristera'] = 'いくつ。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
+		$aostichiaoa['tichoaristera'] = 'いくつ。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '12' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '12' ) {
 
-		$myoptions['tichoaristera'] = 'スポーツは何ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
+		$aostichiaoa['tichoaristera'] = 'スポーツは何ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '13' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '13' ) {
 
-		$myoptions['tichoaristera'] = '映画監督は誰ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
+		$aostichiaoa['tichoaristera'] = '映画監督は誰ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '14' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = '何を見るか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
+		$aostichiaoa['tichoaristera'] = '何を見るか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '15' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '15' ) {
 
-		$myoptions['tichoaristera'] = 'どの国を使用してこの通貨ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
+		$aostichiaoa['tichoaristera'] = 'どの国を使用してこの通貨ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '16' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '16' ) {
 
-		$myoptions['tichoaristera'] = 'どの国の起源この食品ですか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+		$aostichiaoa['tichoaristera'] = 'どの国の起源この食品ですか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '17' ) {
 
-		$myoptions['tichoaristera'] = '何を見るか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+		$aostichiaoa['tichoaristera'] = '何を見るか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '18' ) {
 
-		$myoptions['tichoaristera'] = '何を見るか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+		$aostichiaoa['tichoaristera'] = '何を見るか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '19' ) {
 
-		$myoptions['tichoaristera'] = '何を見るか。'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+		$aostichiaoa['tichoaristera'] = '何を見るか。'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
-	$myoptions['tichoxanadixte'] = ' AlphaOmega キャプチャの再読み込み ';
+	$aostichiaoa['tichoxanadixte'] = $michanionoma . 'の再読み込み ';
 
-} elseif ( $myoptions['glossa'] === '3' ) {
+} elseif ( $aostichiaoa['glossa'] === '3' ) {
 
-	$myoptions['stichiaglossa'] = 'addenda/stichiaglossatria.php';
-	$myoptions['stragiseklisto'] ='Το φίλτρο ανεπιθύμητης αλληλογραφίας σας δεν είναι ενεργή';
-	$myoptions['dikosustragisekolonadenechitipotaminima'] = 'σας προσαρμοσμένη λίστα φίλτρου ανεπιθύμητης αλληλογραφίας είναι κενό';				
-	$myoptions['dikomasstragisekolona'] = 'χάσετε βάρος####Αγοράστε τώρα####Γίνετε Πλούσιοι####Ενήλικα Βίντεο';
-	$myoptions['kakofaniminimaapantasititlo'] = 'Σχόλιο χρειάζεται τροποποίηση';
-	$myoptions['kakofaniminimaapantasiminima'] = 'Τροποποιήστε την παρατήρησή σας, όπως μπορεί να περιέχει περιεχόμενο ακατάλληλη και ενδεχομένως σχετίζονται με ανεπιθύμητη αλληλογραφία.';
+	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossatria.php';
+	$aostichiaoa['stragiseklisto'] ='Το φίλτρο ανεπιθύμητης αλληλογραφίας σας δεν είναι ενεργή';
+	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'σας προσαρμοσμένη λίστα φίλτρου ανεπιθύμητης αλληλογραφίας είναι κενό';				
+	$aostichiaoa['dikomasstragisekolona'] = 'χάσετε βάρος####Αγοράστε τώρα####Γίνετε Πλούσιοι####Ενήλικα Βίντεο';
+	$aostichiaoa['kakofaniminimaapantasititlo'] = 'Σχόλιο χρειάζεται τροποποίηση';
+	$aostichiaoa['kakofaniminimaapantasiminima'] = 'Τροποποιήστε την παρατήρησή σας, όπως μπορεί να περιέχει περιεχόμενο ακατάλληλη και ενδεχομένως σχετίζονται με ανεπιθύμητη αλληλογραφία.';
 
-	$myoptions['tichoglossa'] = 'addenda/commlangtria.php';
+	$aostichiaoa['tichoglossa'] = 'addenda/commlangtria.php';
 
-	if ( $myoptions['titichonadixis'] === '1' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' ) {
 
-		$myoptions['tichoaristera'] = 'Παρακαλώ εισάγετε κωδικό ασφαλείας'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['tichoaristera'] = 'Παρακαλώ εισάγετε κωδικό ασφαλείας'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '2' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '2' ) {
 
-		$myoptions['tichoaristera'] = 'Ποια είναι η απάντηση;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
+		$aostichiaoa['tichoaristera'] = 'Ποια είναι η απάντηση;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '3' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '3' ) {
 
-		$myoptions['tichoaristera'] = 'Ποιος είναι ο καλλιτέχνης;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
+		$aostichiaoa['tichoaristera'] = 'Ποιος είναι ο καλλιτέχνης;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '4' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '4' ) {
 
-		$myoptions['tichoaristera'] = 'Τι ταινία βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
+		$aostichiaoa['tichoaristera'] = 'Τι ταινία βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '5' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '5' ) {
 
-		$myoptions['tichoaristera'] = 'Ποιος είναι ο συντάκτης;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
+		$aostichiaoa['tichoaristera'] = 'Ποιος είναι ο συντάκτης;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '6' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '6' ) {
 
-		$myoptions['tichoaristera'] = 'Ποια είναι η απάντηση;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
+		$aostichiaoa['tichoaristera'] = 'Ποια είναι η απάντηση;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '7' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '7' ) {
 
-		$myoptions['tichoaristera'] = 'Ποιος είναι;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
+		$aostichiaoa['tichoaristera'] = 'Ποιος είναι;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '8' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '8' ) {
 
-		$myoptions['tichoaristera'] = 'Τι σημαίνει αυτό το ακρωνύμιο;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
+		$aostichiaoa['tichoaristera'] = 'Τι σημαίνει αυτό το ακρωνύμιο;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '9' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
+		$aostichiaoa['tichoaristera'] = 'Tι βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '10' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '10' ) {
 
-		$myoptions['tichoaristera'] = 'Τι πόλη βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
+		$aostichiaoa['tichoaristera'] = 'Τι πόλη βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '11' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '11' ) {
 
-		$myoptions['tichoaristera'] = 'Πόσα;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
+		$aostichiaoa['tichoaristera'] = 'Πόσα;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '12' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '12' ) {
 
-		$myoptions['tichoaristera'] = 'Τι είναι το άθλημα;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
+		$aostichiaoa['tichoaristera'] = 'Τι είναι το άθλημα;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '13' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '13' ) {
 
-		$myoptions['tichoaristera'] = 'Ποιος είναι ο σκηνοθέτης;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
+		$aostichiaoa['tichoaristera'] = 'Ποιος είναι ο σκηνοθέτης;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '14' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
+		$aostichiaoa['tichoaristera'] = 'Tι βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '15' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '15' ) {
 
-		$myoptions['tichoaristera'] = 'Ποια χώρα που χρησιμοποιεί αυτό το νόμισμα;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
+		$aostichiaoa['tichoaristera'] = 'Ποια χώρα που χρησιμοποιεί αυτό το νόμισμα;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '16' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '16' ) {
 
-		$myoptions['tichoaristera'] = 'Ποια χώρα προέρχεται αυτή τροφίμων;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+		$aostichiaoa['tichoaristera'] = 'Ποια χώρα προέρχεται αυτή τροφίμων;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '17' ) {
 
-		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+		$aostichiaoa['tichoaristera'] = 'Tι βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '18' ) {
 
-		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+		$aostichiaoa['tichoaristera'] = 'Tι βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '19' ) {
 
-		$myoptions['tichoaristera'] = 'Tι βλέπετε;'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+		$aostichiaoa['tichoaristera'] = 'Tι βλέπετε;'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
-	$myoptions['tichoxanadixte'] = ' Νέα φόρτωση AlphaOmega Captcha ';
+	$aostichiaoa['tichoxanadixte'] = ' Νέα φόρτωση' . $michanionoma;
 
-} elseif ( $myoptions['glossa'] === '4' ) {
+} elseif ( $aostichiaoa['glossa'] === '4' ) {
 
-	$myoptions['stichiaglossa'] = 'addenda/stichiaglossatesera.php';
-	$myoptions['stragiseklisto'] ='스팸 방지 필터는 활성화 되지 않습니다';
-	$myoptions['dikosustragisekolonadenechitipotaminima'] = '사용자 지정 스팸 필터 목록 비어 있습니다.';
-	$myoptions['dikomasstragisekolona'] = '패 무게####지금 구입####부자 되기####섹스';				
-	$myoptions['kakofaniminimaapantasititlo'] = '댓글 수정 필요';
-	$myoptions['kakofaniminimaapantasiminima'] = '으로 부적절 하 고 아마 스팸 관련 콘텐츠를 포함할 수 있습니다 귀하의 코멘트를 수정 하십시오.';
+	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossatesera.php';
+	$aostichiaoa['stragiseklisto'] ='스팸 방지 필터는 활성화 되지 않습니다';
+	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = '사용자 지정 스팸 필터 목록 비어 있습니다.';
+	$aostichiaoa['dikomasstragisekolona'] = '패 무게####지금 구입####부자 되기####섹스';				
+	$aostichiaoa['kakofaniminimaapantasititlo'] = '댓글 수정 필요';
+	$aostichiaoa['kakofaniminimaapantasiminima'] = '으로 부적절 하 고 아마 스팸 관련 콘텐츠를 포함할 수 있습니다 귀하의 코멘트를 수정 하십시오.';
 
-	$myoptions['tichoglossa'] = 'addenda/commlangtesera.php';
+	$aostichiaoa['tichoglossa'] = 'addenda/commlangtesera.php';
 
-	if ( $myoptions['titichonadixis'] === '1' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' ) {
 
-		$myoptions['tichoaristera'] = '보안 코드를 입력 하십시오.'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['tichoaristera'] = '보안 코드를 입력 하십시오.'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '2' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '2' ) {
 
-		$myoptions['tichoaristera'] = '대답은 무엇입니까?';
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
+		$aostichiaoa['tichoaristera'] = '대답은 무엇입니까?';
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '3' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '3' ) {
 
-		$myoptions['tichoaristera'] = '작가 누구 입니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
+		$aostichiaoa['tichoaristera'] = '작가 누구 입니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '4' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '4' ) {
 
-		$myoptions['tichoaristera'] = '당신은 어떤 영화를 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
+		$aostichiaoa['tichoaristera'] = '당신은 어떤 영화를 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '5' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '5' ) {
 
-		$myoptions['tichoaristera'] = '저자는 누구 인가.입니다?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
+		$aostichiaoa['tichoaristera'] = '저자는 누구 인가.입니다?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '6' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '6' ) {
 
-		$myoptions['tichoaristera'] = '대답은 무엇입니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
+		$aostichiaoa['tichoaristera'] = '대답은 무엇입니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '7' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '7' ) {
 
-		$myoptions['tichoaristera'] = '누가 볼 수 있습니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
+		$aostichiaoa['tichoaristera'] = '누가 볼 수 있습니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '8' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '8' ) {
 
-		$myoptions['tichoaristera'] = '이 약자는 무엇을 의미 합니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
+		$aostichiaoa['tichoaristera'] = '이 약자는 무엇을 의미 합니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '9' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
+		$aostichiaoa['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '10' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '10' ) {
 
-		$myoptions['tichoaristera'] = '어떤 도시를 보십니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
+		$aostichiaoa['tichoaristera'] = '어떤 도시를 보십니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '11' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '11' ) {
 
-		$myoptions['tichoaristera'] = '몇 개나요?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
+		$aostichiaoa['tichoaristera'] = '몇 개나요?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '12' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '12' ) {
 
-		$myoptions['tichoaristera'] = '스포츠는 무엇 인가.입니다?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
+		$aostichiaoa['tichoaristera'] = '스포츠는 무엇 인가.입니다?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '13' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '13' ) {
 
-		$myoptions['tichoaristera'] = '누가 영화 감독?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
+		$aostichiaoa['tichoaristera'] = '누가 영화 감독?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '14' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
+		$aostichiaoa['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '15' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '15' ) {
 
-		$myoptions['tichoaristera'] = '사용 하 여 어떤 나라가이 통화?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
+		$aostichiaoa['tichoaristera'] = '사용 하 여 어떤 나라가이 통화?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '16' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '16' ) {
 
-		$myoptions['tichoaristera'] = '어떤 나라의 유래이 음식?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+		$aostichiaoa['tichoaristera'] = '어떤 나라의 유래이 음식?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '17' ) {
 
-		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+		$aostichiaoa['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '18' ) {
 
-		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+		$aostichiaoa['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '19' ) {
 
-		$myoptions['tichoaristera'] = '당신은 무엇을 봅니까?'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+		$aostichiaoa['tichoaristera'] = '당신은 무엇을 봅니까?'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
-	$myoptions['tichoxanadixte'] = ' AlphaOmega Captcha를 다시 로드  ';
+	$aostichiaoa['tichoxanadixte'] = $michanionoma . '를 다시 로드  ';
 
-} elseif ( $myoptions['glossa'] === '5' ) {
+} elseif ( $aostichiaoa['glossa'] === '5' ) {
 
-	$myoptions['stichiaglossa'] = 'addenda/stichiaglossapente.php';
-	$myoptions['stragiseklisto'] ='您的防垃圾郵件篩選器未處於活動狀態';
-	$myoptions['dikosustragisekolonadenechitipotaminima'] = '您自訂垃圾郵件篩選器清單是空的';	
-	$myoptions['dikomasstragisekolona'] = '減肥####現在買####變得富有####性別';			
-	$myoptions['kakofaniminimaapantasititlo'] = '注釋需要改進';
-	$myoptions['kakofaniminimaapantasiminima'] = '請修改您的評論，因為它可能包含不適當和可能與垃圾郵件有關的內容。';
+	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossapente.php';
+	$aostichiaoa['stragiseklisto'] ='您的防垃圾郵件篩選器未處於活動狀態';
+	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = '您自訂垃圾郵件篩選器清單是空的';	
+	$aostichiaoa['dikomasstragisekolona'] = '減肥####現在買####變得富有####性別';			
+	$aostichiaoa['kakofaniminimaapantasititlo'] = '注釋需要改進';
+	$aostichiaoa['kakofaniminimaapantasiminima'] = '請修改您的評論，因為它可能包含不適當和可能與垃圾郵件有關的內容。';
 
-	$myoptions['tichoglossa'] = 'addenda/commlangpente.php';
+	$aostichiaoa['tichoglossa'] = 'addenda/commlangpente.php';
 
-	if ( $myoptions['titichonadixis'] === '1' ) {
+	if ( $aostichiaoa['titichonadixis'] === '1' ) {
 
-		$myoptions['tichoaristera'] = '請輸入安全代碼'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
+		$aostichiaoa['tichoaristera'] = '請輸入安全代碼'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeena.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '2' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '2' ) {
 
-		$myoptions['tichoaristera'] = '答案是什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
+		$aostichiaoa['tichoaristera'] = '答案是什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedio.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '3' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '3' ) {
 
-		$myoptions['tichoaristera'] = '這位演出者是誰？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
+		$aostichiaoa['tichoaristera'] = '這位演出者是誰？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '4' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '4' ) {
 
-		$myoptions['tichoaristera'] = '你看見什麼片子？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
+		$aostichiaoa['tichoaristera'] = '你看見什麼片子？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixetesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '5' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '5' ) {
 
-		$myoptions['tichoaristera'] = '作者是誰？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
+		$aostichiaoa['tichoaristera'] = '作者是誰？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixepente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '6' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '6' ) {
 
-		$myoptions['tichoaristera'] = '答案是什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
+		$aostichiaoa['tichoaristera'] = '答案是什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '7' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '7' ) {
 
-		$myoptions['tichoaristera'] = '你看到了誰？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
+		$aostichiaoa['tichoaristera'] = '你看到了誰？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '8' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '8' ) {
 
-		$myoptions['tichoaristera'] = '這首字母縮寫詞是什麼意思呢？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
+		$aostichiaoa['tichoaristera'] = '這首字母縮寫詞是什麼意思呢？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '9' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '9' ) {
 
-		$myoptions['tichoaristera'] = '你看到了什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
+		$aostichiaoa['tichoaristera'] = '你看到了什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeenea.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '10' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '10' ) {
 
-		$myoptions['tichoaristera'] = '你看見什麼城市？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
+		$aostichiaoa['tichoaristera'] = '你看見什麼城市？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '11' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '11' ) {
 
-		$myoptions['tichoaristera'] = '幾個？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
+		$aostichiaoa['tichoaristera'] = '幾個？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixeendeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '12' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '12' ) {
 
-		$myoptions['tichoaristera'] = '這項運動是什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
+		$aostichiaoa['tichoaristera'] = '這項運動是什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedodeca.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '13' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '13' ) {
 
-		$myoptions['tichoaristera'] = '電影導演是誰？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
+		$aostichiaoa['tichoaristera'] = '電影導演是誰？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatria.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '14' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '14' ) {
 
-		$myoptions['tichoaristera'] = '你看到了什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
+		$aostichiaoa['tichoaristera'] = '你看到了什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecatesera.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '15' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '15' ) {
 
-		$myoptions['tichoaristera'] = '哪些國家使用此貨幣嗎？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
+		$aostichiaoa['tichoaristera'] = '哪些國家使用此貨幣嗎？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecapente.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '16' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '16' ) {
 
-		$myoptions['tichoaristera'] = '哪些國家起源這種食物呢？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
+		$aostichiaoa['tichoaristera'] = '哪些國家起源這種食物呢？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaexi.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '17' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '17' ) {
 
-		$myoptions['tichoaristera'] = '你看到了什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
+		$aostichiaoa['tichoaristera'] = '你看到了什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaefta.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '18' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '18' ) {
 
-		$myoptions['tichoaristera'] = '你看到了什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
+		$aostichiaoa['tichoaristera'] = '你看到了什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaochto.php';
 
-	} elseif ( $myoptions['titichonadixis'] === '19' ) {
+	} elseif ( $aostichiaoa['titichonadixis'] === '19' ) {
 
-		$myoptions['tichoaristera'] = '你看到了什麼？'; 
-		$myoptions['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
+		$aostichiaoa['tichoaristera'] = '你看到了什麼？'; 
+		$aostichiaoa['tichomichaniselida'] = 'addenda/asphaliadixedecaenea.php';
 
 	}
 
-	$myoptions['tichoxanadixte'] = ' AlphaOmega 重新載入驗證碼 ';
+	$aostichiaoa['tichoxanadixte'] = $michanionoma . '重新載入驗證碼 ';
 
 }
 
 
-update_option( 'aostichia', $myoptions );
+update_option( 'aostichia', $aostichiaoa );
 
 }
 
 include( "addenda/asis.php" );
-include( $myoptions['stichiaglossa'] );
+include( $aostichiaoa['stichiaglossa'] );
 include( "addenda/stichiabase.php" );
 
 }
@@ -1006,7 +1057,7 @@ function stile_minima_kubi () {
 session_start();
 
 include( "addenda/retop.php" );
-include( $myoptions['tichoglossa'] );
+include( $aostichiaoa['tichoglossa'] );
 
 if ( !isset($_COOKIE["PHPSESSID"]) ) {
 
@@ -1015,24 +1066,25 @@ if ( !isset($_COOKIE["PHPSESSID"]) ) {
 }
 
 $_SESSION['minimakubipatise'] = '1';
-$_SESSION['apantisiegrapse'] = trim($_POST['asphaliakrifo']);
+$_SESSION['tichoapantisiegrapse'] = trim($_POST['asphaliakrifo']);
+$_SESSION['minimaegrapse'] = trim($_POST['comment']);
 
 
-if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || !empty($_POST['email']) || !empty($_POST['url']) || !empty($_POST['comment'])) ) {
+if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || !empty($_POST['email']) || !empty($_POST['url']) || !empty($_POST['comment'])) ) {
 
-	if ( $myoptions['stragisemedikomas'] === '1' ) {
+	if ( $aostichiaoa['stragisemedikomas'] === '1' ) {
 
-		$ftiaxedikomasstragismakolona = explode("####", strtolower($myoptions['dikomasstragisekolona']));
+		$ftiaxedikomasstragismakolona = explode("####", strtolower($aostichiaoa['dikomasstragisekolona']));
 
 	} else {
 
-		$ftiaxedikomasstragismakolona = explode("####", strtolower($myoptions['dikosustragisekolona']));
+		$ftiaxedikomasstragismakolona = explode("####", strtolower($aostichiaoa['dikosustragisekolona']));
 
 	}
 
 	include( "addenda/oakolaao.php" );
 
-	if ( $myoptions['stragiseonoma'] === '1' ) {
+	if ( $aostichiaoa['stragiseonoma'] === '1' ) {
 
 		if ( !empty($_POST['author']) ) 
 
@@ -1040,7 +1092,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 	}
 
-	if ( $myoptions['stragisediefthinsi'] === '1' ) {
+	if ( $aostichiaoa['stragisediefthinsi'] === '1' ) {
 
 		if ( !empty($_POST['email']) )
 
@@ -1048,7 +1100,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 	}
 
-	if ( $myoptions['stragisehataftafpi'] === '1' ) {
+	if ( $aostichiaoa['stragisehataftafpi'] === '1' ) {
 
 		if ( !empty($_POST['url']) )
 
@@ -1056,7 +1108,7 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 	}
 
-	if ( $myoptions['stragiseminima'] === '1' ) {
+	if ( $aostichiaoa['stragiseminima'] === '1' ) {
 
 		if ( !empty($_POST['comment']) )
 
@@ -1068,13 +1120,13 @@ if ( $myoptions['stragisekabosaminima'] === '1' && (!empty($_POST['author']) || 
 
 		if ( strpos($tiegrapseopelatis, $ftiaxedikomasstragismakolona[$ikakofani]) !== FALSE ) {
 
-			if ( $myoptions['nadixisdikomaskakofaniminimaapantisi'] === '1' ) {
+			if ( $aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] === '1' ) {
 
-				wp_die( __('<strong>' . $myoptions['kakofaniminimaapantasititlo'] . ':</strong> ' . $myoptions['kakofaniminimaapantasiminima']) );	
+				wp_die( __('<strong>' . $aostichiaoa['kakofaniminimaapantasititlo'] . ':</strong> ' . $aostichiaoa['kakofaniminimaapantasiminima']) );	
 
 			} else {
 
-				wp_die( __('<strong>' . $myoptions['dikosukakofaniminimaapantasititlo'] . ':</strong> ' . $myoptions['dikosukakofaniminimaapantasiminima']) );
+				wp_die( __('<strong>' . $aostichiaoa['dikosukakofaniminimaapantasititlo'] . ':</strong> ' . $aostichiaoa['dikosukakofaniminimaapantasiminima']) );
 
 			}		
 
@@ -1133,7 +1185,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 }
 
-if ( !empty($_POST['author']) && strpos($_POST['email'], '@') !== FALSE && strpos($_POST['email'], '.') !== FALSE ) {
+if ( !empty($_POST['author']) && strpos($_POST['email'], '@') !== FALSE && strpos($_POST['email'], '.') !== FALSE && trim($_POST['comment']) !== '' ) {
 
 	$_SESSION['minimakubipatise'] = '0';
 
@@ -1148,7 +1200,7 @@ function stichiaembros ($url, $username, $password) {
 session_start();
 
 include( "addenda/retop.php" );
-include( $myoptions['tichoglossa'] );
+include( $aostichiaoa['tichoglossa'] );
 
 if ( isset($_POST['wp-submit']) ) {
 
@@ -1194,7 +1246,7 @@ if ( isset($_POST['wp-submit']) ) {
 
 
 
-if ( $myoptions['dixestichioticho'] === '1' ) {
+if ( $aostichiaoa['dixestichioticho'] === '1' ) {
 
 	if ( trim($_POST['asphaliakrifo']) === '' ) {
 
@@ -1202,7 +1254,8 @@ if ( $myoptions['dixestichioticho'] === '1' ) {
 
 	} else {
 
-		$_SESSION['apantisiegrapse'] = trim($_POST['asphaliakrifo']);
+		$_SESSION['tichoapantisiegrapse'] = trim($_POST['asphaliakrifo']);
+		$_SESSION['minimaegrapse'] = trim($_POST['comment']);
 
 		if ( $_SESSION['aoakrivosidiolexi'] === '1' ) {
 
@@ -1287,7 +1340,7 @@ function cdacso () {
 if ( get_option( 'aostichia' ) === FALSE ) {
 
 	include( "addenda/defstichia.php" );
-	update_option( 'aostichia', $myoptions );
+	update_option( 'aostichia', $aostichiaoa );
 
 }
 

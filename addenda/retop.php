@@ -2,7 +2,8 @@
 
 if ( get_option( 'aostichia' ) !== FALSE ) {
 
-	$myoptions = get_option( 'aostichia' );
+	$michanionoma = ' AlphaOmega Captcha ';
+	$aostichiaoa = get_option( 'aostichia' );
 
 } 
 

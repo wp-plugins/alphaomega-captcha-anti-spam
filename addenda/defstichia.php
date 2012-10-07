@@ -1,6 +1,6 @@
 <?php
 
-$myoptions = array( 
+$aostichiaoa = array( 
 
 	'glossa' => '1',
 	'titichonadixis' => '1',
@@ -12,7 +12,7 @@ $myoptions = array(
 	'tichoglossa' => 'addenda/commlangena.php',
 	'stichiaglossa' => 'addenda/stichiaglossaena.php',
 	'tichoaristera' => 'Please Enter Security Code',
-	'tichoxanadixte' => ' Reload AlphaOmega Captcha ',
+	'tichoxanadixte' => ' Reload',
 	'stragiseonoma' => '0',
 	'stragisediefthinsi' => '0',
 	'stragisehataftafpi' => '0',

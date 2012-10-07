@@ -96,7 +96,8 @@ if ( $aostichiaoa['dixestichioticho'] === '1' ) {
 
 function dixeamesoseandenechimelomakarena () {
 
-if ( !isset($_COOKIE["PHPSESSID"]) ) {
+$echomemelomakarinaena = session_id();
+if ( empty($echomemelomakarinaena) ) {
 
 	include( "addenda/zacharoplastiodixeamesoseandenechi.php" );
 	include( "addenda/retop.php" );
@@ -1059,7 +1060,8 @@ session_start();
 include( "addenda/retop.php" );
 include( $aostichiaoa['tichoglossa'] );
 
-if ( !isset($_COOKIE["PHPSESSID"]) ) {
+$echomemelomakarinadio = session_id();
+if ( empty($echomemelomakarinadio) ) {
 
 	wp_die( __($echimelomakarena) );
 

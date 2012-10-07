@@ -39,7 +39,7 @@ if ( $aostichiaoa['dixeminimaticho'] === '1' ) {
 
 	}
 
-	if ( strtolower(trim($aostichiaoa['tichoxanadixte'])) === 'reload' ) {
+	if ( strlen(trim($aostichiaoa['tichoxanadixte'])) == 6 ) {
 
 		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
 
@@ -71,7 +71,7 @@ session_start();
 
 include( "addenda/retop.php" );
 
-if ( strtolower(trim($aostichiaoa['tichoxanadixte'])) === 'reload' ) {
+if ( strlen(trim($aostichiaoa['tichoxanadixte'])) == 6 ) {
 
 	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
 

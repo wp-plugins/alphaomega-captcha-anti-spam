@@ -39,9 +39,9 @@ if ( $aostichiaoa['dixeminimaticho'] === '1' ) {
 
 	}
 
-	if ( strlen(trim($aostichiaoa['tichoxanadixte'])) == 6 ) {
+	if ( trim($aostichiaoa['tichoxanadixte']) === '' ) {
 
-		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
+		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
 
 	}
 
@@ -71,9 +71,9 @@ session_start();
 
 include( "addenda/retop.php" );
 
-if ( strlen(trim($aostichiaoa['tichoxanadixte'])) == 6 ) {
+if ( trim($aostichiaoa['tichoxanadixte']) === '' ) {
 
-	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixte'] . $michanionoma;
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
 
 }
 
@@ -572,7 +572,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = ' Reload' . $michanionoma;
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
 
 } elseif ( $aostichiaoa['glossa'] === '2' ) {
 

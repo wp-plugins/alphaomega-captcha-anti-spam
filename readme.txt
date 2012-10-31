@@ -149,7 +149,7 @@ Requirements:
    *  Tested with WordPress 3.4.1 ~ 3.4.2
 
 
-   *  Tested with a variety of WordPress Themes, including:
+   *  Tested with a variety of WordPress Themes available from the WordPress Themes Repository, including:
 
       - Annotum Base
       - Asokay

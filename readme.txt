@@ -247,10 +247,10 @@ To file a bug or provide me with feedback, please [click here](http://alphaomega
 
 == Changelog ==
 
-= 1.7 =
+= 1.8 =
 
-- captcha types incremented
 - captcha responses broadened
+- please donate to ensure continued improvements
 
 
 == Upgrade Notice ==

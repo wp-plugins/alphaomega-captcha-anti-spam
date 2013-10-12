@@ -1032,7 +1032,7 @@ function aokato ( $kola, $selida ) {
 
     if ( $selida == plugin_basename(__FILE__) && function_exists( 'admin_url' ) ) {
 
-        $ftiaxe = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5YMUQTV2LVAW6&item_name=AlphaOmega-Captcha-Anti-Spam-Filter--WordPress--Plugin">' . __('Please Donate') . '</a>';
+        $ftiaxe = '<a href="http://alphaomegaplugins.com/donate-palio.htm">' . __('Please Donate') . '</a>';
         array_unshift( $kola, $ftiaxe );
         $ftiaxe = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_and_antispam' ) . '">' . __('Settings') . '</a>';
         array_unshift( $kola, $ftiaxe );

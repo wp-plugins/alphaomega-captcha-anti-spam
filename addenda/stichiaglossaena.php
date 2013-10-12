@@ -6,7 +6,7 @@ $dosetitlo = 'Please Consider Donating';
 $doseshpeel = 'If you have installed the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam</span> plugin and find that it helps to block Comment Form spam and enhances the look and appeal of your WordPress posts, then I would appreciate it very much if you would consider providing a small donation to help support the continued development of this plugin. Any donation amount will be humbly appreciated. Thank you for your kind support.';
 $doseinput = '<input type="hidden" name="country" value="US" ><input type="hidden" name="item_name" value="Donation for AlphaOmega Captcha & Anti-Spam Filter Plugin"><input type="hidden" name="currency_code" value="USD">';
 $dosekubitext = 'Please Donate';
-$doseoutput = '<option value="5">&nbsp;$5 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="15">&nbsp;$15 &nbsp;&nbsp;</option><option value="20">&nbsp;$20 &nbsp; &nbsp;</option><option value="25">&nbsp;$25 &nbsp; &nbsp;</option><option value="">&nbsp;Other &nbsp;</option>';
+$doseoutput = '<option value="5">&nbsp;$5 &nbsp; &nbsp;</option><option value="10">&nbsp;$10 &nbsp; &nbsp;</option><option value="15">&nbsp;$15 &nbsp;&nbsp;</option><option value="20">&nbsp;$20 &nbsp; &nbsp;</option><option value="25">&nbsp;$25 &nbsp; &nbsp;</option><option value="50">&nbsp;$50 &nbsp; &nbsp;</option>';
 $dosepp = 'Donations processed by PayPal';
 $stepglossa = 'Language';
 $stepglossaena = 'English';

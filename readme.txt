@@ -3,7 +3,7 @@ Contributors: alphaomegaplugins
 Donate link: http://alphaomegaplugins.com/donate-palio.htm
 Tags: captcha, plugins, spam, anti-spam, filter, security, attacks, comments, admin, log in, plugin, キャプチャ, akismet, login, junk mail, alphaomega, スパム, multilanguage, multi-language, 日本語, Ελληνικά, 한국어,  中文, block, block spam, 迷惑メール, wordpress
 Requires at least: 3.4.1
-Tested up to: 3.4.2
+Tested up to: 3.6.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -146,7 +146,7 @@ These captcha functions not only provide your WordPress posts with enhanced secu
 Requirements:
 
 
-   *  Tested with WordPress 3.4.1 ~ 3.4.2
+   *  Tested with WordPress 3.4.1 ~ 3.6.1
 
 
    *  Tested with a variety of WordPress Themes available from the WordPress Themes Repository, including:
@@ -247,10 +247,10 @@ To file a bug or provide me with feedback, please [click here](http://alphaomega
 
 == Changelog ==
 
-= 1.8 =
+= 2.0 =
 
-- captcha responses broadened
-- please donate to ensure continued improvements
+- captcha database entries/responses extended for increased variation
+- please donate to ensure continued plugin improvements
 
 
 == Upgrade Notice ==

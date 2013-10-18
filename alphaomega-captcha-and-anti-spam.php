@@ -3,7 +3,7 @@
 Plugin Name: AlphaOmega Captcha & Anti-Spam Filter
 Plugin URI: http://alphaomegaplugins.com
 Description: Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Admin Log-In. Fortified with Anti-Spam Filter Protection.
-Version: 2.0
+Version: 3.0
 Author: AlphaOmega Plugins
 Author URI: http://alphaomegaplugins.com
 License: GPL2
@@ -101,6 +101,8 @@ if ( empty($echomemelomakarinaena) ) {
 
 	include( "addenda/zacharoplastiodixeamesoseandenechi.php" );
 	include( "addenda/retop.php" );
+	$aostichiaoa['glossa'] = '1';
+
 
 	if ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -201,6 +203,8 @@ if ( isset($_POST['protastichia']) ) {
 
 	if ( $aostichiaoa['titichonadixis'] === '1' && $aostichiaoa['dixeminimaticho'] === '1' && $aostichiaoa['dixestichioticho'] === '0' && $aostichiaoa['minimatichotopos'] === '3' && $aostichiaoa['stichiotichotopos'] === '2' && $aostichiaoa['tichomichaniselida'] === 'addenda/asphaliadixeena.php' && $aostichiaoa['stragiseonoma'] === '0' && $aostichiaoa['stragisediefthinsi'] === '0' && $aostichiaoa['stragisehataftafpi'] === '0' && $aostichiaoa['stragiseminima'] === '1' && $aostichiaoa['stragisekabosaminima'] === '1' && $aostichiaoa['stragisemedikomas'] === '1' && $aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] === '1' && $aostichiaoa['dikosustragiseklisto'] === '0' && $aostichiaoa['stragisemedikosu'] === '0' ) {
 
+		$aostichiaoa['glossa'] = '1';
+
 		if ( $aostichiaoa['glossa'] === '1' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
@@ -247,6 +251,8 @@ if ( isset($_POST['protastichia']) ) {
 		$aostichiaoa['stragisemedikosu'] = '0';
 
 
+		$aostichiaoa['glossa'] = '1';
+
 		if ( $aostichiaoa['glossa'] === '1' ) {
 
 			$aostichiaoa['tichoaristera'] = 'Please Enter Security Code';
@@ -292,7 +298,7 @@ if ( isset($_POST['protastichia']) ) {
 
 if ( isset($_POST['kenuriastichia']) ) {
 
-$aostichiaoa['glossa'] = $_POST['glossa'];
+$aostichiaoa['glossa'] = '1';  /*$_POST['glossa'];*/
 $aostichiaoa['titichonadixis'] = $_POST['titichonadixis'];
 
 if ( isset($_POST['tominimatichotopos']) ) {
@@ -361,6 +367,7 @@ if ( isset($_POST['stragiseminima']) ) {
 if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $aostichiaoa['stragiseklisto'] ) {
 
 	$aostichiaoa['stragisekabosaminima'] = '0';
+	$aostichiaoa['glossa'] = '1';
 
 	if ( $aostichiaoa['glossa'] === '1' ) {
 
@@ -392,6 +399,7 @@ if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && 
 } else {
 
 	$aostichiaoa['stragisekabosaminima'] = '1';
+	$aostichiaoa['glossa'] = '1';
 
 	if ( $aostichiaoa['glossa'] === '1' ) {
 
@@ -465,12 +473,14 @@ if ( trim($_POST['kakofanititlo']) !== '' && trim($_POST['kakofaniminima']) !== 
 
 }
 
+$aostichiaoa['glossa'] = '1';
+
 if ( $aostichiaoa['glossa'] === '1' ) {
 
 	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossaena.php';
 	$aostichiaoa['stragiseklisto'] ='The Spam Filter is OFF';
 	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'Your Custom Spam Filter List Is Empty';
-	$aostichiaoa['dikomasstragisekolona'] = 'Lose Weight####Buy This Now####Make Money####Work From Home####XXX####sex';				
+	$aostichiaoa['dikomasstragisekolona'] = 'lose weight####buy this now####x-ray glasses####live forever####work from home####sex####viagra####greed is good####hypnotize your boss####build your own u-boat';
 	$aostichiaoa['kakofaniminimaapantasititlo'] = 'Comment Needs Modification';
 	$aostichiaoa['kakofaniminimaapantasiminima'] = 'Please modify your comment as it may contain inappropriate and possibly spam-related content. Thank you.';
 
@@ -1122,6 +1132,37 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 		if ( strpos($tiegrapseopelatis, $ftiaxedikomasstragismakolona[$ikakofani]) !== FALSE ) {
 
+			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
+			$posakakominiimaechoume++;
+			if ($posakakominiimaechoume === 1) {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+
+			} else {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+
+			}
+			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
+			$posakakominiimaechoumeskini ='';
+			$posakakomiiniimaechoume = 0;
+
+			for ($posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini--) {
+
+				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
+				$posakakomiiniimaechoume++;
+				if ($posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '') {
+
+					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
+					$posakakomiiniimaechoume = 0;
+
+				}
+
+			}
+
+			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
+			update_option( 'aostichia', $aostichiaoa );
+
 			if ( $aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] === '1' ) {
 
 				wp_die( __('<strong>' . $aostichiaoa['kakofaniminimaapantasititlo'] . ':</strong> ' . $aostichiaoa['kakofaniminimaapantasiminima']) );	
@@ -1130,7 +1171,7 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 				wp_die( __('<strong>' . $aostichiaoa['dikosukakofaniminimaapantasititlo'] . ':</strong> ' . $aostichiaoa['dikosukakofaniminimaapantasiminima']) );
 
-			}		
+			}	
 
 		}
 	}
@@ -1245,8 +1286,6 @@ if ( isset($_POST['wp-submit']) ) {
 		}
 
 	}
-
-
 
 if ( $aostichiaoa['dixestichioticho'] === '1' ) {
 

@@ -5,6 +5,8 @@ $glossadiobubi = ' ';
 $glossatriabubi = ' ';
 $glossateserabubi = ' ';
 $glossapentebubi = ' ';
+$aostichiaoa['glossa'] = '1';
+/*
 if ( $aostichiaoa['glossa'] === '1' ) {
 	$glossaenabubi = ' checked="checked" ';
 } elseif ( $aostichiaoa['glossa'] === '2' ) {
@@ -16,6 +18,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 } elseif ( $aostichiaoa['glossa'] === '5' ) {
 	$glossapentebubi = ' checked="checked" ';
 }
+*/
 $tichoenakubi = ' ';
 $tichodiokubi = ' ';
 $tichotriakubi = ' ';

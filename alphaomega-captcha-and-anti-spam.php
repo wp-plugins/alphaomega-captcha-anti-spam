@@ -480,7 +480,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossaena.php';
 	$aostichiaoa['stragiseklisto'] ='The Spam Filter is OFF';
 	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'Your Custom Spam Filter List Is Empty';
-	$aostichiaoa['dikomasstragisekolona'] = 'lose weight####buy this now####x-ray glasses####live forever####work from home####sex####viagra####greed is good####hypnotize your boss';
+	$aostichiaoa['dikomasstragisekolona'] = 'lose weight####buy this now####x-ray glasses####work from home####sex####viagra####greed is good####hypnotize your boss';
 	$aostichiaoa['kakofaniminimaapantasititlo'] = 'Comment Needs Modification';
 	$aostichiaoa['kakofaniminimaapantasiminima'] = 'Please modify your comment as it may contain inappropriate and possibly spam-related content. Thank you.';
 

@@ -1134,7 +1134,7 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
 			$posakakominiimaechoume++;
-			if ( $posakakominiimaechoume !== strval($aostichiaoa['glossa']) ) {
+			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
 
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
 

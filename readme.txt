@@ -13,11 +13,11 @@ Provides Visually Appealing Captchas to Enhance and Secure your WordPress pages.
 
 == Description ==
 
-Provides interesting and unique captchas to enhance and secure your WordPress pages. The ANTI-SPAM FILTER included blocks spam and filters posted user **Comments** for inappropriate content. 
+The **AlphaOmega Captcha & Anti-Spam Filter** provides interesting and unique captchas to enhance and secure your WordPress pages. The ANTI-SPAM FILTER included blocks spam and filters posted user **Comments** for inappropriate content. 
 
-The new **SPAM COUNTER** feature provides you with an indication of the spamming activity directed against your WordPress pages.
+Additionally, the new **SPAM COUNTER** feature provides you with an indication of the nature and magnitude of the spamming activity directed against your WordPress pages.
 
-This plugin can also thwart automated attacks against your **Admin Log In** area. Furthermore, the plugin can be employed flawlessly with Akismet to provide enhanced security features.
+This plugin can also thwart automated attacks against your WordPress **Admin Log In** area, and can be employed flawlessly with Akismet to provide enhanced security features.
 
 
 Several **Captcha Types** are available, including:
@@ -44,9 +44,9 @@ Several **Captcha Types** are available, including:
 
 
 
-Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and are not sent to you**. This saves you time by automatically stopping these annoying spam Comments and E-mails from cluttering your WordPress Dashboard.
+Additionally, when the **Anti-Spam Filter** of the plugin is active, **all spam-related Comments and E-mails are blocked, and not sent to you**. This saves you time by automatically stopping these annoying spam Comments and E-mails from cluttering your WordPress Dashboard, thus allowing you to devote your time to more important tasks.
 
-You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. Furthermore, you have the option of filtering any or all of the **Comment Form** elements for spam, including **Name**, **E-mail**, **URL**, and **Comment**/**Message**.
+You can create your own **Custom Anti-Spam Filter List** to block all spam Comments from being sent to you. Enter as many spam-related keywords or phrases as you like. This gives you complete control over which Comments are blocked. Furthermore, you have the option of filtering any or all of the **Comment Form** elements for spam, including **Name**, **E-mail**, **URL**, and **Comment** / **Message**.
 
 
 
@@ -183,7 +183,7 @@ Requirements:
 
 == Installation ==
 
-1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, you can manually download the 'alphaomega-captcha-anti-spam.zip' file from the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. Unpack the downloaded zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into your '/wp-content/plugins/' directory.
+1. Install automatically by first clicking the WordPress 'Plugins' > 'Add New' menu item. The 'Plugins' and 'Add New' menu items are located on the left column of the WordPress Dashboard. Then type 'AlphaOmega Captcha & Anti-Spam Filter' as a search, and select to install the AlphaOmega Captcha & Anti-Spam Filter plugin. Alternatively, you can manually download the 'alphaomega-captcha-anti-spam.zip' file from the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. Unpack the downloaded zip file, and install the plugin manually by uploading the 'alphaomega-captcha-anti-spam' folder into your '/wp-content/plugins/' directory.
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
@@ -199,7 +199,7 @@ To configure the AlphaOmega Captcha & Anti-Spam Filter plugin, click the 'Settin
 
 = Is this plugin free? =
 
-Absolutely. You are free to use this plugin on your WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then I would appreciate it very much if you would consider providing a small donation to help support the continued development of this plugin. Any donation amount will be humbly appreciated. Thank you.
+You are free to use this plugin on your WordPress site. If, however, you find that this plugin helps to block your Comment Form spam and enhances the look and appeal of your WordPress posts, then a small donation would be appreciated to help support the improvement and continued development of this plugin. Any donation amount will be humbly appreciated. Thank you.
 
 = How can I donate? =
 
@@ -211,13 +211,17 @@ Thank you for your kind support.
 
 = How do I know if my WordPress Theme is compatible with the plugin? =
 
-The plugin has been tested with a variety of standard Themes available from the WordPress Themes Repository, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site. Themes that have been modified in any way or that differ from the standard Theme provided by WordPress may not necessarily be compatible and are not supported. Themes provided by third-party sources are not supported. Hence, the use of standard unmodified WordPress Themes is recommended. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the particular WordPress Theme being used.
+The plugin has been tested with a variety of standard Themes available from the WordPress Themes Repository, some of which are listed on the 'Description' tabsheet of the WordPress [AlphaOmega Captcha & Anti-Spam Filter](http://wordpress.org/extend/plugins/alphaomega-captcha-anti-spam/) site.
+
+Themes that have been modified in any way or that differ from the standard Theme provided by WordPress may not necessarily be compatible and are not supported. Themes provided by third-party sources are not supported.
+
+Hence, the use of standard unmodified WordPress Themes is recommended. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the particular WordPress Theme being used.
 
 To check that the captcha position on your Comment Form is being displayed appropriately, please view your Comment Form page as a regular web user, and not as Admin, since viewing as Admin may hide certain Comment Form elements such as Name, E-mail and URL.
 
-= I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.4.1? =
+= I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.6.1? =
 
-The plugin should operate flawlessly with most earlier WordPress versions, although I recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress security and operational features.
+The plugin should operate flawlessly with most earlier WordPress versions, although I recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress operational features.
 
 = Can I use the plugin with Akismet? =
 

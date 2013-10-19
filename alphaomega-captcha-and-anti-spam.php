@@ -480,7 +480,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 	$aostichiaoa['stichiaglossa'] = 'addenda/stichiaglossaena.php';
 	$aostichiaoa['stragiseklisto'] ='The Spam Filter is OFF';
 	$aostichiaoa['dikosustragisekolonadenechitipotaminima'] = 'Your Custom Spam Filter List Is Empty';
-	$aostichiaoa['dikomasstragisekolona'] = 'lose weight####buy this now####x-ray glasses####live forever####work from home####sex####viagra####greed is good####hypnotize your boss####build your own u-boat';
+	$aostichiaoa['dikomasstragisekolona'] = 'lose weight####buy this now####x-ray glasses####live forever####work from home####sex####viagra####greed is good####hypnotize your boss';
 	$aostichiaoa['kakofaniminimaapantasititlo'] = 'Comment Needs Modification';
 	$aostichiaoa['kakofaniminimaapantasiminima'] = 'Please modify your comment as it may contain inappropriate and possibly spam-related content. Thank you.';
 
@@ -1134,24 +1134,24 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
 			$posakakominiimaechoume++;
-			if ($posakakominiimaechoume === 1) {
+			if ( $posakakominiimaechoume !== strval($aostichiaoa['glossa']) ) {
 
-				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
 
 			} else {
 
-				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
 
 			}
 			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
 			$posakakominiimaechoumeskini ='';
 			$posakakomiiniimaechoume = 0;
 
-			for ($posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini--) {
+			for ( $posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini-- ) {
 
 				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
 				$posakakomiiniimaechoume++;
-				if ($posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '') {
+				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
 
 					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
 					$posakakomiiniimaechoume = 0;

@@ -13,7 +13,7 @@ Provides Visually Appealing Captchas to Enhance and Secure your WordPress pages.
 
 == Description ==
 
-Provides interesting and unique captchas to enhance and secure your WordPress pages. The Anti-Spam Filter included blocks spam and filters posted user **Comments** for inappropriate content. 
+Provides interesting and unique captchas to enhance and secure your WordPress pages. The ANTI-SPAM FILTER included blocks spam and filters posted user **Comments** for inappropriate content. 
 
 The new **SPAM COUNTER** feature provides you with an indication of the spamming activity directed against your WordPress pages.
 

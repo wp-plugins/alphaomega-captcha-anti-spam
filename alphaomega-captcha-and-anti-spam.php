@@ -1188,6 +1188,38 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 		if ( trim($_POST['asphaliakrifo']) !== $_SESSION['aokrifoklidislexi'] ) {
 
+			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
+			$posakakominiimaechoume++;
+			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+
+			} else {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+
+			}
+			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
+			$posakakominiimaechoumeskini ='';
+			$posakakomiiniimaechoume = 0;
+
+			for ( $posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini-- ) {
+
+				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
+				$posakakomiiniimaechoume++;
+				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
+
+					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
+					$posakakomiiniimaechoume = 0;
+
+				}
+
+			}
+
+			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
+			update_option( 'aostichia', $aostichiaoa );
+
+
   			wp_die( __($opelatesapantiselathos) );
 
  		}
@@ -1197,6 +1229,38 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 		if ( strpos($_SESSION['aokrifoklidislexi'], '。。。。') === FALSE ) {
 
 			if ( strtolower(trim($_POST['asphaliakrifo'])) !== strtolower($_SESSION['aokrifoklidislexi']) ) {
+
+			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
+			$posakakominiimaechoume++;
+			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+
+			} else {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+
+			}
+			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
+			$posakakominiimaechoumeskini ='';
+			$posakakomiiniimaechoume = 0;
+
+			for ( $posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini-- ) {
+
+				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
+				$posakakomiiniimaechoume++;
+				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
+
+					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
+					$posakakomiiniimaechoume = 0;
+
+				}
+
+			}
+
+			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
+			update_option( 'aostichia', $aostichiaoa );
+
 
 				wp_die( __($opelatesapantiselathos) );
 
@@ -1217,6 +1281,38 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 			}
 
 			if ( $toutiocolona == 0 ) {
+
+			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
+			$posakakominiimaechoume++;
+			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+
+			} else {
+
+				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+
+			}
+			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
+			$posakakominiimaechoumeskini ='';
+			$posakakomiiniimaechoume = 0;
+
+			for ( $posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini-- ) {
+
+				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
+				$posakakomiiniimaechoume++;
+				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
+
+					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
+					$posakakomiiniimaechoume = 0;
+
+				}
+
+			}
+
+			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
+			update_option( 'aostichia', $aostichiaoa );
+
 
 				wp_die( __($opelatesapantiselathos) );
 

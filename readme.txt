@@ -13,7 +13,7 @@ Provides Visually Appealing Captchas to Enhance and Secure your WordPress pages.
 
 == Description ==
 
-The **AlphaOmega Captcha & Anti-Spam Filter** provides interesting and unique captchas to enhance and secure your WordPress pages. The ANTI-SPAM FILTER included blocks spam and filters posted user **Comments** for inappropriate content. 
+The **AlphaOmega Captcha & Anti-Spam Filter** provides interesting and unique captchas to enhance and secure your WordPress pages. The **ANTI-SPAM FILTER** included blocks spam and filters posted user **Comments** for inappropriate content. 
 
 Additionally, the new **SPAM COUNTER** feature provides you with an indication of the nature and magnitude of the spamming activity directed against your WordPress pages.
 
@@ -52,7 +52,7 @@ You can create your own **Custom Anti-Spam Filter List** to block all spam Comme
 
 **Features:**
 
-* SPAM COUNTER to provide an indication of the spamming activity directed against your WordPress pages.
+* **SPAM COUNTER** to provide an indication of the spamming activity directed against your WordPress pages.
 
 * Captcha functionality can be placed on your WordPress **Comment Form** and WordPress **Admin Log In** area.
 

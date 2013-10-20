@@ -1134,6 +1134,7 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
 			$posakakominiimaechoume++;
+
 			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
 
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
@@ -1143,6 +1144,7 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
 
 			}
+
 			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
 			$posakakominiimaechoumeskini ='';
 			$posakakomiiniimaechoume = 0;
@@ -1151,6 +1153,7 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
 				$posakakomiiniimaechoume++;
+
 				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
 
 					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
@@ -1180,6 +1183,39 @@ if ( $aostichiaoa['stragisekabosaminima'] === '1' && (!empty($_POST['author']) |
 
 if ( trim($_POST['asphaliakrifo']) === '' ) {
 
+	$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
+	$posakakominiimaechoume++;
+
+	if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
+
+		$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
+
+	} else {
+
+		$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
+
+	}
+	$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
+	$posakakominiimaechoumeskini ='';
+	$posakakomiiniimaechoume = 0;
+
+	for ( $posakakomiinimaechoumeskini=strlen($aostichiaoa['posakakominimaechoume']) - 1; $posakakomiinimaechoumeskini >= 0; $posakakomiinimaechoumeskini-- ) {
+
+		$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
+		$posakakomiiniimaechoume++;
+
+		if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
+
+			$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
+			$posakakomiiniimaechoume = 0;
+
+		}
+
+	}
+
+	$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
+	update_option( 'aostichia', $aostichiaoa );
+
 	wp_die( __($opelatesdenapantise) );
 
 } else {
@@ -1199,6 +1235,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
 
 			}
+
 			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
 			$posakakominiimaechoumeskini ='';
 			$posakakomiiniimaechoume = 0;
@@ -1207,6 +1244,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
 				$posakakomiiniimaechoume++;
+
 				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
 
 					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
@@ -1218,7 +1256,6 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
 			update_option( 'aostichia', $aostichiaoa );
-
 
   			wp_die( __($opelatesapantiselathos) );
 
@@ -1232,6 +1269,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
 			$posakakominiimaechoume++;
+
 			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
 
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
@@ -1241,6 +1279,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
 
 			}
+
 			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
 			$posakakominiimaechoumeskini ='';
 			$posakakomiiniimaechoume = 0;
@@ -1249,6 +1288,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 				$posakakominiimaechoumeskini = $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini] . $posakakominiimaechoumeskini;
 				$posakakomiiniimaechoume++;
+
 				if ( $posakakomiiniimaechoume === 3 && $aostichiaoa['posakakominimaechoume'][$posakakomiinimaechoumeskini - 1] !== '' ) {
 
 					$posakakominiimaechoumeskini = ',' . $posakakominiimaechoumeskini;
@@ -1261,8 +1301,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
 			update_option( 'aostichia', $aostichiaoa );
 
-
-				wp_die( __($opelatesapantiselathos) );
+			wp_die( __($opelatesapantiselathos) );
 
 			}
 		
@@ -1284,6 +1323,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 
 			$posakakominiimaechoume = (int)$aostichiaoa['posakakominimaechoume'];
 			$posakakominiimaechoume++;
+
 			if ( $posakakominiimaechoume !== (int)$aostichiaoa['glossa'] ) {
 
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGES';
@@ -1293,6 +1333,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 				$aostichiaoa['stepposakakominimadeftero'] = 'MESSAGE';
 
 			}
+
 			$aostichiaoa['posakakominimaechoume'] = strval($posakakominiimaechoume);
 			$posakakominiimaechoumeskini ='';
 			$posakakomiiniimaechoume = 0;
@@ -1313,8 +1354,7 @@ if ( trim($_POST['asphaliakrifo']) === '' ) {
 			$aostichiaoa['posakakominimaechoumeskini'] = $posakakominiimaechoumeskini;
 			update_option( 'aostichia', $aostichiaoa );
 
-
-				wp_die( __($opelatesapantiselathos) );
+			wp_die( __($opelatesapantiselathos) );
 
 			}
 

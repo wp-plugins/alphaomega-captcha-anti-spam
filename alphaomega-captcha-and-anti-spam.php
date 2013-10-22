@@ -208,7 +208,8 @@ if ( isset($_POST['protastichia']) ) {
 		if ( $aostichiaoa['glossa'] === '1' ) {
 
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
-<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>The default settings are already in place. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
+<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#x2605;</div></td><td>The default settings are already in place. Please note that your Spam Filter is <strong>ON</strong>.</td></tr></table></left></div></div>';
+			$aostichiaoa['stepstragisekolonatoraiine'] = 'Default Spam Filter List';
 
 		} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -258,7 +259,8 @@ if ( isset($_POST['protastichia']) ) {
 			$aostichiaoa['tichoaristera'] = 'Please Enter Security Code';
 			$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;">
 <div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
-<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! The default settings have been successfully restored. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
+<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! The default settings have been successfully restored. Please note that your Spam Filter is <strong>ON</strong>.</td></tr></table></left></div></div>';
+			$aostichiaoa['stepstragisekolonatoraiine'] = 'Default Spam Filter List';
 
 		} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -372,7 +374,8 @@ if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && 
 	if ( $aostichiaoa['glossa'] === '1' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
-<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is OFF.</td></tr></table></left></div></div>';
+<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is <strong>OFF</strong>.</td></tr></table></left></div></div>';
+		$aostichiaoa['stepstragisekolonatoraiine'] = 'None';
 
 	} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -404,7 +407,7 @@ if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && 
 	if ( $aostichiaoa['glossa'] === '1' ) {
 
 		$stichiakubiapantisme = '<div style="padding-top:20px;padding-left:40px;padding-right:40px;text-align:left;"><div style="padding:20px;border:solid 1px #e0e0e0;background:#FFF8C6;text-align:left;font-size:1.2em;"><left><table><tr align="left"><td valign="left">
-<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is ON.</td></tr></table></left></div></div>';
+<div style="font-size:3.0em;color:#FF0000;padding-right:10px;">&#10004;</div></td><td>Good Job! Your settings have been successfully saved. Please note that your Spam Filter is <strong>ON</strong>.</td></tr></table></left></div></div>';
 
 	} elseif ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -438,11 +441,17 @@ if ( trim($_POST['stragismakolona']) !== '' ) {
 
 		$aostichiaoa['stragisemedikomas'] = '1';
 		$aostichiaoa['dikosustragiseklisto'] = '0';
+		$aostichiaoa['stepstragisekolonatoraiine'] = 'Default Spam Filter List';
+
+	} elseif ( $ftiaxestragismakolonastichio === $aostichiaoa['stragiseklisto'] ) {
+
+		$aostichiaoa['stepstragisekolonatoraiine'] = 'None';
 
 	} else {
 
 		$aostichiaoa['stragisemedikomas'] = '0';
 		$aostichiaoa['dikosustragiseklisto'] = '1';
+		$aostichiaoa['stepstragisekolonatoraiine'] = 'Custom Spam Filter List';
 
 		if ( $ftiaxestragismakolonastichio !== $aostichiaoa['stragiseklisto'] ) {
 

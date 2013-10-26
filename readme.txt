@@ -1,9 +1,9 @@
 ==== AlphaOmega Captcha & Anti-Spam Filter ====
 Contributors: alphaomegaplugins
-Donate link: http://alphaomegaplugins.com/donate-palio.htm
+Donate link: http://alphaomegaplugins.com/wordpress-captcha-anti-spam/donate.htm
 Tags: captcha, plugins, spam, anti-spam, filter, security, attacks, spam counter, comments, admin, log in, plugin, キャプチャ, akismet, login, junk mail, alphaomega, スパム, 日本語, Ελληνικά, 한국어,  中文, block, block spam, 迷惑メール, wordpress
-Requires at least: 3.4.1
-Tested up to: 3.6.1
+Requires at least: 3.4
+Tested up to: 3.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -151,7 +151,7 @@ These captcha functions not only provide your WordPress posts with enhanced secu
 Requirements:
 
 
-   *  Tested with WordPress 3.4.1 ~ 3.6.1
+   *  Tested with WordPress 3.4 ~ 3.7
 
 
    *  Tested with a variety of WordPress Themes available from the WordPress Themes Repository, including:
@@ -187,7 +187,7 @@ Requirements:
 
 2. Activate the plugin by clicking the WordPress 'Plugins' menu item (located on the left column of the WordPress Dashboard), and then clicking the 'Activate' link located below the 'AlphaOmega Captcha & Anti-Spam Filter' item.
 
-3. Installing Upgrades: To upgrade from versions 1.0 ~ 1.4, you must first 'Deactivate' and then 'Delete' your current plugin prior to installing the latest version as described above in Step 1. For other versions, when you receive automatic notification by WordPress of an upgrade, select to install the upgrade when prompted.
+3. Installing Upgrades: To upgrade from versions 2.0 or below, you must first 'Deactivate' and then 'Delete' your current plugin prior to installing the latest version as described above in Step 1. For other versions, when you receive automatic notification by WordPress of an upgrade, select to install the upgrade when prompted.
 
 
 == Configuration / Settings ==
@@ -205,7 +205,7 @@ You are free to use this plugin on your WordPress site. If, however, you find th
 
 Once you have installed the AlphaOmega Captcha & Anti-Spam Filter plugin, you can donate by visiting the donate link located at the top of the plugin Settings panel. To view the plugin Settings panel, click the 'Settings' link located beneath the 'AlphaOmega Captcha & Anti-Spam Filter' item in the list of currently installed plugins, or click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' link located below the WordPress 'Plugins' menu item on the left column of your Wordpress Dashboard.
 
-Alternatively, you may wish to [donate here](http://alphaomegaplugins.com/donate-palio.htm)
+Alternatively, you may wish to [donate here](http://alphaomegaplugins.com/wordpress-captcha-anti-spam/donate.htm)
 
 Thank you for your kind support.
 
@@ -215,11 +215,11 @@ The plugin has been tested with a variety of standard Themes available from the 
 
 Themes that have been modified in any way or that differ from the standard Theme provided by WordPress may not necessarily be compatible and are not supported. Themes provided by third-party sources are not supported.
 
-Hence, the use of standard unmodified WordPress Themes is recommended. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the particular WordPress Theme being used.
+Hence, the use of standard unmodified WordPress Themes provided by the WordPress Themes Repository is recommended. The best way to determine compatibility is to install the plugin and try it. Most Themes should display the captcha on a single line, while others may display the captcha on two separate lines. This will depend on the particular WordPress Theme being used.
 
 To check that the captcha position on your Comment Form is being displayed appropriately, please view your Comment Form page as a regular web user, and not as Admin, since viewing as Admin may hide certain Comment Form elements such as Name, E-mail and URL.
 
-= I'm using an early version of WordPress. Will the plugin work with WordPress versions before 3.6.1? =
+= I'm using an early version of WordPress. Will the plugin work with WordPress versions below 3.7? =
 
 The plugin should operate flawlessly with most earlier WordPress versions, although I recommend you upgrade to the most recent WordPress version to take advantage of the latest WordPress operational features.
 

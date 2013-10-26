@@ -138,5 +138,18 @@ if ( $aostichiaoa['nadixisdikomaskakofaniminimaapantisi'] === '1' ) {
 	$kakofaniminimaapantasititlo = stripslashes($aostichiaoa['dikosukakofaniminimaapantasititlo']);
 	$kakofaniminimaapantasiminima = stripslashes($aostichiaoa['dikosukakofaniminimaapantasiminima']);
 }
+if ( $aostichiaoa['stepstragisekolonatoraiine'] !== 'None' ) { 
+
+	$stepstragiseklisestragismasvisekoubi = '';
+	$stepstragiseklisestragisma = $aostichiaoa['stragiseklistopre'];
+
+} else {
+
+	$stepstragiseklisestragismasvisekoubi = $aostichiaoa['stepstragiseklisestragismasvisekoubi'];
+
+}
+
+$sideroonomaklisto = explode(' ', trim($aostichiaoa['michanionoma']));
+$sideroonoma = $sideroonomaklisto[0];
 
 ?>

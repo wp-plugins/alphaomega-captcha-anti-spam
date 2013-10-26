@@ -45,6 +45,7 @@ $stepcaptoposcomm = 'Comment Form';
 $stepcaptoposcommshpeel = 'The captcha will appear on your comment form. This captcha needs to be completed by a user who wishes to post a comment after visiting one of your blog posts.';
 $stepcaptoposadmin = 'Admin Log In Page';
 $stepcaptoposadminshpeel = 'The captcha will appear on your Admin Log In page. This captcha needs to be completed by a user who wishes to log into your Wordpress account / dashboard.';
+$stepdosechrimaloukimititlo = 'Buy Me a Jelly Donut';
 $stepcapepanomesikato = 'Captcha Position';
 $stepposakakominimaproto = 'SPAM';
 $stepcapepanomesikatoshpeel = 'The position of the AlphaOmega captcha you place on the Comment Form of your WordPress posts and pages can be set to any one of three positions: <span style="letter-spacing:1.2px;color:#000080;">TOP</span> ( T ), <span style="letter-spacing:1.2px;color:#000080;">MIDDLE</span> ( M ), or <span style="letter-spacing:1.2px;color:#000080;">BOTTOM</span> ( B ). The position of the AlphaOmega captcha on the Admin Log In page is fixed. <div style="padding-top:10px;"><span style="color:#a80000;">NOTE:</span> To check that the captcha position on your Comment Form is being displayed appropriately, please view your Comment Form page as a regular web user, and not as Admin, since viewing as Admin may hide certain Comment Form elements such as Name, E-mail and URL.</div><div style="padding-top:10px;">Please select your desired Comment Form captcha position';
@@ -58,6 +59,7 @@ $stepcapepanomesikatotableadminkato = 'B';
 $stepcapepanomesikatotableadminkubi = 'Log In';
 $stepstragise = 'Spam Filter';
 $stepstragisepreshpeel = 'The standard WordPress Comment Form contains several form elements such as Name, E-mail, URL, and Comment or Message.<p>If any of these form elements are present in your comment form, this plugin setting allows you to select those elements whose content you wish to check or filter for possible spam. Comment submissions containing spam-related keywords or phrases (configured below in the <span style="letter-spacing:1.2px;color:#000080;">Spam Filter List</span>) will be blocked, and not sent to you.</p><p>This can be a very effective way to stop relentless automated and manual spam attacks, and therefore free your WordPress Admin area from being inundated with unwanted and annoying spam-related comments.</p>';
+$stepdosechrimaloukimipatakoubiedo = ' Click to Buy Me a Jelly Donut ';
 $stepstragisetitlo = 'Select the Comment Form Elements to Filter for Spam';
 $stepstragiseonoma = 'Name';
 $stepstragisediefthinsi = 'E-mail';
@@ -72,6 +74,7 @@ $stepstragisemessagepreshpeel = 'Customize the Warning Message Shown to Spammers
 $stepposakakominimatrito = 'BLOCKED SO FAR';
 $stepstragisemessagepostshpeel = 'Set a New Warning Message for Spammers:</div></td></tr><tr><td align="left"style="padding:15px;padding-top:10px;">
 <span style="font-weight:bold;padding-left:5px;">Message Title: (will be shown in bold)</span><div style="padding-top:5px;padding-left:5px;"><input type="text" name="kakofanititlo" style="width:400px;font-weight:bold;" maxlength="100"></div></td></tr><tr><td align="left"style="padding:15px;padding-top:5px;"><span style="font-weight:bold;padding-left:5px;">Message Content';
+$stepdosechrimaloukimishpeel = 'Please buy me a jelly donut so that I have the strength to continue developing the <span style="color:#000080;">AlphaOmega Captcha & Anti-Spam Filter WordPress plugin</span>. Thanks.<div style="color:#ff0000;padding-top:10px;letter-spacing:3px;">Click the Jelly Donut to support this plugin.</div>';
 $stepstragiseusedefaultkubi = 'Use Default Spam Message';
 $stepsave = 'Save Changes';
 $stepsaveshpeel = 'Please remember to click the <span style="letter-spacing:1.2px;color:#000080;">Save Changes</span> button if you have changed your plugin settings.';
@@ -80,6 +83,7 @@ $stepsaverestoredefaultkubi = 'Restore Default Settings';
 $stepstragisekolonatoraine = 'Currently Active Spam Filter List:';
 $stepfeedback = 'Feedback';
 $stepfeedbackpreshpeel = 'Your feedback would be greatly appreciated.<p>If you have any thoughts concerning the use of this WordPress plugin, including suggestions on improvements, please click the <span style="letter-spacing:1.2px;color:#000080;">Feedback</span> button below.</p>';
+$stepdosechrimaloukimitopos = 'http://alphaomegaplugins.com/wordpress-captcha-anti-spam/donate.htm';
 $stepfeedbackpostshpeel = 'Thank you for using the <strong>AlphaOmega Captcha & Anti-Spam Filter</strong> plugin.';
 
 ?>

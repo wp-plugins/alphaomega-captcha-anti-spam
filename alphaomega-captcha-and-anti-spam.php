@@ -41,7 +41,7 @@ if ( $aostichiaoa['dixeminimaticho'] === '1' ) {
 
 	if ( trim($aostichiaoa['tichoxanadixte']) === '' ) {
 
-		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
+		$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $aostichiaoa['michanionoma'];
 
 	}
 
@@ -73,7 +73,7 @@ include( "addenda/retop.php" );
 
 if ( trim($aostichiaoa['tichoxanadixte']) === '' ) {
 
-	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $aostichiaoa['michanionoma'];
 
 }
 
@@ -366,7 +366,7 @@ if ( isset($_POST['stragiseminima']) ) {
 
 }
 
-if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $aostichiaoa['stragiseklisto'] ) {
+if ( !isset($_POST['stragiseonoma']) && !isset($_POST['stragisediefthinsi']) && !isset($_POST['stragisehataftafpi']) && !isset($_POST['stragiseminima']) || trim($_POST['stragismakolona']) === '' || trim($_POST['stragismakolona']) === $aostichiaoa['stragiseklisto'] || trim($_POST['stragismakolona']) === $aostichiaoa['stragiseklistopre']) {
 
 	$aostichiaoa['stragisekabosaminima'] = '0';
 	$aostichiaoa['glossa'] = '1';
@@ -443,8 +443,9 @@ if ( trim($_POST['stragismakolona']) !== '' ) {
 		$aostichiaoa['dikosustragiseklisto'] = '0';
 		$aostichiaoa['stepstragisekolonatoraiine'] = 'Default Spam Filter List';
 
-	} elseif ( $ftiaxestragismakolonastichio === $aostichiaoa['stragiseklisto'] ) {
+	} elseif ( $ftiaxestragismakolonastichio === $aostichiaoa['stragiseklisto'] || $ftiaxestragismakolonastichio === $aostichiaoa['stragiseklistopre'] ) {
 
+		//$ftiaxestragismakolonastichio = $aostichiaoa['stragiseklisto'];
 		$aostichiaoa['stepstragisekolonatoraiine'] = 'None';
 
 	} else {
@@ -453,7 +454,7 @@ if ( trim($_POST['stragismakolona']) !== '' ) {
 		$aostichiaoa['dikosustragiseklisto'] = '1';
 		$aostichiaoa['stepstragisekolonatoraiine'] = 'Custom Spam Filter List';
 
-		if ( $ftiaxestragismakolonastichio !== $aostichiaoa['stragiseklisto'] ) {
+		if ( $ftiaxestragismakolonastichio !== $aostichiaoa['stragiseklisto'] && $ftiaxestragismakolonastichio !== $aostichiaoa['stragiseklistopre'] ) {
 
 			$aostichiaoa['dikosustragisekolona'] = $ftiaxestragismakolonastichio;
 
@@ -592,7 +593,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $michanionoma;
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['tichoxanadixteprin'] . $aostichiaoa['michanionoma'];
 
 } elseif ( $aostichiaoa['glossa'] === '2' ) {
 
@@ -702,7 +703,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = $michanionoma . 'の再読み込み ';
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['michanionoma'] . 'の再読み込み ';
 
 } elseif ( $aostichiaoa['glossa'] === '3' ) {
 
@@ -812,7 +813,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = ' Νέα φόρτωση' . $michanionoma;
+	$aostichiaoa['tichoxanadixte'] = ' Νέα φόρτωση' . $aostichiaoa['michanionoma'];
 
 } elseif ( $aostichiaoa['glossa'] === '4' ) {
 
@@ -922,7 +923,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = $michanionoma . '를 다시 로드  ';
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['michanionoma'] . '를 다시 로드  ';
 
 } elseif ( $aostichiaoa['glossa'] === '5' ) {
 
@@ -1032,7 +1033,7 @@ if ( $aostichiaoa['glossa'] === '1' ) {
 
 	}
 
-	$aostichiaoa['tichoxanadixte'] = $michanionoma . '重新載入驗證碼 ';
+	$aostichiaoa['tichoxanadixte'] = $aostichiaoa['michanionoma'] . '重新載入驗證碼 ';
 
 }
 
@@ -1051,7 +1052,7 @@ function aokato ( $kola, $selida ) {
 
     if ( $selida == plugin_basename(__FILE__) && function_exists( 'admin_url' ) ) {
 
-        $ftiaxe = '<a href="http://alphaomegaplugins.com/donate-palio.htm">' . __('Please Donate') . '</a>';
+        $ftiaxe = '<a href="http://alphaomegaplugins.com/wordpress-captcha-anti-spam/donate.htm">' . __('Please Donate') . '</a>';
         array_unshift( $kola, $ftiaxe );
         $ftiaxe = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_and_antispam' ) . '">' . __('Settings') . '</a>';
         array_unshift( $kola, $ftiaxe );

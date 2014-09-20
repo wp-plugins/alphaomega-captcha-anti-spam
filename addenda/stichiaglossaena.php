@@ -83,7 +83,7 @@ $stepsaverestoredefaultkubi = 'Restore Default Settings';
 $stepstragisekolonatoraine = 'Currently Active Spam Filter List:';
 $stepfeedback = 'Feedback';
 $stepfeedbackpreshpeel = 'Your feedback would be greatly appreciated.<p>If you have any thoughts concerning the use of this WordPress plugin, including suggestions on improvements, please click the <span style="letter-spacing:1.2px;color:#000080;">Feedback</span> button below.</p>';
-$stepdosechrimaloukimitopos = 'http://alphaomegaplugins.com/wordpress-captcha-anti-spam/donate.htm';
+$stepdosechrimaloukimitopos = 'http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/support/';
 $stepfeedbackpostshpeel = 'Thank you for using the <strong>AlphaOmega Captcha & Anti-Spam Filter</strong> plugin.';
 
 ?>

@@ -245,7 +245,7 @@ Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-scre
 
 == Changelog ==
 
-= 3.0 =
+= 3.2 =
 
 - New SPAM COUNTER feature added to provide an indication of the Spamming activity directed against your WordPress pages. 
 - please donate to ensure continued plugin improvements

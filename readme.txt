@@ -1,6 +1,6 @@
 ==== AlphaOmega Captcha & Anti-Spam Filter ====
 Contributors: alphaomegaplugins
-Donate link: http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/support/
+Donate link: https://secure20.salvationarmy.org/donation.jsp
 Tags: captcha, plugins, spam, anti-spam, filter, security, attacks, spam counter, comments, admin, log in, plugin, キャプチャ, akismet, login, junk mail, alphaomega, スパム, 日本語, Ελληνικά, 한국어,  中文, block, block spam, 迷惑メール, wordpress
 Requires at least: 3.4
 Tested up to: 3.7
@@ -205,7 +205,7 @@ You are free to use this plugin on your WordPress site. If, however, you find th
 
 Once you have installed the AlphaOmega Captcha & Anti-Spam Filter plugin, you can donate by visiting the donate link located at the top of the plugin Settings panel. To view the plugin Settings panel, click the 'Settings' link located beneath the 'AlphaOmega Captcha & Anti-Spam Filter' item in the list of currently installed plugins, or click the 'AlphaOmega Captcha & Anti-Spam Filter Settings' link located below the WordPress 'Plugins' menu item on the left column of your Wordpress Dashboard.
 
-Alternatively, you may wish to [donate here](http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/support/)
+Alternatively, you may wish to [donate here](https://secure20.salvationarmy.org/donation.jsp)
 
 Thank you for your kind support.
 
@@ -226,10 +226,6 @@ The plugin should operate flawlessly with most earlier WordPress versions, altho
 = Can I use the plugin with Akismet? =
 
 Yes. The AlphaOmega Captcha & Anti-Spam Filter plugin provides enhanced pre-screening of user-posted comments by employing a combination of customizable captchas and Spam Filter protection. You also have the option of employing either the captcha functionality alone or the Spam Filter alone. Regardless of your choice, the AlphaOmega Captcha & Anti-Spam Filter plugin can be used with Akismet to give you added security.
-
-= How can I file a bug or give feedback? =
-
-To file a bug or provide me with feedback, please [click here](http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/).  
 
 
 == Screenshots ==

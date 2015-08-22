@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: AlphaOmega Captcha & Anti-Spam Filter
-Plugin URI: http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/
+Plugin URI: https://secure20.salvationarmy.org/donation.jsp
 Description: Provides Visually Appealing Captchas to Enhance and Secure your WordPress Comment Forms and Admin Log-In. Fortified with Anti-Spam Filter Protection.
 Version: 3.0
 Author: AlphaOmega Plugins
-Author URI: http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/
+Author URI: https://secure20.salvationarmy.org/donation.jsp
 License: GPL2
 */
 
@@ -1052,7 +1052,7 @@ function aokato ( $kola, $selida ) {
 
     if ( $selida == plugin_basename(__FILE__) && function_exists( 'admin_url' ) ) {
 
-        $ftiaxe = '<a href="http://webmire.com/cms-plugins/wordpress/alphaomega-captcha-anti-spam/support/">' . __('Please Donate') . '</a>';
+        $ftiaxe = '<a href="https://secure20.salvationarmy.org/donation.jsp">' . __('Please Donate') . '</a>';
         array_unshift( $kola, $ftiaxe );
         $ftiaxe = '<a href="' . admin_url( 'plugins.php?page=alphaomega_captcha_and_antispam' ) . '">' . __('Settings') . '</a>';
         array_unshift( $kola, $ftiaxe );
